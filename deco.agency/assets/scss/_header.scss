@@ -1,0 +1,83 @@
+header{
+	width: 100%;
+	height: 670px;
+	background: url(assets/img/background.jpg)no-repeat;
+	background-size: 100%;
+}
+
+.header-logo{
+	margin: 40px 0px 0px 9%;
+}
+
+.header-main-menu{
+	margin: -40px 250px 0px 0px;
+	a{
+		font-family: $fontmedium;
+		font-size: 11.75px;
+		display: block;
+		color: $grey;
+		transition: ease-out 0.5s;
+	}
+	a:hover{
+		color: $red;
+		transition: ease-out 0.5s;
+	}
+	li{
+		display: inline-block;
+		float: right;
+		padding-left: 30px;	
+	}
+}
+
+.header-language{
+	width: 61px;
+	height: 31px;
+	float: right;
+	margin: -10px 60px 0px 0px;
+	border-radius: 20px;
+	border: 2px solid #dfdfe2;
+}
+
+.header-language-round{
+	width: 18px;
+	height: 18px;
+	background: #dfdfe2;
+	border-radius: 50%;
+	margin: 5px 0px 0px 5px;
+}
+
+.header-language-text{
+	font-family: $fontblack;
+	font-size: 11px;
+	color: $red;
+	display: block;
+	float: right;
+	margin: -14px 10px 0px 0px;
+}
+
+.header-title{
+	display: block;
+	margin: 130px 0px 0px 9%;
+	font-family: $fontbold;
+	font-size: 30px;
+	color: $grey;
+}
+
+.header-line{
+	height: 2px;
+	width: 40px;
+	background: $red;
+	margin: 35px 0px 0px 9%;
+}
+
+.header-text{
+	display: block;
+	line-height: 25px;
+	font-family: $font;
+	font-size: 15px;
+	color: $grey;
+	margin: 35px 0px 0px 9%;
+	span{
+		font-family: $fontbold;
+	}
+}

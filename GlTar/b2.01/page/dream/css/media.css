@@ -1,0 +1,1196 @@
+/*from 1900px width*/
+@media screen and (max-width: 1900px) and (min-width: 1368px) {
+.header-logo{
+	height: 60px;
+	width: 180px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 900px;
+	margin-left: 1%;
+}
+
+.menu-item{
+	float: left;
+}
+.menu-item-link{
+	font-size: 20px;
+	line-height: 100px;
+	width: 120px;
+	height: 100px;
+}
+.header-contact-ico{
+	width: 48px;
+	height: 48px;
+	margin-top: 15px;
+}
+
+.header-contact{
+	width: 230px;
+	height: 80px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+.header-contact-phone{
+	font-size: 18px;
+	margin-left: 10px;
+	
+}
+
+.header-contact-callme{
+	width: 160px;
+	height: 30px;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-top: 7px;
+}
+
+.header-mobile-contact{
+	display: none;
+}
+
+}
+
+@media screen and (max-width: 1800px) and (min-width: 1600px) {
+
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1368px) {
+
+
+}
+
+/*MEDIA-1368px*/
+@media screen and (max-width: 1368px){
+
+.header-logo{
+	height: 60px;
+	width: 180px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 800px;
+	margin-left: 1%;
+}
+
+.menu-item{
+	float: left;
+}
+.menu-item-link{
+	font-size: 18px;
+	line-height: 100px;
+	
+	width: 110px;
+	height: 100px;
+}
+.header-contact-ico{
+	width: 48px;
+	height: 48px;
+	margin-top: 15px;
+}
+
+.header-contact{
+	width: 240px;
+	height: 80px;
+	margin-right: 5px;
+	margin-top: 10px;
+
+}
+
+.header-contact-phone{
+	font-size: 18px;
+	margin-left: 10px;
+	
+}
+
+.header-contact-callme{
+	width: 160px;
+	height: 30px;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-top: 7px;
+}
+}
+
+
+
+/*MEDIA-1240px fix */
+@media screen and (max-width: 1240px){
+.header-logo{
+	height: 50px;
+	width: 100px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 800px;
+	margin-left: 1%;
+
+}
+
+.menu-item{
+	float: left;
+}
+.menu-item-link{
+	font-size: 18px;
+	line-height: 100px;
+	
+	width: 110px;
+	height: 100px;
+}
+.header-contact-ico{
+	width: 48px;
+	height: 48px;
+	margin-top: 15px;
+}
+
+.header-contact{
+
+	width: 180px;
+	height: 80px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+.header-contact-phone{
+	font-size: 12px;
+	margin-left: 10px;
+	margin-top: 12px;
+	
+}
+
+.header-contact-callme{
+	width: 100px;
+	height: 20px;
+	font-size: 13px;
+	margin-left: 13px;
+	margin-top: 10px;
+	padding-top: 7px;
+}
+
+.events-text-title{
+	font-size: 180%;
+}
+
+}
+
+
+
+/*MEDIA-1120px hotfix*/
+@media screen and (max-width: 1100px){
+
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 590px;
+	margin-left: 1%;
+}
+
+.menu-item{
+	float: left;
+}
+.menu-item-link{
+	font-size: 12px;
+	line-height: 100px;
+	width: 80px;
+	height: 100px;
+}
+
+.events-text-title{
+	font-size: 150%;
+}
+}
+
+@media screen and (max-width: 960px){
+.events-text-title{
+	font-size: 120%;
+}
+.events-text-title-date{
+	font-size: 110%;
+}
+
+.events-text{
+	height: 300px;
+	float: right;
+	width: 50%;
+	margin-top: 8%;
+	margin-right: 0%;
+	
+}	
+}
+
+
+
+/*MEDIA-890px fix*/
+@media screen and (max-width: 890px){
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 450px;
+	margin-left: 1%;
+}
+
+.menu-item{
+	float: left;
+}
+.menu-item-link{
+	font-size: 10px;
+	line-height: 100px;
+	width: 60px;
+	height: 100px;
+}
+
+.events-text-title{
+	font-size: 100%;
+}
+.events-text-title-date{
+	font-size: 90%;
+}
+
+.events-text{
+	height: 300px;
+	float: right;
+	width: 40%;
+	margin-top: 8%;
+	margin-right: 0%;
+}	
+
+}
+
+
+/*MEDIA-768px*/
+@media screen and (max-width: 768px)  {
+
+.header-logo{
+	height: 100%;
+	max-height: 70px;
+	width: 100%;
+	max-width: 220px;
+	margin-top: 12px;
+}
+
+.header-contact{
+	max-width: 330px;
+	width: 100%;
+	height: 50px;
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+}
+
+.header-contact-phone{
+	font-size: 20px;
+	margin-left: 10px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	float: left;
+	color: #FFFF93;
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.62);
+}
+
+.header-contact-callme{
+	width: 100%;
+	max-width: 200px;
+	height: 100%;
+	max-height: 30px;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;
+	text-align: center;
+	background: #696069;
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	padding-top: 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+	transiton: 1s ease;
+}
+
+.header-background{
+	height: 1100%;
+	width: 100%;
+	background: url(../img/back3.jpg)  no-repeat ;
+	background-size: cover;
+}
+
+
+footer{
+	height: 110px;
+	width: 100%;
+	background: rgba(92,95,112,0.7);
+	border-top: 1px solid #B5B5B5;
+}
+
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 650px;
+	height: 45px;
+	margin-top: 30px;
+	margin-left: 1%;
+}
+
+.menu-item{
+	float: left;
+}
+
+.menu-item-link{
+	color: white;
+	font-size: 12px;
+	font-family: 'Poiret One', cursive;
+	text-decoration: none;
+	display: block;
+	background: rgba(105,96,105,0.5);
+	line-height: 40px;
+	margin-left: 15px;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	border: 2px white solid;
+	border-radius: 5px;
+	-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	cursor: pointer;
+}
+
+.menu-item-link:hover{
+	background: rgba(130,96,105,0.6);
+	border-top: 2px white solid;
+	border-bottom: 4px white solid;
+}
+}
+
+/*MEDIA 560px fix*/
+
+@media screen and (max-width: 560px){
+.header-navigation-ico{
+	display: none;
+}
+
+.header-contact{
+	max-width: 260px;
+	width: 100%;
+	height: 50px;
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+}
+
+.header-contact-phone{
+	font-size: 18px;
+	margin-left: 10px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	float: left;
+	color: #FFFF93;
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.62);
+}
+
+.header-contact-callme{
+	width: 100%;
+	max-width: 180px;
+	height: 100%;
+	max-height: 30px;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	text-align: center;
+	background: #696069;
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	padding-top: 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+	transiton: 1s ease;
+}
+}
+
+
+
+/*MEDIA-480px*/
+
+@media screen and (max-width: 480px){
+
+body{
+	background: url(../img/pattern4.png) repeat;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.header-top-wrapper{
+	height: 50px;
+	width: 100%;
+	background: rgba(92,95,112,0.5);
+}
+
+.header-top-wrapper:hover{
+	border-bottom: none;
+}
+
+.header-logo{
+	height: 100%;
+	max-height: 40px;
+	width: 100%;
+	max-width: 160px;
+	margin-top: 5px;
+	margin-right: 2%;
+	float: right;
+}
+
+.header-contact-ico{
+	width: 24px;
+	height: 24px;
+	margin-top: 8px;
+	float: left;
+	background: url(../img/ico/facebook.png) center center no-repeat;
+	background-size:100%;
+}
+
+.header-contact-ico:hover{
+	
+	background: url(../img/ico/facebookh.png)center center no-repeat;
+	background-size:100%;
+}
+
+.header-contact{
+	display: none;
+}
+
+.header-contact-phone{
+	margin-top: 0px;
+	font-size: 13px;
+	margin-left: 10px;
+	text-shadow: none;
+	color: #404040;
+}
+
+.header-contact-callme{
+	width: 100%;
+	max-width: 130px;
+	height: 100%;
+	max-height: 18px;
+	color: white;
+	font-size: 14px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding-top: 0px;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+.content-background{
+	width: 100%;
+	height: 600px;
+	background: url(../img/dream6.jpg) center no-repeat;
+}
+
+
+.content-background-title{
+	width: 100%;
+	height: 250px;
+	margin-top: 170px;
+	background: rgba(92,95,112,0.5);
+	position: absolute;
+	transition: 0.4s ease;
+}
+
+.content-background-title:hover .content-background-title-text-place{
+	margin-top: 70px;
+	background: rgba(92,95,112,0.3);
+	position: static;
+	transition: 0.4s ease;
+	display: block;
+}
+
+
+.content-background-title-text{
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.content-background-title-button{
+	width: 220px;
+	line-height: 50px;
+	background: #931614;
+	margin: auto;
+	margin-top: 80px;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	transition: 0.4s ease;
+}
+.content-background-title-button:hover{
+	color: #ffe208;
+	width: 300px;
+	transition: 0.4s ease;
+	cursor: pointer;
+}
+
+.content-background-title-text-place{
+	display: block;
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 70px;
+	display: none;
+	transition: 0.4s ease;
+}
+
+.content-background-title-text-place span{
+	color: #931614;
+}
+
+.content-date{
+	width: 100%;
+	height: 340px;
+	background: white;
+	clear: both;
+	overflow: hidden;
+}
+
+.content-date-box{
+	height: 340px;
+	width: 100%;
+	max-width: 950px;
+	margin:0 auto;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: none; 
+}
+
+.content-date-box-date{
+	height: 150px;
+	width: 95%;
+	float: none;
+	margin: auto;
+}
+
+.content-date-box-date-icon{
+	margin-top: 40px;
+	margin-left: 20px;
+	float: left;
+}
+
+.content-date-box-date-text{
+	font-family: 'Poiret One', cursive;
+	margin-top: 0px;
+	padding-top: 40px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.time{
+	margin-top: 0px;	
+}
+
+.place{
+	margin-top: 0px;
+	padding-top: 60px;
+}
+
+.content-date-box-date a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.content-info{
+	width: 100%;
+	height: 1550px;
+	background: #eeeef4;
+}
+
+.content-info-title{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.content-info-title-info{
+	width: 100%;
+	max-width: 900px;
+	height: 1020px;
+	margin:0 auto;
+	margin-top: 20px;
+}
+
+.content-info-title-info-box{
+	width: 225px;
+	height: 250px;
+	float: none;
+	margin: auto;
+}
+
+.content-info-title-info-box p{
+	text-align: center;
+	padding-top: 15px;
+	font-family: 'proxima';
+	font-size: 22px;
+	color: #4e5665;
+}
+
+.content-info-title-info-icon{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #c3cfd8; 
+	border-radius: 75px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+
+.content-info-title-info-image{
+	display: block;
+	margin:0 auto;
+	margin-top: 40px;
+}
+
+.content-info-text-box{
+	width: 100%;
+	max-width: 900px;
+	height: auto;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	border-left: none;
+	border-right: none;
+	margin:0 auto;
+	margin-top: 30px;
+}
+
+.content-info-text{
+	text-indent: 10px;
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 19px;
+	padding: 30px 20px 20px 20px;
+	line-height: 1.3;
+	text-align: justify;
+}
+
+
+
+
+
+
+.content-trainers{
+	width: 100%;
+	height: 1600px;
+}
+
+.content-trainers-title{
+	font-size: 24px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.content-trainers-box{
+	width: 100%;
+	max-width: 900px;
+	height: 600px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+
+.content-trainers-box-image{
+	width: 100%;
+	height: 380px;
+	float: left;
+	overflow: hidden;
+}
+
+.content-trainers-box-image-wrapper{
+	width: 100%;
+	height: 400px;
+	overflow: hidden; 
+}
+
+.content-trainers-image{
+	width: 100%;
+	height: 400px;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+}
+
+.content-trainers-image:hover{
+	-webkit-transform: scale(1.3);
+ 	-moz-transform: scale(1.3);
+ 	-o-transform: scale(1.3);
+}
+
+.content-trainers-box-text{
+	padding: 30px 20px 20px 20px;
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 20px;
+	line-height: 1.1;
+}
+
+.content-trainers-box-text span{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 26px;
+	color: #931614;
+}
+
+
+
+
+.content-schedule{
+	width: 100%;
+	height: 1420px;
+	background: #eeeef4;
+}
+
+.content-schedule-title{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.content-schedule-box{
+	width: 100%;
+	max-width: 900px;
+	height: 1420px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+
+.content-schedule-box-info{
+	width: 290px;
+	height: 400px;
+	background: white;
+	float: none;
+	padding-top: 10px;
+	margin: auto;
+	
+}
+
+.content-schedule-box-time{
+	padding-top: 10px;
+	color: #89b3df;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.content-schedule-box-text{
+	text-indent: 10px;
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 18px;
+	padding: 30px 10px 10px 10px;
+	line-height: 1.3;
+	text-align: center;
+}
+
+.content-schedule-box-image{
+	margin:0 auto;
+	margin-top: 30px;
+	display: block; 
+}
+
+.center-image{
+	margin-top: 7px;
+}
+
+.content-schedule-box-name{
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 20px;
+	padding: 40px 5px 5px 5px;
+	text-align: center;
+}
+.content-gallery{
+	width: 100%;
+	height: auto;
+	background: white;
+}
+
+.fotorama__wrap {
+padding-top: 20px;
+padding-bottom: 20px;
+margin: auto; 
+}
+
+
+
+
+.content-price{
+	width: 100%;
+	height: auto;
+	background: url(../img/backwoman.jpg) center no-repeat;
+	background-size: cover;
+	background-color: white; 
+}
+
+.content-price-text{
+	padding: 30px 20px 20px 20px;
+	font-family: 'proxima';
+	font-weight: bold;
+	color: #4e5665;
+	font-size: 18px;
+	line-height: 1.1;
+	text-align: center;
+}
+
+.content-price-text span{
+	color: #931614;
+	font-size: 26px;
+
+}
+
+
+
+.content-register{
+	width: 100%;
+	height: 600px;
+	background: #74b4df;
+}
+
+.content-register-title{
+	padding: 30px 20px 20px 20px;
+	font-family: 'proxima';
+	color: white;
+	font-size: 30px;
+	line-height: 1.1;
+	text-align: center;
+}
+
+.content-register-form{
+
+}
+
+.content-register-input{
+	width: 100%;
+	max-width: 280px;
+	padding-left: 10px;
+	margin-top: 10px;
+	height: 40px;
+	border-radius: 5px;
+	
+	margin:auto; 
+	margin-bottom: 15px;
+	display: list-item;
+}
+
+.content-register-button{
+	height: 50px;
+	width: 280px;
+	margin-top: 20px;
+	display: block;
+	margin: auto; 
+	border: 1px white solid;
+	border-radius: 5px;
+	color: white;
+	font-family: 'proxima';
+	font-size: 30px;
+	background: #931614;
+	cursor: pointer;
+	transition: 0.4s ease;
+}
+
+.content-register-button:hover{
+	width: 280px;
+	height: 50px;
+	transition: 0.4s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-navigation-menu-box{
+	display: none;
+}
+
+.header-navigation-menu-mobile-box{
+	display: block;
+}
+
+.header-navigation-menu-mobile{
+	display: none;
+}
+
+.header-mobile-contact{
+	display: block;
+}
+
+.menu-mobile-item{
+	display: block;
+}
+
+.header-navigation-ico{
+	display: none;
+}
+
+.header-navicon{
+	display: block;
+}
+
+footer{
+	height: 50px;
+	width: 100%;
+	background: #CFBA2F;
+	border-top: 1px solid #B5B5B5;
+}
+
+.header-copyright{
+	display: none;
+}
+
+.header-copyright-mobile{
+	display: block;
+}
+
+
+
+
+
+
+
+
+/*iphone 4 quick fix*/
+@media screen and (max-width: 320px) and (max-height: 480px) and (orientation: portrait){
+
+
+.header-navigation-menu-mobile-box{
+	width: 100%;
+	max-width: 200px;
+	height: 0%;
+	margin: 0 auto;
+	margin-bottom: 0px;
+}
+
+
+.header-navigation-menu-mobile{
+	margin-bottom: 10px;
+	margin: 0 auto;
+}
+
+.menu-mobile-item{
+	float: none;
+	margin-bottom: 10px;
+
+}
+
+.menu-mobile-item-link{
+	font-size: 24px;
+	margin-top: 10px;
+	line-height: 30px;
+	width: 100%;
+	max-width: 200px;
+	height: 30px;
+	text-align: center;
+	border-radius: 10px;
+	border: 2px #ffe208 solid;
+}
+
+.content-background{
+	width: 100%;
+	height: 600px;
+	background: url(../img/dream7.jpg) center no-repeat;
+}
+
+
+footer{
+	height: 45px;
+	width: 100%;
+	background: #CFBA2F;
+	border-top: 1px solid #B5B5B5;
+}
+
+.header-mobile-contact{
+	width: 100%;
+	max-width: 170px;
+	height: 40px;
+	margin-right: 0px;
+	margin-top: 2px;
+	float: right;	
+}
+
+.header-contact-ico{
+	width: 24px;
+	height: 24px;
+	margin-top: 8px;
+	float: left;
+	background: url(../img/ico/facebook.png) center center no-repeat;
+	background-size:100%;
+}
+
+.header-contact-ico:hover{
+	
+	background: url(../img/ico/facebookh.png)center center no-repeat;
+	background-size:100%;
+}
+.header-contact-phone{
+	font-size: 9px;
+	margin-left: 10px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	float: left;
+	color: #404040;
+	text-shadow: none;
+}
+
+.header-contact-callme{
+	width: 100%;
+	max-width: 130px;
+	height: 100%;
+	max-height: 18px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding-top: 0px;
+	border: 1px solid white;
+	border-radius: 5px;
+	background: red;
+}
+
+
+.content-trainers-image{
+	width: 100%;
+	height: 320px;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+}
+
+.content-trainers-image:hover{
+	-webkit-transform: scale(1.0);
+ 	-moz-transform: scale(1.0);
+ 	-o-transform: scale(1.0);
+}
+
+
+
+
+
+}
+
+/*MEDIA-320px*/
+@media screen and (max-width: 320px){
+
+
+.header-logo{
+	height: 100%;
+	max-height: 40px;
+	width: 100%;
+	max-width: 120px;
+	margin-top: 5px;
+	margin-right: 2%;
+	float: right;
+}
+
+.header-contact{
+	width: 100%;
+	max-width: 160px;
+	height: 50px;
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+}
+
+.header-contact-phone{
+	font-size: 11px;
+	margin-left: 10px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	float: left;
+	color: #404040;
+	text-shadow: none;
+}
+
+.header-contact-callme{
+	width: 100%;
+	max-width: 100px;
+	line-height: 15px;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	font-size: 12px;
+	text-align: center;
+	background: #696069;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	border: 1px solid white;
+	
+	transiton: 1s ease;
+}
+
+
+.content-background{
+	width: 100%;
+	height: 600px;
+	background: url(../img/dream7.jpg) center no-repeat;
+}
+
+.content-trainers-image{
+	width: 100%;
+	height: 320px;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+}
+
+.content-trainers-image:hover{
+	-webkit-transform: scale(1.0);
+ 	-moz-transform: scale(1.0);
+ 	-o-transform: scale(1.0);
+}
+
+}
+

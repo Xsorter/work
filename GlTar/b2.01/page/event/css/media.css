@@ -1,0 +1,911 @@
+/*from 1900px width*/
+@media screen and (max-width: 1900px) and (min-width: 1368px) {
+.header-logo{
+	height: 60px;
+	width: 180px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 900px;
+	margin-left: 1%;
+}
+
+.menu-item{
+	float: left;
+}
+.menu-item-link{
+	font-size: 20px;
+	line-height: 100px;
+	width: 120px;
+	height: 100px;
+}
+.header-contact-ico{
+	width: 48px;
+	height: 48px;
+	margin-top: 15px;
+}
+
+.header-contact{
+	width: 230px;
+	height: 80px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+.header-contact-phone{
+	font-size: 18px;
+	margin-left: 10px;
+	
+}
+
+.header-contact-callme{
+	width: 160px;
+	height: 30px;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-top: 7px;
+}
+
+.header-mobile-contact{
+	display: none;
+}
+
+}
+
+@media screen and (max-width: 1800px) and (min-width: 1600px) {
+
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1368px) {
+
+
+}
+
+/*MEDIA-1368px*/
+@media screen and (max-width: 1368px){
+
+.header-logo{
+	height: 60px;
+	width: 180px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 800px;
+	margin-left: 1%;
+}
+
+.menu-item{
+	float: left;
+}
+.menu-item-link{
+	font-size: 18px;
+	line-height: 100px;
+	
+	width: 110px;
+	height: 100px;
+}
+.header-contact-ico{
+	width: 48px;
+	height: 48px;
+	margin-top: 15px;
+}
+
+.header-contact{
+	width: 240px;
+	height: 80px;
+	margin-right: 5px;
+	margin-top: 10px;
+
+}
+
+.header-contact-phone{
+	font-size: 18px;
+	margin-left: 10px;
+	
+}
+
+.header-contact-callme{
+	width: 160px;
+	height: 30px;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-top: 7px;
+}
+}
+
+
+
+/*MEDIA-1240px fix */
+@media screen and (max-width: 1240px){
+.header-logo{
+	height: 50px;
+	width: 100px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 800px;
+	margin-left: 1%;
+
+}
+
+.menu-item{
+	float: left;
+}
+.menu-item-link{
+	font-size: 18px;
+	line-height: 100px;
+	
+	width: 110px;
+	height: 100px;
+}
+.header-contact-ico{
+	width: 48px;
+	height: 48px;
+	margin-top: 15px;
+}
+
+.header-contact{
+
+	width: 180px;
+	height: 80px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+.header-contact-phone{
+	font-size: 12px;
+	margin-left: 10px;
+	margin-top: 12px;
+	
+}
+
+.header-contact-callme{
+	width: 100px;
+	height: 20px;
+	font-size: 13px;
+	margin-left: 13px;
+	margin-top: 10px;
+	padding-top: 7px;
+}
+
+.events-text-title{
+	font-size: 180%;
+}
+
+}
+
+
+
+/*MEDIA-1120px hotfix*/
+@media screen and (max-width: 1100px){
+
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 590px;
+	margin-left: 1%;
+}
+
+.menu-item{
+	float: left;
+}
+.menu-item-link{
+	font-size: 12px;
+	line-height: 100px;
+	width: 80px;
+	height: 100px;
+}
+
+.events-text-title{
+	font-size: 150%;
+}
+}
+
+@media screen and (max-width: 960px){
+.events-text-title{
+	font-size: 120%;
+}
+.events-text-title-date{
+	font-size: 110%;
+}
+
+.events-text{
+	height: 300px;
+	float: right;
+	width: 50%;
+	margin-top: 8%;
+	margin-right: 0%;
+	
+}	
+}
+
+
+
+/*MEDIA-890px fix*/
+@media screen and (max-width: 890px){
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 450px;
+	margin-left: 1%;
+}
+
+.menu-item{
+	float: left;
+}
+.menu-item-link{
+	font-size: 10px;
+	line-height: 100px;
+	width: 60px;
+	height: 100px;
+}
+
+.events-text-title{
+	font-size: 100%;
+}
+.events-text-title-date{
+	font-size: 90%;
+}
+
+.events-text{
+	height: 300px;
+	float: right;
+	width: 40%;
+	margin-top: 8%;
+	margin-right: 0%;
+}	
+
+}
+
+
+/*MEDIA-768px*/
+@media screen and (max-width: 768px)  {
+
+.header-logo{
+	height: 100%;
+	max-height: 70px;
+	width: 100%;
+	max-width: 220px;
+	margin-top: 12px;
+}
+
+.header-contact{
+	max-width: 330px;
+	width: 100%;
+	height: 50px;
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+}
+
+.header-contact-phone{
+	font-size: 20px;
+	margin-left: 10px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	float: left;
+	color: #FFFF93;
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.62);
+}
+
+.header-contact-callme{
+	width: 100%;
+	max-width: 200px;
+	height: 100%;
+	max-height: 30px;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;
+	text-align: center;
+	background: #696069;
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	padding-top: 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+	transiton: 1s ease;
+}
+
+.header-background{
+	height: 1100%;
+	width: 100%;
+	background: url(../img/back3.jpg)  no-repeat ;
+	background-size: cover;
+}
+
+
+footer{
+	height: 110px;
+	width: 100%;
+	background: rgba(92,95,112,0.7);
+	border-top: 1px solid #B5B5B5;
+}
+
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 650px;
+	height: 45px;
+	margin-top: 30px;
+	margin-left: 1%;
+}
+
+.menu-item{
+	float: left;
+}
+
+.menu-item-link{
+	color: white;
+	font-size: 12px;
+	font-family: 'Poiret One', cursive;
+	text-decoration: none;
+	display: block;
+	background: rgba(105,96,105,0.5);
+	line-height: 40px;
+	margin-left: 15px;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	border: 2px white solid;
+	border-radius: 5px;
+	-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	cursor: pointer;
+}
+
+.menu-item-link:hover{
+	background: rgba(130,96,105,0.6);
+	border-top: 2px white solid;
+	border-bottom: 4px white solid;
+}
+}
+
+/*MEDIA 560px fix*/
+
+@media screen and (max-width: 560px){
+.header-navigation-ico{
+	display: none;
+}
+
+.header-contact{
+	max-width: 260px;
+	width: 100%;
+	height: 50px;
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+}
+
+.header-contact-phone{
+	font-size: 18px;
+	margin-left: 10px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	float: left;
+	color: #FFFF93;
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.62);
+}
+
+.header-contact-callme{
+	width: 100%;
+	max-width: 180px;
+	height: 100%;
+	max-height: 30px;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	text-align: center;
+	background: #696069;
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	padding-top: 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+	transiton: 1s ease;
+}
+}
+
+
+
+/*MEDIA-480px*/
+
+@media screen and (max-width: 480px){
+
+body{
+	background: url(../img/pattern4.png) repeat;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.header-top-wrapper{
+	height: 50px;
+	width: 100%;
+	background: rgba(92,95,112,0.5);
+}
+
+.header-top-wrapper:hover{
+	border-bottom: none;
+}
+
+.header-logo{
+	height: 100%;
+	max-height: 40px;
+	width: 100%;
+	max-width: 160px;
+	margin-top: 5px;
+	margin-right: 2%;
+	float: right;
+}
+
+.header-contact-ico{
+	width: 24px;
+	height: 24px;
+	margin-top: 8px;
+	float: left;
+	background: url(../img/ico/facebook.png) center center no-repeat;
+	background-size:100%;
+}
+
+.header-contact-ico:hover{
+	
+	background: url(../img/ico/facebookh.png)center center no-repeat;
+	background-size:100%;
+}
+
+.header-contact{
+	display: none;
+}
+
+.header-contact-phone{
+	margin-top: 0px;
+	font-size: 14px;
+	margin-left: 10px;
+	text-shadow: none;
+	color: #404040;
+}
+
+.header-contact-callme{
+	width: 100%;
+	max-width: 130px;
+	height: 100%;
+	max-height: 18px;
+	color: white;
+	font-size: 14px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding-top: 0px;
+	border-radius: 5px;
+}
+
+.events{
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+
+.events-title{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	color: #303030;
+	text-align: center;
+	line-height: 50px;
+}
+
+.events-top{
+	width: 100%;
+	height: 700px;
+}
+
+.events-second{
+	width: 100%;
+	height: 700px;
+}
+
+.events-top-image{
+	margin-top: 0;
+	margin-left: 0%;
+	overflow:hidden;
+	width: 100%;
+ 	max-width: 480px;
+ 	height:270px;
+ 	position: static;
+ 	color:black;
+}
+
+.events-top-image img:hover{
+	outline: 0px solid rgba(255,255,255,0.5); 
+    outline-offset: 0px; 
+}
+
+.events-top-image img{
+	width: 480px;
+	height: 270px;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+}
+
+.events-top-image img:hover{
+	-webkit-transform: scale(1.2);
+ 	-moz-transform: scale(1.2);
+ 	-o-transform: scale(1.2);
+}
+
+.events-text{
+	height: 400px;
+	float: none;
+	width: 100%;
+	max-width: 460px;
+	padding-top: 8%;
+	margin-right: 0%;
+	margin: auto;
+}	
+
+.events-text-title{
+	font-family: 'Poiret One', cursive;
+	font-size: 150%;
+	text-align: center;
+}
+
+.events-text-title span{
+	color: red;
+	font-weight: bold;
+}
+
+.events-text-title-date{
+	font-family: 'Poiret One', cursive;
+	font-size: 150%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.events-text-title-date span{
+	color: #931614;
+}
+
+.time{
+	margin-top: 1%;
+}
+
+.events-text-button{
+	width: 200px;
+	line-height: 50px;
+	text-align: center;
+	margin:0 auto;
+	font-family: 'Poiret One', cursive;
+	font-size: 28px;
+	font-weight: bold;
+	background: #00acec;
+	color: white;
+	transition: 0.4s ease;
+	box-sizing:border-box;
+}
+
+.null{
+	width: 10px;
+	height: 10px;
+	margin: auto; 
+}
+
+.register{
+	/*margin-left: 5%;*/
+	background: #931614;
+	margin-top: 10px;
+}
+
+.events-text-button:hover{
+	width: 260px;
+	transition: 0.4s ease;
+	cursor: pointer;
+	color: #ffe208;
+}
+
+.events-text-date{
+	height: 100px;
+	width: 500px;
+	background: yellow;
+	position: absolute;
+	margin-top: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-navigation-menu-box{
+	display: none;
+}
+
+.header-navigation-menu-mobile-box{
+	display: block;
+}
+
+.header-navigation-menu-mobile{
+	display: none;
+}
+
+.header-mobile-contact{
+	display: block;
+}
+
+.menu-mobile-item{
+	display: block;
+}
+
+.header-navigation-ico{
+	display: none;
+}
+
+.header-navicon{
+	display: block;
+}
+
+footer{
+	height: 50px;
+	width: 100%;
+	background: #CFBA2F;
+	border-top: 1px solid #B5B5B5;
+}
+
+.header-copyright{
+	display: none;
+}
+
+.header-copyright-mobile{
+	display: block;
+}
+
+
+
+
+
+
+
+
+/*iphone 4 quick fix*/
+@media screen and (max-width: 320px) and (max-height: 480px) and (orientation: portrait){
+
+
+.header-navigation-menu-mobile-box{
+	width: 100%;
+	max-width: 200px;
+	height: 0%;
+	margin: 0 auto;
+	margin-bottom: 0px;
+}
+
+
+.header-navigation-menu-mobile{
+	margin-bottom: 10px;
+	margin: 0 auto;
+}
+
+.menu-mobile-item{
+	float: none;
+	margin-bottom: 10px;
+
+}
+
+.menu-mobile-item-link{
+	font-size: 24px;
+	margin-top: 10px;
+	line-height: 30px;
+	width: 100%;
+	max-width: 200px;
+	height: 30px;
+	text-align: center;
+	border-radius: 10px;
+	border: 2px #ffe208 solid;
+}
+
+
+footer{
+	height: 45px;
+	width: 100%;
+	background: #CFBA2F;
+	border-top: 1px solid #B5B5B5;
+}
+
+.header-mobile-contact{
+	width: 100%;
+	max-width: 150px;
+	height: 40px;
+	margin-right: 0px;
+	margin-top: 2px;
+	float: right;	
+}
+
+.header-contact-ico{
+	width: 24px;
+	height: 24px;
+	margin-top: 8px;
+	float: left;
+	background: url(../img/ico/facebook.png) center center no-repeat;
+	background-size:100%;
+}
+
+.header-contact-ico:hover{
+	
+	background: url(../img/ico/facebookh.png)center center no-repeat;
+	background-size:100%;
+}
+.header-contact-phone{
+	font-size: 10px;
+	margin-left: 10px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	float: left;
+	color: #404040;
+	text-shadow: none;
+}
+
+.header-contact-callme{
+	width: 100%;
+	max-width: 130px;
+	height: 100%;
+	max-height: 18px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding-top: 0px;
+	border: 1px solid white;
+	border-radius: 5px;
+	background: red;
+}
+
+.events-top{
+	width: 100%;
+	height: 500px;
+}
+
+.events-second{
+	width: 100%;
+	height: 500px;
+}
+
+.events-top-image{
+	margin-top: 0;
+	margin-left: 0%;
+	overflow:hidden;
+	width: 100%;
+ 	max-width: 480px;
+ 	height:220px;
+ 	position: static;
+ 	color:black;
+}
+
+.events-top-image img{
+	width: 320px;
+	height: 220px;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+}
+
+.events-text{
+	height: 250px;
+	float: none;
+	width: 100%;
+	max-width: 460px;
+	padding-top: 8%;
+	margin-right: 0%;
+	margin: auto;
+}	
+
+.events-text-title{
+	font-family: 'Poiret One', cursive;
+	font-size: 100%;
+	text-align: center;
+}
+
+.events-text-title span{
+	color: red;
+	font-weight: bold;
+}
+
+.events-text-title-date{
+	font-family: 'Poiret One', cursive;
+	font-size: 80%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.events-text-title-date span{
+	color: #931614;
+}
+
+}
+
+/*MEDIA-320px*/
+@media screen and (max-width: 320px){
+
+.testimontal{
+	float: none;
+	margin-top: 5px;
+	margin-left: 0%;
+}
+
+.header-logo{
+	height: 100%;
+	max-height: 40px;
+	width: 100%;
+	max-width: 120px;
+	margin-top: 5px;
+	margin-right: 2%;
+	float: right;
+}
+
+.header-contact{
+	width: 100%;
+	max-width: 160px;
+	height: 50px;
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+}
+
+.header-contact-phone{
+	font-size: 11px;
+	margin-left: 10px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	float: left;
+	color: #404040;
+	text-shadow: none;
+}
+
+.header-contact-callme{
+	width: 100%;
+	max-width: 100px;
+	line-height: 15px;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	font-size: 12px;
+	text-align: center;
+	background: #696069;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	border: 1px solid white;
+	
+	transiton: 1s ease;
+}
+
+
+
+
+}
+

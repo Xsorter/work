@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exam</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="styles/main.css" type="text/css">
+	<!--[if IE 8]><link rel="stylesheet" href="styles/styleIE8.css" type="text/css"><![endif]-->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700italic,700' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/lodash/4.12.0/lodash.js"></script>
+	<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="http://malsup.github.com/jquery.corner.js"></script>
+	<script src="js/jquery.xdomainrequest.min.js"></script>
+	<!--[if IE 8]><script src="js/underscore.js"></script><![endif]-->
+	<script src="js/scriptIE.js"></script>
+	<script src="js/css3-mediaqueries.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="header-login">
+			<a href="#"><div class="header-login-text-wrapper">
+				<p class="header-login-text">Log in</p>
+			</div></a>
+			<a href="#"><div class="header-signup-text-wrapper">
+				<p class="header-login-text">Sign up</p>
+			</div></a>		
+		</div>
+		<p class="header-title">
+			<span class="header-title-urlaubs">URLAUBSGLÜCK</span>
+			<span class="header-title-main">SHARE YOUR<br>HOLIDAY DREAMS</span>
+			<span class="header-title-bottom">And find the perfect partner<br>to fullfill it</span>
+			<span class="header-title-bottom-tablet">And find the perfect partner to fullfill it</span>
+		</p>
+		<div class="header-button">
+			<p>Find your holiday partner</p>
+		</div>
+	</div>
+
+	<div class="description-wrapper">
+		<p class="description-wrapper-title">How Urlaubsglück works?</p>
+		<div id="slider1" class="description-item-box slider_wrap">
+			<div class="img one"></div>
+			<div class="img two"></div>
+			<div class="img three"></div>
+			<div class="description-item-text-wrapper"> 
+				<div class="description-item-button">STEP 1</div>
+				<p class="description-text-top">Sed leo enim,<br>condimentum</p>
+				<p class="description-text-bottom">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+			</div>
+		</div>
+		<div id="slider2" class="description-item-box-middle slider_wrap">
+			<div class="img two"></div>
+			<div class="img three"></div>
+			<div class="img one"></div>
+			<div class="description-item-text-wrapper"> 
+				<div class="description-item-button">STEP 2</div>
+				<p class="description-text-top">Sed leo enim,<br>condimentum</p>
+				<p class="description-text-bottom">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+			</div>
+		</div>
+		<div id="slider3" class="description-item-box-bottom slider_wrap">
+			<div class="img three"></div>
+			<div class="img one"></div>
+			<div class="img two"></div>
+			<div class="description-item-text-wrapper"> 
+				<div class="description-item-button">STEP 3</div>
+				<p class="description-text-top">Sed leo enim,<br>condimentum</p>
+				<p class="description-text-bottom">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="partner-wrapper">
+		<p class="partner-wrapper-title">Meet a partner for your <br>best holiday</p>
+		<p class="partner-wrapper-title-tablet">Meet a partner for your best holiday</p>
+		<div class="partner-wrapper-box">
+			<img src="img/partner1.png" alt="partner">
+			<p class="partner-text-name">Bradley Hunter</p>
+			<p class="partner-text">Based in Chicago. I love playing tennis and loud music.</p>
+		</div>
+		<div class="partner-wrapper-box-second">
+			<img src="img/partner2.png" alt="partner">
+			<p class="partner-text-name">Lucas Marsha</p>
+			<p class="partner-text">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
+		</div>
+		<div class="partner-wrapper-box-third">
+			<img src="img/partner3.png" alt="partner">
+			<p class="partner-text-name">Heather Walker</p>
+			<p class="partner-text">I'm a happy person that loves cats and climbing on mountains.</p>
+		</div>
+		<div class="partner-wrapper-box-bottom">
+			<img src="img/partner4.png" alt="partner">
+			<p class="partner-text-name">Bradley Hunter</p>
+			<p class="partner-text">Based in Chicago. I love playing tennis and loud music.</p>
+		</div>
+		<div class="partner-wrapper-button">
+			<p>See other partners</p>
+		</div>
+	</div>
+	
+	<p class="grid-wrapper-title">Discover holyday acivity<br>ideas</p>
+	<p class="grid-wrapper-title-tablet">Discover holyday acivity ideas</p>
+	<div class="grid-wrapper" data-masonry='{ "itemSelector": ".grid-wrapper-box"}'>
+		<div class="grid-wrapper-box corner"><p>Sport and Activity</p></div>
+		<div class="grid-wrapper-box corner"><p>Wellnes and Health</p></div>
+		<div class="grid-wrapper-box corner"><p class="grid-wrapper-text-third">Extreme Sports<br>and Expeditions</p></div>
+		<div class="grid-wrapper-box corner"><p>Games</p></div>
+		<div class="grid-wrapper-box grid-wide corner"><p>Culture and Education</p></div>
+		<div class="grid-wrapper-box grid-wide corner"><p>Relaxation</p></div>
+		<div class="grid-wrapper-box corner"><p>Travelling</p></div>
+	</div>
+	
+	<div class="search-wrapper">
+		<p class="search-wrapper-title">Discover holiday activity ideas</p>
+		<p class="search-wrapper-text">Hi! What are your holiday interests?</p>
+		<div class="search-wrapper-input-box">
+			<input id="input" type="text" placeholder="Enter your interests">
+		</div>
+		<div id="search-button" class="search-wrapper-button">Search partners</div>
+	</div>
+
+	<div class="footer">
+		<p class="footer-title">URLAUBSGLÜCK</p>
+		<p class="footer-menu-title">Company</p>
+		<ul class="footer-menu">
+			<a href="#">
+				<li>About</li>
+			</a>
+			<a href="#">
+				<li>Contacts</li>
+			</a>
+			<a href="#">
+				<li>Press</li>
+			</a>
+			<a href="#">
+				<li>Blog</li>
+			</a>
+		</ul>
+		<p class="footer-logo-title">Partners</p>
+		<img class="footer-logo" src="img/logo320.png" alt="logo">
+	</div>
+</body>
+</html>

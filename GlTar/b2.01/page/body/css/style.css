@@ -1,0 +1,687 @@
+body{
+	background: url(../img/pattern4-3.jpg) repeat;
+}
+
+/*header start*/
+
+header{
+	width: 100%;
+	height: 100px;
+}
+
+.header-navicon{
+	height: 5px; 
+	width: 40px;
+	display: none;
+	border-bottom: 17px double #CFBA2F; 
+    border-top: 6px solid  #CFBA2F; 
+    content:"";
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.header-top-wrapper{
+	height: 100px;
+	width: 100%;
+	background: rgba(92,95,112,0.2);
+	border-bottom: 1px solid rgba(92,95,112,0.0);
+	transition: 1s ease;
+	
+}
+
+.header-top-wrapper:hover{
+	background: rgba(92,95,112,0.6);
+	/*background: url(../img/pattern5.png) repeat ;*/
+	border-bottom: 1px solid #B5B5B5;
+	transition: 1s ease;
+}
+
+.header-logo{
+	height: 70px;
+	width: 240px;
+	margin-top: 15px;
+	margin-left: 15px;
+	-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	float: left;
+}
+
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 1200px;
+	height: 100px;
+	margin-top: 0px;
+	margin-left: 5%;
+	float: left;
+}
+
+.menu-item{
+	float: left;
+}
+
+.menu-item-link{
+	color: white;
+	font-size: 26px;
+	font-family: 'Poiret One', cursive;
+	text-decoration: none;
+	display: block;
+	line-height: 100px;
+	width: 160px;
+	height: 100px;
+	text-align: center;	
+	cursor: pointer;
+}
+
+.menu-item-link:hover{
+	background: rgba(39,40,47,0.5);
+	color: #ffe208;
+	/*border-left: 2px #ffe208 solid;*/
+	border-bottom: 2px #ffe208 solid;
+	box-sizing:border-box;
+}
+
+
+.header-navigation-menu-mobile-box{
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+	margin: 0 auto;
+	display: none;
+}
+
+.menu-mobile-item{
+	float: none;
+	margin-bottom: 10px;
+
+}
+
+.menu-mobile-item-link{
+	color: white;
+	font-size: 32px;
+	font-family: 'Poiret One', cursive;
+	margin-top: 10px;
+	text-decoration: none;
+	display: block;
+	background: rgba(105,96,105,0.2);
+	line-height: 45px;
+	width: 100%;
+	max-width: 370px;
+	height: 45px;
+	text-align: center;
+	border: 3px #ffe208 double;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+}
+
+.menu-mobile-item-link:hover{
+	background: rgba(130,96,105,0.4);
+}
+
+.header-contact-ico{
+	width: 48px;
+	height: 48px;
+	margin-top: 15px;
+	float: left;
+	background: url(../img/ico/facebook.png);
+}
+
+.header-contact-ico:hover{
+	
+	background: url(../img/ico/facebookh.png);
+}
+
+.header-contact{
+	width: 300px;
+	height: 80px;
+	margin-right: 30px;
+	margin-top: 10px;
+	float: right;
+}
+
+.header-contact-phone{
+	font-size: 24px;
+	margin-left: 10px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	float: left;
+	color: #FFFF93;
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.62);
+}
+
+.header-contact-callme{
+	width: 220px;
+	height: 30px;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	font-size: 22px;
+	text-align: center;
+	background: #696069;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-top: 7px;
+	border: 2px solid #ffe208;
+	border-radius: 5px;
+	transiton: 1s ease;
+	-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+}
+
+.header-contact-callme:hover{
+	background: rgba(130,96,105,0.4);
+	transiton: 1s ease;	
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	cursor: pointer;
+}
+
+/*header end*/
+
+/*main block*/
+.content{
+	width: 100%;
+	height: 100%;
+}
+
+.content-background{
+	width: 100%;
+	height: 600px;
+	background: url(../img/body.jpg) center no-repeat;
+	background-size: cover;
+}
+
+.content-background-title{
+	width: 100%;
+	height: 250px;
+	margin-top: 170px;
+	background: rgba(92,95,112,0.5);
+	position: absolute;
+	transition: 0.4s ease;
+}
+
+.content-background-title:hover .content-background-title-text-place{
+	margin-top: 170px;
+	background: rgba(92,95,112,0.3);
+	position: static;
+	transition: 0.4s ease;
+	display: block;
+}
+
+.content-background-title-text{
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 38px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.content-background-title-button{
+	width: 220px;
+	line-height: 50px;
+	background: #931614;
+	margin: auto;
+	margin-top: 20px;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	transition: 0.4s ease;
+}
+.content-background-title-button:hover{
+	color: #ffe208;
+	width: 300px;
+	transition: 0.4s ease;
+	cursor: pointer;
+}
+
+.content-background-title-text-place{
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 38px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 70px;
+	display: none;
+	transition: 0.4s ease;
+}
+
+.content-background-title-text-place span{
+	color: #931614;
+}
+
+.content-date{
+	width: 100%;
+	height: 300px;
+	background: white;
+	clear: both;
+	overflow: hidden;
+}
+
+.content-date-box{
+	height: 150px;
+	width: 100%;
+	max-width: 950px;
+	margin:0 auto;
+	margin-top: 75px;
+	border-radius: 10px;
+	border: 1px solid #c3cfd8; 
+}
+
+.content-date-box-date{
+	height: 150px;
+	width: 50%;
+	float: left;
+}
+
+.content-date-box-date-icon{
+	margin-top: 40px;
+	margin-left: 20px;
+	float: left;
+}
+
+.content-date-box-date-text{
+	font-family: 'Poiret One', cursive;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.time{
+	margin-top: 10px;	
+}
+
+.place{
+	margin-top: 60px;
+}
+
+.content-date-box-date a{
+	text-decoration: none;
+	color: black;
+}
+
+.content-info{
+	width: 100%;
+	height: auto;
+	background: #eeeef4;
+}
+
+.content-info-title{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.content-info-title-info{
+	width: 100%;
+	max-width: 900px;
+	height: 250px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+
+.content-info-title-info-box{
+	width: 225px;
+	height: 250px;
+	float: left;
+}
+
+.content-info-title-info-box p{
+	text-align: center;
+	padding-top: 15px;
+	font-family: 'proxima';
+	font-size: 22px;
+	color: #4e5665;
+}
+
+.content-info-title-info-icon{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #c3cfd8; 
+	border-radius: 75px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+
+.content-info-title-info-image{
+	display: block;
+	margin:0 auto;
+	margin-top: 40px;
+}
+
+.content-info-title-info-image-second{
+	display: block;
+	margin:0 auto;
+	margin-top: 50px;
+}
+
+.content-info-text-box{
+	width: 100%;
+	max-width: 900px;
+	height: auto;
+	border: 3px solid white;
+	margin:0 auto;
+	margin-top: 30px;
+}
+
+.content-info-text{
+	text-indent: 10px;
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 18px;
+	padding: 30px 20px 20px 20px;
+	line-height: 1.3;
+	text-align: justify;
+}
+
+.content-info-list{
+	list-style: square inside;
+	padding: 5px 20px 40px 50px;
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 18px;
+}
+
+.content-info-list li{
+	padding-top: 5px;
+}
+
+.content-info-list-title{
+	color: #76b5e0;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'proxima';
+	margin-left: 20px;
+}
+
+.content-trainers{
+	width: 100%;
+	height: 600px;
+	background: white;
+}
+
+.content-trainers-title{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.content-trainers-box{
+	width: 100%;
+	max-width: 900px;
+	height: 400px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+
+.content-trainers-box-image{
+	width: 50%;
+	height: 400px;
+	float: left;
+	overflow: hidden;
+}
+
+.content-trainers-box-image-wrapper{
+	width: 400px;
+	height: 400px;
+	overflow: hidden; 
+}
+
+.content-trainers-image{
+	width: 400px;
+	height: 400px;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+}
+
+.content-trainers-image:hover{
+	-webkit-transform: scale(1.3);
+ 	-moz-transform: scale(1.3);
+ 	-o-transform: scale(1.3);
+}
+
+.content-trainers-box-text{
+	padding: 50px 20px 20px 20px;
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 24px;
+	line-height: 1.1;
+}
+
+.content-trainers-box-text span{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 26px;
+	color: #931614;
+}
+
+.content-schedule{
+	width: 100%;
+	height: 600px;
+	background: #eeeef4;
+}
+
+.content-schedule-title{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.content-schedule-box{
+	width: 100%;
+	max-width: 900px;
+	height: 400px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+
+.content-schedule-box-info{
+	width: 290px;
+	height: 400px;
+	background: white;
+	float: left;
+	margin-left: 10px;
+}
+
+.content-schedule-box-time{
+	padding-top: 10px;
+	color: #89b3df;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.content-schedule-box-text{
+	text-indent: 10px;
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 18px;
+	padding: 30px 10px 10px 10px;
+	line-height: 1.3;
+	text-align: center;
+}
+
+.content-schedule-box-image{
+	margin:0 auto;
+	margin-top: 30px;
+	display: block; 
+}
+
+.center-image{
+	margin-top: 30px;
+}
+
+.content-schedule-box-name{
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 20px;
+	padding: 40px 5px 5px 5px;
+	text-align: center;
+}
+.content-gallery{
+	width: 100%;
+	height: auto;
+	background: white;
+}
+
+.fotorama__wrap {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto; 
+}
+
+.content-price{
+	width: 100%;
+	height: 350px;
+	background: url(../img/backwoman.jpg) center no-repeat;
+	background-size: cover;
+	background-color: white; 
+}
+
+.content-price-text{
+	padding: 30px 20px 20px 20px;
+	font-family: 'proxima';
+	font-weight: bold;
+	color: #4e5665;
+	font-size: 22px;
+	line-height: 1.1;
+	text-align: center;
+}
+
+.content-price-text span{
+	color: #931614;
+	font-size: 26px;
+
+}
+
+.content-register{
+	width: 100%;
+	height: 600px;
+	background-color: #74b4df ;
+}
+
+.content-register-title{
+	padding: 30px 20px 20px 20px;
+	font-family: 'proxima';
+	color: white;
+	font-size: 30px;
+	line-height: 1.1;
+	text-align: center;
+}
+
+.content-register-input{
+	width: 100%;
+	max-width: 400px;
+	padding-left: 10px;
+	margin-top: 10px;
+	height: 40px;
+	border-radius: 5px;
+	margin:auto; 
+	margin-bottom: 15px;
+	display: list-item;
+}
+
+.content-register-button{
+	height: 50px;
+	width: 410px;
+	margin-top: 20px;
+	display: block;
+	margin: auto; 
+	border: 1px white solid;
+	border-radius: 5px;
+	color: white;
+	font-family: 'proxima';
+	font-size: 30px;
+	background: #931614 !important;
+	cursor: pointer;
+	transition: 0.4s ease;
+}
+
+.cme-btn-message{
+	color:white;
+	text-align: center;
+	padding-top: 15px;
+	font-family: 'proxima';
+}
+
+.content-register-button:hover{
+	width: 440px;
+	height: 60px;
+	transition: 0.4s ease;
+}
+
+
+/*footer*/
+footer{
+	height: 100px;
+	width: 100%;
+	background: rgba(92,95,112,0.7);
+	border-top: 1px solid #B5B5B5;
+}
+
+.header-navigation-ico{
+	width: 48px;
+	height: 48px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 30px;
+	background: url(../img/ico/facebook.png);	
+}
+
+.header-navigation-ico:hover{
+	background: url(../img/ico/facebookh.png);
+}
+
+.header-copyright{
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 12px;
+	text-align: right;
+	margin-top: 80px;
+	margin-right: 10px;
+}
+
+.header-copyright-mobile{
+	font-family: 'Poiret One', cursive;
+	color: black;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 15px;
+	display: none;
+}
+
+.header-contact-ico-bottom{
+	width: 48px;
+	height: 48px;
+	margin-top: 50px;
+	float: left;
+	background: url(../img/ico/facebook.png);
+}
+
+.header-contact-ico-bottom:hover{
+	background: url(../img/ico/facebookh.png);
+}
+
+.header-mobile-contact{
+	display: none;
+	width: 100%;
+	max-width: 200px;
+	height: 45px;
+	margin-right: 0px;
+	margin-top: 4px;
+	float: right;	
+}

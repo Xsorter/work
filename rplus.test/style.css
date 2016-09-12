@@ -1,0 +1,787 @@
+/*sass import*/
+@font-face {
+  font-family: 'GothamPro';
+  src: url("assets/fonts/GothamPro.eot");
+  src: url("assets/fonts/GothamPro.woff2") format("woff2"), url("assets/fonts/GothamPro.woff") format("woff"), url("assets/fonts/GothamPro.ttf") format("truetype"), url("assets/fonts/GothamPro.svg#GothamPro") format("svg"), url("assets/fonts/GothamPro.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GothamProBlack';
+  src: url("assets/fonts/GothamPro-Black.eot");
+  src: url("assets/fonts/GothamPro-Black.woff2") format("woff2"), url("assets/fonts/GothamPro-Black.woff") format("woff"), url("assets/fonts/GothamPro-Black.ttf") format("truetype"), url("assets/fonts/GothamPro-Black.svg#GothamPro-Black") format("svg"), url("assets/fonts/GothamPro-Black.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GothamProBlackItalic';
+  src: url("assets/fonts/GothamPro-BlackItalic.eot");
+  src: url("assets/fonts/GothamPro-BlackItalic.woff2") format("woff2"), url("assets/fonts/GothamPro-BlackItalic.woff") format("woff"), url("assets/fonts/GothamPro-BlackItalic.ttf") format("truetype"), url("assets/fonts/GothamPro-BlackItalic.svg#GothamPro-BlackItalic") format("svg"), url("assets/fonts/GothamPro-BlackItalic.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GothamProBold';
+  src: url("assets/fonts/GothamPro-Bold.eot");
+  src: url("assets/fonts/GothamPro-Bold.woff2") format("woff2"), url("assets/fonts/GothamPro-Bold.woff") format("woff"), url("assets/fonts/GothamPro-Bold.ttf") format("truetype"), url("assets/fonts/GothamPro-Bold.svg#GothamPro-Bold") format("svg"), url("assets/fonts/GothamPro-Bold.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GothamProBoldItalic';
+  src: url("assets/fonts/GothamPro-BoldItalic.eot");
+  src: url("assets/fonts/GothamPro-BoldItalic.woff2") format("woff2"), url("assets/fonts/GothamPro-BoldItalic.woff") format("woff"), url("assets/fonts/GothamPro-BoldItalic.ttf") format("truetype"), url("assets/fonts/GothamPro-BoldItalic.svg#GothamPro-BoldItalic") format("svg"), url("assets/fonts/GothamPro-BoldItalic.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GothamProLight';
+  src: url("assets/fonts/GothamPro-Light.eot");
+  src: url("assets/fonts/GothamPro-Light.woff2") format("woff2"), url("assets/fonts/GothamPro-Light.woff") format("woff"), url("assets/fonts/GothamPro-Light.ttf") format("truetype"), url("assets/fonts/GothamPro-Light.svg#GothamPro-Light") format("svg"), url("assets/fonts/GothamPro-Light.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GothamProLightItalic';
+  src: url("assets/fonts/GothamPro-LightItalic.eot");
+  src: url("assets/fonts/GothamPro-LightItalic.woff2") format("woff2"), url("assets/fonts/GothamPro-LightItalic.woff") format("woff"), url("assets/fonts/GothamPro-LightItalic.ttf") format("truetype"), url("assets/fonts/GothamPro-LightItalic.svg#GothamPro-LightItalic") format("svg"), url("assets/fonts/GothamPro-LightItalic.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GothamProMedium';
+  src: url("assets/fonts/GothamPro-Medium.eot");
+  src: url("assets/fonts/GothamPro-Medium.woff2") format("woff2"), url("assets/fonts/GothamPro-Medium.woff") format("woff"), url("assets/fonts/GothamPro-Medium.ttf") format("truetype"), url("assets/fonts/GothamPro-Medium.svg#GothamPro-Medium") format("svg"), url("assets/fonts/GothamPro-Medium.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GothamProMediumItalic';
+  src: url("assets/fonts/GothamPro-MediumItalic.eot");
+  src: url("assets/fonts/GothamPro-MediumItalic.woff2") format("woff2"), url("assets/fonts/GothamPro-MediumItalic.woff") format("woff"), url("assets/fonts/GothamPro-MediumItalic.ttf") format("truetype"), url("assets/fonts/GothamPro-MediumItalic.svg#GothamPro-MediumItalic") format("svg"), url("assets/fonts/GothamPro-MediumItalic.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 1, assets/scss/base/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, assets/scss/base/_reset.scss */
+html {
+  line-height: 1;
+}
+
+/* line 26, assets/scss/base/_reset.scss */
+body {
+  font-family: "", serif;
+  line-height: 1;
+}
+
+/* line 31, assets/scss/base/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 35, assets/scss/base/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 40, assets/scss/base/_reset.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 46, assets/scss/base/_reset.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 49, assets/scss/base/_reset.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 56, assets/scss/base/_reset.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+/* line 62, assets/scss/base/_reset.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 66, assets/scss/base/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 70, assets/scss/base/_reset.scss */
+:focus {
+  outline: none;
+}
+
+/* line 73, assets/scss/base/_reset.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* line 77, assets/scss/base/_reset.scss */
+.cf:before, .cf:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+/* line 78, assets/scss/base/_reset.scss */
+.cf:after {
+  clear: both;
+}
+
+/* line 1, assets/scss/_header.scss */
+header {
+  width: 98%;
+  max-width: 960px;
+  height: 120px;
+  margin: auto;
+}
+
+/* line 8, assets/scss/_header.scss */
+.header-logo {
+  margin: 20px 0 0 0;
+  float: left;
+}
+
+/*header-menu with arrows*/
+/* line 15, assets/scss/_header.scss */
+.header-menu {
+  float: left;
+  margin: 40px 0 0 30px;
+}
+/* line 18, assets/scss/_header.scss */
+.header-menu a {
+  display: inline-block;
+  color: #0481d1;
+}
+/* line 22, assets/scss/_header.scss */
+.header-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* line 28, assets/scss/_header.scss */
+.header-menu-link {
+  text-decoration: underline;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+/* line 34, assets/scss/_header.scss */
+.header-menu-link:hover {
+  text-decoration: none;
+}
+
+/* line 38, assets/scss/_header.scss */
+.header-menu-link:focus {
+  position: relative;
+  background: #00bbf0;
+  border: 1px solid #00bbf0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* line 48, assets/scss/_header.scss */
+.header-menu-link:focus:hover {
+  color: #0481d1;
+  text-decoration: none;
+  border: none;
+}
+
+/* line 55, assets/scss/_header.scss */
+.header-menu-link:focus:after, .header-menu-link:focus:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* line 66, assets/scss/_header.scss */
+.header-menu-link:focus:after {
+  border-color: rgba(0, 187, 240, 0);
+  border-top-color: #00bbf0;
+  border-width: 15px;
+  margin-left: -15px;
+}
+
+/* line 72, assets/scss/_header.scss */
+.header-menu-link:focus:before {
+  border-color: rgba(0, 187, 240, 0);
+  border-top-color: #00bbf0;
+  border-width: 16px;
+  margin-left: -16px;
+}
+
+/* line 79, assets/scss/_header.scss */
+.header-menu-link:hover:focus:after {
+  border: none;
+}
+
+/* line 82, assets/scss/_header.scss */
+.header-menu-link:hover:focus:before {
+  border: none;
+}
+
+/* line 85, assets/scss/_header.scss */
+.header-menu-link:hover:focus {
+  border: 1px solid #00bbf0;
+}
+
+/* end of menu */
+/*mobile menu*/
+/* line 92, assets/scss/_header.scss */
+.header-menu-mobile-box {
+  display: none;
+}
+
+/* line 96, assets/scss/_header.scss */
+.header-menu-mobile {
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+}
+/* line 100, assets/scss/_header.scss */
+.header-menu-mobile li {
+  text-align: center;
+  margin-top: 10px;
+  background: #00bbf0;
+  line-height: 40px;
+}
+/* line 106, assets/scss/_header.scss */
+.header-menu-mobile a {
+  color: white;
+}
+
+/* line 111, assets/scss/_header.scss */
+.header-navicon {
+  height: 5px;
+  width: 40px;
+  display: none;
+  border-bottom: 17px double #00b9ef;
+  border-top: 6px solid  #00b9ef;
+  content: "";
+  margin-top: 40px;
+  margin-left: 10%;
+  float: left;
+}
+
+/*end of mobile menu*/
+/* line 126, assets/scss/_header.scss */
+.header-login-wrapper {
+  width: 170px;
+  height: 45px;
+  float: right;
+  margin: 35px 20px 0 0;
+}
+
+/* line 133, assets/scss/_header.scss */
+.header-login-wrapper:hover .header-login-holder {
+  background: url(assets/img/sprite.png) -38px -12px no-repeat;
+}
+
+/* line 137, assets/scss/_header.scss */
+.header-login-holder {
+  width: 16px;
+  height: 16px;
+  float: left;
+  background: url(assets/img/sprite.png) -13px -12px no-repeat;
+}
+
+/* line 144, assets/scss/_header.scss */
+.header-login-holder:hover {
+  background: url(assets/img/sprite.png) -38px -12px no-repeat;
+}
+
+/* line 148, assets/scss/_header.scss */
+.header-login-enter, .header-login-register {
+  font-size: 11px;
+  color: #999a95;
+  border-bottom: 1px dashed #999a95;
+}
+
+/* line 154, assets/scss/_header.scss */
+.header-login-enter:hover, .header-login-register:hover {
+  color: #f908b9;
+  border-bottom: 1px dashed #f908b9;
+}
+
+/* line 159, assets/scss/_header.scss */
+.header-login-register {
+  margin-left: 16px;
+}
+
+/* line 164, assets/scss/_header.scss */
+.title {
+  width: 100%;
+  height: 40px;
+  background-color: #00bbf0;
+  margin-bottom: 30px;
+}
+
+/* line 171, assets/scss/_header.scss */
+.title-wrapper {
+  width: 98%;
+  max-width: 960px;
+  line-height: 40px;
+  margin: auto;
+}
+
+/* line 178, assets/scss/_header.scss */
+h1 {
+  color: white;
+}
+
+/* line 1, assets/scss/_footer.scss */
+footer {
+  width: 100%;
+  height: 100px;
+  background: #f9f9f9;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* line 11, assets/scss/_footer.scss */
+.footer-wrapper {
+  width: 98%;
+  max-width: 960px;
+  margin: auto;
+  font-size: 12px;
+  color: #656565;
+}
+
+/* line 19, assets/scss/_footer.scss */
+.footer-copyright {
+  padding: 15px 0 15px 0;
+}
+
+/* line 23, assets/scss/_footer.scss */
+.footer-phone {
+  font-weight: bold;
+}
+/* line 25, assets/scss/_footer.scss */
+.footer-phone a {
+  font-weight: 200;
+  text-decoration: underline;
+  color: #656565;
+}
+/* line 30, assets/scss/_footer.scss */
+.footer-phone a:hover {
+  color: #0072c8;
+}
+/* line 33, assets/scss/_footer.scss */
+.footer-phone span {
+  font-weight: 200;
+}
+
+/* line 38, assets/scss/_footer.scss */
+.footer-e-mail {
+  font-weight: bold;
+  padding: 5px 0 0 0;
+}
+/* line 41, assets/scss/_footer.scss */
+.footer-e-mail a {
+  font-weight: 200;
+  text-decoration: underline;
+  color: #656565;
+}
+/* line 46, assets/scss/_footer.scss */
+.footer-e-mail a:hover {
+  color: #0072c8;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 3, assets/scss/_adaptive.scss */
+  .wrapper > main {
+    height: 440px;
+  }
+
+  /* line 7, assets/scss/_adaptive.scss */
+  main > .main-wrapper {
+    width: 100%;
+    float: none;
+  }
+
+  /* line 12, assets/scss/_adaptive.scss */
+  .main-title {
+    text-align: center;
+  }
+
+  /* line 16, assets/scss/_adaptive.scss */
+  .main-text {
+    text-align: center;
+  }
+
+  /* line 20, assets/scss/_adaptive.scss */
+  .main-menu {
+    margin: 0 auto;
+    width: 340px;
+  }
+
+  /* line 25, assets/scss/_adaptive.scss */
+  .main-text-link, .main-slider-link {
+    text-align: center;
+  }
+
+  /* line 29, assets/scss/_adaptive.scss */
+  .main-wrapper > .main-slider-box {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 860px) {
+  /* line 38, assets/scss/_adaptive.scss */
+  .header-login-wrapper {
+    width: 130px;
+    margin: 40px 5px 0 0;
+  }
+
+  /* line 43, assets/scss/_adaptive.scss */
+  .header-login-enter, .header-login-register {
+    font-size: 9px;
+  }
+
+  /* line 47, assets/scss/_adaptive.scss */
+  .header-menu {
+    margin: 40px 0 0 10px;
+  }
+  /* line 49, assets/scss/_adaptive.scss */
+  .header-menu a {
+    font-size: 11px;
+  }
+  /* line 52, assets/scss/_adaptive.scss */
+  .header-menu li {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 61, assets/scss/_adaptive.scss */
+  .header-menu {
+    display: none;
+  }
+
+  /* line 65, assets/scss/_adaptive.scss */
+  .banner {
+    display: none;
+  }
+
+  /* line 69, assets/scss/_adaptive.scss */
+  .header-navicon {
+    display: block;
+  }
+
+  /* line 73, assets/scss/_adaptive.scss */
+  .header-menu-mobile-box {
+    display: block;
+  }
+
+  /* line 77, assets/scss/_adaptive.scss */
+  .header-menu-mobile {
+    display: none;
+  }
+
+  /* line 81, assets/scss/_adaptive.scss */
+  .main-wrapper > .main-slider-box {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  /* line 87, assets/scss/_adaptive.scss */
+  .main-slider-box > .slider_wrap .img {
+    width: 310px;
+    margin: auto;
+    margin-left: 16px;
+  }
+}
+/* line 11, assets/scss/style.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 16, assets/scss/style.scss */
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+/* line 21, assets/scss/style.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 25, assets/scss/style.scss */
+main {
+  width: 98%;
+  max-width: 960px;
+  height: 220px;
+  margin: auto;
+}
+
+/* line 32, assets/scss/style.scss */
+.main-wrapper {
+  width: 50%;
+  height: 220px;
+  float: left;
+  color: #343233;
+}
+
+/* line 39, assets/scss/style.scss */
+.main-title {
+  font-weight: bold;
+}
+
+/* line 43, assets/scss/style.scss */
+.main-text {
+  font-size: 14px;
+  padding: 25px 0 0 0;
+  line-height: 20px;
+}
+
+/* line 50, assets/scss/style.scss */
+.main-menu li {
+  font-size: 14px;
+  padding-top: 10px;
+  margin-left: 15px;
+}
+/* line 55, assets/scss/style.scss */
+.main-menu li:before {
+  padding-right: 20px;
+  content: "";
+  background: url(assets/img/sprite.png) -12px -69px no-repeat;
+}
+/* line 60, assets/scss/style.scss */
+.main-menu span {
+  font-weight: bold;
+}
+
+/* line 65, assets/scss/style.scss */
+.main-text-link, .main-slider-link {
+  font-size: 12px;
+  text-decoration: underline;
+  color: #0072bb;
+  display: block;
+  margin: 20px 0 0 0;
+}
+
+/* line 73, assets/scss/style.scss */
+.main-text-link:hover, .main-slider-link:hover {
+  text-decoration: none;
+  color: #00446f;
+}
+
+/* line 78, assets/scss/style.scss */
+.main-slider-box {
+  width: 500px;
+  height: 110px;
+  margin: 20px 0 0 -20px;
+}
+
+/* line 84, assets/scss/style.scss */
+.main-item-box {
+  width: 100%;
+  height: 107px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* line 91, assets/scss/style.scss */
+.main-slider-text-box {
+  width: 100%;
+  height: 50%;
+  margin: auto;
+  margin-top: 54px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* line 99, assets/scss/style.scss */
+.main-slider-text-title, .main-slider-text-salary {
+  color: white;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+/* line 108, assets/scss/style.scss */
+.main-slider-text-place {
+  font-size: 14px;
+  padding-top: 5px;
+  padding-left: 10px;
+  color: white;
+}
+
+/* line 115, assets/scss/style.scss */
+.main-slider-text-salary {
+  display: block;
+  float: right;
+  margin-top: -45px;
+  padding-right: 15px;
+  color: #fff001;
+}
+
+/* line 124, assets/scss/style.scss */
+.main-slider-text-additional {
+  font-size: 14px;
+  float: right;
+  margin-top: -13px;
+  padding-right: 52px;
+  color: white;
+}
+
+/* line 132, assets/scss/style.scss */
+.main-slider-link {
+  margin: 10px 0 0 0;
+}
+
+/* line 139, assets/scss/style.scss */
+.slider_wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 144, assets/scss/style.scss */
+.slider_wrap .img {
+  width: 459px;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  margin: auto;
+  margin-left: 22px;
+  height: 107px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* line 156, assets/scss/style.scss */
+.slider_wrap .img:first-child {
+  display: block;
+}
+
+/* line 159, assets/scss/style.scss */
+.slider_wrap span {
+  margin-top: -13px;
+  width: 13px;
+  height: 18px;
+  display: block;
+  position: absolute;
+  top: 54%;
+  cursor: pointer;
+  background: url(assets/img/sprite.png) no-repeat;
+}
+
+/* line 170, assets/scss/style.scss */
+.slider_wrap span.next {
+  right: 0px;
+  background-position: -12px -39px;
+}
+
+/* line 175, assets/scss/style.scss */
+.slider_wrap span.prev {
+  left: 0px;
+  background-position: -38px -39px;
+}
+
+/* line 180, assets/scss/style.scss */
+.img {
+  width: 95%;
+  height: 100%;
+}
+
+/* line 185, assets/scss/style.scss */
+.first-slide {
+  background: url(assets/img/special.jpg) center 0 no-repeat;
+}
+
+/* line 190, assets/scss/style.scss */
+.second-slide {
+  background: url(assets/img/special_2.jpg) center 0 no-repeat;
+}
+
+/* line 194, assets/scss/style.scss */
+.third-slide {
+  background: url(assets/img/special_3.jpg) center 0 no-repeat;
+}
+
+/* line 204, assets/scss/style.scss */
+.banner {
+  width: 98%;
+  max-width: 960px;
+  height: 90px;
+  margin: auto;
+  border: 1px solid #e2e2e2;
+  margin-top: 30px;
+}
+
+/* line 213, assets/scss/style.scss */
+.banner-text {
+  text-align: center;
+  margin: auto;
+  line-height: 90px;
+  font-weight: bold;
+  color: #edf1f4;
+}
+
+/* line 221, assets/scss/style.scss */
+.advertisement-link-wrapper {
+  width: 98%;
+  max-width: 960px;
+  margin: auto;
+  padding-bottom: 160px;
+}
+/* line 225, assets/scss/style.scss */
+.advertisement-link-wrapper a {
+  padding-top: 10px;
+  color: #656565;
+  font-size: 10px;
+  text-decoration: underline;
+}
+/* line 231, assets/scss/style.scss */
+.advertisement-link-wrapper a:hover {
+  text-decoration: none;
+  color: #0072c8;
+}

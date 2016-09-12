@@ -1,0 +1,6 @@
+/*MEDIA-480px*/
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  div {
+    background: red; } }
+
+/*# sourceMappingURL=media.css.map */

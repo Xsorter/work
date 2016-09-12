@@ -1,0 +1,599 @@
+/*MEDIA-1368px*/
+@media screen and (max-width: 1368px){
+
+.header-background{
+	height: calc(100vh - 101px);
+	width: 100%;
+	background: url(../img/back2-1.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+
+.header-background-wrapper{
+	height: 300px;
+	width: 500px;
+	margin-top: 2%;
+	float: right;
+	margin-right: 5%;	
+}
+
+.header-backround-text{
+	width: 500px;
+	font-size: 70px;
+	margin-left: 10px;
+}
+
+.header-background-button{
+	height: 60px;
+	width: 240px;
+	margin-top:  70px;
+	margin-left: 130px;
+	border:3px white solid;
+	border-radius: 5px;
+	font-size: 30px;
+	line-height: 60px;
+}
+
+.header-background-button-contact{
+	margin-top: 20px;
+}
+
+}
+
+
+/*MEDIA-960px*/
+@media screen and (max-width: 960px){
+
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 750px;
+	height: 45px;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+.menu-item{
+	float: left;
+}
+
+.menu-item-link{
+	display: block;
+	background: rgba(105,96,105,0.5);
+	line-height: 40px;
+	margin-left: 15px;
+	width: 100px;
+	height: 40px;
+	border: 2px white solid;
+	border-radius: 5px;
+}
+
+.menu-item-link:hover{
+	border-top: 2px white solid;
+	border-bottom: 4px white solid;
+}
+}
+
+
+/*MEDIA-768px*/
+@media screen and (max-width: 768px)  {
+
+.header-logo{
+	height: 100%;
+	max-height: 70px;
+	width: 100%;
+	max-width: 220px;
+	margin-top: 12px;
+}
+
+.header-contact{
+	max-width: 330px;
+	width: 100%;
+	height: 50px;
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+}
+
+.header-contact-phone{
+	font-size: 20px;
+	margin-left: 10px;
+	float: left;
+}
+
+.header-contact-callme{
+	width: 100%;
+	max-width: 200px;
+	height: 100%;
+	max-height: 30px;
+	font-size: 20px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	padding-top: 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+.header-background{
+	height: 1100%;
+	width: 100%;
+	background: url(../img/back3.jpg)  no-repeat ;
+	background-size: cover;
+}
+
+.header-background-wrapper{
+	max-height: 520px;
+	width: 100%;
+	max-width: 500px;
+	margin-top: 50%;
+	float: none;
+	margin: 0 auto;	
+}
+
+.header-backround-text{
+	width: 500px;
+	font-size: 70px;
+	margin-left: 10px;
+}
+
+.header-background-button{
+	height: 60px;
+	width: 240px;
+	background: rgba(105,96,105,0.5);
+	margin-top:  70px;
+	margin-left: 130px;
+	border:3px white solid;
+	border-radius: 5px;
+	color: white;
+	line-height: 60px;
+}
+
+.header-background-button:hover{
+	background: rgba(130,96,105,0.6);
+	cursor: pointer;
+}
+
+.header-background-button-contact{
+	margin-top: 40px;
+}
+
+.header-navigation{
+	height: 110px;
+	width: 100%;
+	border-top: 1px solid #B5B5B5;
+}
+
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 650px;
+	height: 45px;
+	margin-top: 30px;
+	margin-left: 1%;
+}
+
+.menu-item{
+	float: left;
+}
+
+.menu-item-link{
+	font-size: 12px;
+	display: block;
+	line-height: 40px;
+	margin-left: 15px;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	border: 2px white solid;
+}
+
+.menu-item-link:hover{
+	border-top: 2px white solid;
+	border-bottom: 4px white solid;
+}
+}
+
+/*MEDIA 560px fix*/
+
+@media screen and (max-width: 560px){
+.header-navigation-ico{
+	display: none;
+}
+
+.header-contact{
+	max-width: 260px;
+	width: 100%;
+	height: 50px;
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+}
+
+.header-contact-phone{
+	font-size: 18px;
+	margin-left: 10px;
+	float: left;
+}
+
+.header-contact-callme{
+	width: 100%;
+	max-width: 180px;
+	height: 100%;
+	max-height: 30px;
+	font-size: 18px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	padding-top: 10px;
+	border: 1px solid white;
+}
+}
+
+
+/*MEDIA-480px*/
+
+@media screen and (max-width: 480px){
+
+body{
+	background: url(../img/pattern4.png) repeat;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.header-top-wrapper{
+	height: 50px;
+	width: 100%;
+	background: rgba(92,95,112,0.5);
+}
+
+.header-top-wrapper:hover{
+	border-bottom: none;
+}
+
+
+.header-logo{
+	height: 100%;
+	max-height: 40px;
+	width: 100%;
+	max-width: 160px;
+	margin-top: 5px;
+	margin-right: 2%;
+	float: right;
+}
+
+
+.header-contact-ico{
+	width: 24px;
+	height: 24px;
+	margin-top: 8px;
+	float: left;
+	background: url(../img/ico/facebook.png) center center no-repeat;
+	background-size:100%;
+}
+
+.header-contact-ico:hover{
+	background: url(../img/ico/facebookh.png)center center no-repeat;
+	background-size:100%;
+}
+
+.header-contact{
+	max-width: 180px;
+	width: 100%;
+	height: 50px;
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+	display: none;
+}
+
+.header-contact-phone{
+	font-size: 14px;
+	margin-left: 10px;
+	float: left;
+	text-shadow: none;
+}
+
+.header-contact-callme{
+	width: 100%;
+	max-width: 130px;
+	height: 100%;
+	max-height: 18px;
+	font-size: 14px;
+	text-align: center;
+	background: #696069;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding-top: 0px;
+	border: 1px solid white;
+}
+
+.header-background-wrapper{
+	height: auto;
+	width: 100%;
+	max-width: 450px;
+	margin:0 auto;
+	margin-top: 10%;
+	float: none;
+}
+
+.header-backround-text{
+	line-height: 70px;
+	background: rgba(92,95,112,0.6);
+	width: 100%;
+	max-width: 450px;
+	color: white;
+	text-align: center;
+	margin:0 auto;
+	font-size: 40px;
+	margin-top: 50%;
+}
+
+.header-background-button{
+	height: 40px;
+	width: 100%;
+	max-width: 260px;
+	background: rgba(105,96,105,0.5);
+	margin: 0 auto;
+	margin-top: 5%;
+	border: 3px white solid;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 28px;
+	line-height: 40px;
+}
+
+.header-background-button:hover{
+	background: rgba(64,59,64,0.2);
+}
+
+.header-background-button-contact{
+	margin-top: 2%;
+}
+
+.header-navigation-menu-box{
+	display: none;
+}
+
+.header-background{
+	width: 100%;
+	height: calc(100vh - 70px);
+	background: url(../img/back3.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.header-navigation-menu-mobile-box{
+	display: block;
+}
+
+.header-navigation-menu-mobile{
+	display: none;
+}
+
+
+.header-mobile-contact{
+	display: block;
+}
+
+.menu-mobile-item{
+	display: block;
+}
+
+.header-navigation-ico{
+	display: none;
+}
+
+.header-navigation-ico-vk{
+	width: 24px;
+	height: 24px;
+	margin-top: 11px;
+	margin-left: 40px;
+	display: block;
+	position: absolute;
+	float: left;
+	background: url(../img/ico/vk.png) center center no-repeat;
+	background-size:100%;
+}
+
+.header-navigation-ico-youtube{
+	width: 24px;
+	height: 24px;
+	margin-top: 11px;
+	margin-left: 10px;
+	float: left;
+	background: url(../img/ico/youtube.png) center center no-repeat;
+	background-size:100%;
+}
+
+.header-navicon{
+	display: block;
+}
+
+.header-navigation{
+	height: 50px;
+	width: 100%;
+	background: #CFBA2F;
+	border-top: 1px solid #B5B5B5;
+}
+
+.header-copyright{
+	display: none;
+}
+
+.header-copyright-mobile{
+	display: block;
+}
+
+
+/*iphone 4 quick fix*/
+@media screen and (max-width: 320px) and (max-height: 480px) and (orientation: portrait){
+.header-background{
+	height: 415px;
+	background: url(../img/back3.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.header-background-wrapper{
+	height: auto;
+	width: 100%;
+	max-width: 320px;
+	margin:0 auto;
+	margin-top: 5%;
+	float: none;
+}
+
+.header-backround-text{
+	line-height: 60px;
+	width: 100%;
+	max-width: 450px;
+	text-align: center;
+	margin:0 auto;
+	font-size: 40px;
+	margin-top: 40%;
+}
+
+.header-background-button{
+	height: 30px;
+	width: 100%;
+	max-width: 200px;
+	margin: 0 auto;
+	margin-top: 5%;
+	text-align: center;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.header-navigation-menu-mobile-box{
+	width: 100%;
+	max-width: 220px;
+	height: 0%;
+	margin: 0 auto;
+	margin-bottom: 0px;
+}
+
+
+.header-navigation-menu-mobile{
+	margin-bottom: 10px;
+	margin: 0 auto;
+}
+
+.menu-mobile-item{
+	float: none;
+	margin-bottom: 10px;
+
+}
+
+.menu-mobile-item-link{
+	font-size: 28px;
+	margin-top: 10px;
+	line-height: 35px;
+	width: 100%;
+	max-width: 220px;
+	height: 35px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.menu-mobile-item-link:hover{
+	background: rgba(130,96,105,0.4);
+}
+
+.header-navigation{
+	height: 45px;
+	width: 100%;
+	background: #CFBA2F;
+	border-top: 1px solid #B5B5B5;
+}
+
+.header-mobile-contact{
+	width: 100%;
+	max-width: 150px;
+	height: 40px;
+	margin-right: 0px;
+	margin-top: 2px;
+	float: right;	
+}
+
+.header-contact-ico{
+	width: 24px;
+	height: 24px;
+	margin-top: 8px;
+	float: left;
+	background: url(../img/ico/facebook.png) center center no-repeat;
+	background-size:100%;
+}
+
+.header-contact-ico:hover{
+	
+	background: url(../img/ico/facebookh.png)center center no-repeat;
+	background-size:100%;
+}
+.header-contact-phone{
+	font-size: 10px;
+	margin-left: 10px;
+	float: left;
+	color: #404040;
+}
+
+.header-contact-callme{
+	width: 100%;
+	max-width: 130px;
+	height: 100%;
+	max-height: 18px;
+	font-size: 14px;
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding-top: 0px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+}
+
+
+/*MEDIA-320px*/
+@media screen and (max-width: 320px){
+
+.header-logo{
+	height: 100%;
+	max-height: 40px;
+	width: 100%;
+	max-width: 120px;
+	margin-top: 5px;
+	margin-right: 2%;
+	float: right;
+}
+
+.header-contact{
+	width: 100%;
+	max-width: 160px;
+	height: 50px;
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+}
+
+.header-contact-phone{
+	font-size: 11px;
+	margin-left: 10px;
+	font-weight: bold;
+	float: left;
+	color: #404040;
+}
+
+.header-contact-callme{
+	width: 100%;
+	max-width: 100px;
+	line-height: 15px;
+	font-size: 12px;
+	text-align: center;
+	background: #696069;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	border: 1px solid white;
+}
+}

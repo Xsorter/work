@@ -1,0 +1,699 @@
+/*MEDIA-1368px*/
+@media screen and (max-width: 1368px){
+
+
+.items-box{
+	width: 100%;
+	position: static;
+	height: 400px;
+	margin: auto;
+}
+
+.deliver{
+	width: 100%;
+	height: 1100px;
+	background: white;
+	position: absolute;
+	margin-top: 5100px;
+}
+
+footer{
+	height: 150px;
+	width: 100%;
+	background: url(../img/grass4.png) center no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin-top: 6800px;
+}
+}
+
+
+@media screen and (max-width: 1200px){
+
+
+.content-wrapper{
+	border: none;
+}
+
+.items-box{
+	width: 100%;
+	position: static;
+	height: 350px;
+	margin: auto;
+}
+
+.deliver{
+	width: 100%;
+	height: 1100px;
+	background: white;
+	position: absolute;
+	margin-top: 4650px;
+}
+
+footer{
+	height: 150px;
+	width: 100%;
+	background: url(../img/grass4.png) center no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin-top: 6400px;
+}
+}
+
+@media screen and (max-width: 1170px){
+
+.header-menu-box{
+	margin-left: 150px;
+}
+
+.header-menu li{
+	display: inline-block;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 18px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-bottom: 2px solid white;	
+}
+.header-menu a{
+	line-height: 78px;
+	display: block;
+	text-decoration: none;
+	color: #2e9500;
+}
+.header-phone{
+	font-family: 'Poiret One', cursive;
+	display: block;
+	float: right;
+	font-size: 18px;
+	margin-top: -50px;
+	margin-right: 90px;
+	font-weight: bold;
+	color: #2e9500;
+}
+
+.items-box-text-wrapper p{
+	line-height: 20px;
+	text-align: left;
+	font-size: 80%;
+	text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.75);
+}
+}
+
+
+
+
+
+
+@media screen and (max-width: 980px){
+
+.items-box{
+	width: 100%;
+	position: static;
+	height: 300px;
+	margin: auto;
+}
+
+.deliver{
+	width: 100%;
+	height: 1100px;
+	background: white;
+	position: absolute;
+	margin-top: 3950px;
+}
+
+footer{
+	height: 150px;
+	width: 100%;
+	background: url(../img/grass4.png) center no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin-top: 5800px;
+}
+
+.header-menu-box{
+	margin-left: 150px;
+}
+
+.header-menu li{
+	display: inline-block;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 12px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-bottom: 2px solid white;	
+}
+.header-menu a{
+	line-height: 78px;
+	display: block;
+	text-decoration: none;
+	color: #2e9500;
+}
+.header-phone{
+	font-family: 'Poiret One', cursive;
+	display: block;
+	float: right;
+	font-size: 12px;
+	margin-top: -50px;
+	margin-right: 90px;
+	font-weight: bold;
+	color: #2e9500;
+}
+
+.header-water{
+	display: none;
+}
+}
+
+
+
+
+@media screen and (max-width: 768px){
+
+#scene{
+	display: none;
+}
+
+.content-wrapper-text{
+	padding: 70px 40px 80px 40px;
+	text-align: center;
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: #282d31;
+}
+
+
+.background{
+	background: url(../img/back3.jpg) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+}
+
+.background-title{
+	height: 150px;
+	width: 100%;
+	/*background: rgba(65,118,0,0.3);*/
+	margin-top: 10%;
+	position: absolute;
+}
+
+.background-title-text{
+	font-family: 'Poiret One', cursive;
+	font-size: 108px;
+	display: block;
+	float: right;
+	margin-top: 10px;
+	margin-right: 150px;
+	color: white;
+	text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.75);
+	text-align: center;
+	line-height: 70px;
+}
+
+.background-title-text span{
+	font-size: 40px;
+
+}
+
+
+.items-box{
+	width: 100%;
+	position: static;
+	height: 250px;
+	margin: auto;
+}
+
+
+.deliver{
+	width: 100%;
+	height: 1100px;
+	background: white;
+	position: absolute;
+	margin-top: 3250px;
+}
+
+footer{
+	height: 150px;
+	width: 100%;
+	background: url(../img/grass4.png) center no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin-top: 5000px;
+}
+
+.header-menu-box{
+	margin-left: 150px;
+}
+
+.header-menu li{
+	display: inline-block;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 12px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-bottom: 2px solid white;	
+}
+.header-menu a{
+	line-height: 78px;
+	display: block;
+	text-decoration: none;
+	color: #2e9500;
+}
+.header-phone{
+	font-family: 'Poiret One', cursive;
+	display: block;
+	float: right;
+	font-size: 12px;
+	margin-top: -50px;
+	margin-right: 90px;
+	font-weight: bold;
+	color: #2e9500;
+}
+
+.header-water{
+	display: none;
+}
+}
+
+
+@media screen and (max-width: 698px){
+
+#scene{
+	display: block;
+}
+
+#scene img{
+	width: 100px;
+	height: 70px;
+}
+
+header{
+	height: 50px;
+}
+
+.header-logo{
+	height: 50px;
+}
+
+.header-logo img{
+	height: 40px;
+}
+
+.header-contact-ico{
+	display: none;
+}
+
+.header-navicon{
+	display: block;
+	float: right;
+	margin-right: 20px;
+}
+
+.header-menu-box{
+	display: none;
+}
+
+.header-phone{
+	display: none;
+}
+
+.background{
+	background: url(../img/back3.jpg) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+}
+
+.background-title{
+	height: 150px;
+	width: 100%;
+	/*background: rgba(65,118,0,0.3);*/
+	margin-top: 5%;
+	position: absolute;
+}
+
+.background-title-text{
+	font-size: 108px;
+	float: none;
+	margin-top: 10px;
+	margin-right: 0px;
+	text-align: center;
+	line-height: 70px;
+}
+
+.background-title-text span{
+	font-size: 30%;
+
+}
+
+.content-wrapper-text{
+	padding: 90px 40px 80px 40px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.content-water{
+	position: absolute;
+	margin-top: 500px;
+	margin-left: -510px;
+}
+
+.info-box-image{
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	max-width: 320px;
+}
+
+.info-box-text{
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 80px;
+	padding-left: 10px;	 
+	padding-right: 10px;
+	color: #444444;
+}
+
+.items-title{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 50px;
+}
+
+
+.items-box-image{
+ 	width:100%;
+}
+
+.items-box-text-wrapper{
+	width: 30%;
+	height: 50%;
+	color: white;
+	background: rgba(0,0,0,0.0);
+	margin-left: 1%;
+	margin-top: 1%;
+	position: absolute;
+	/*margin-top: 15%;*/
+ 	font-family:'Open Sans', sans-serif;
+ 	z-index: 20;
+}
+
+.items-box-text-wrapper p{
+	line-height: 15px;
+	text-align: left;
+	font-size: 70%;
+	text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.75);
+}
+
+
+.items-box{
+	width: 100%;
+	position: static;
+	height: 220px;
+	margin: auto;
+}
+
+
+.deliver{
+	width: 100%;
+	height: 1100px;
+	background: white;
+	position: absolute;
+	margin-top: 6000px;
+}
+
+footer{
+	height: 150px;
+	width: 100%;
+	background: url(../img/grass4.png) center no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin-top: 7700px;
+}
+
+
+
+
+
+.lbase{
+	margin-top: -100px;
+	margin-right: 50px;
+}	
+
+.lone{
+	margin-top: -40px;
+	margin-left: 140px;
+}
+
+.ltwo{
+	margin-top: -80px;
+	margin-left: 50px;
+}
+
+.lthree{
+	margin-top: -120px;
+	margin-left: 150px;
+}
+
+.lf{
+	margin-top: -160px;
+	margin-left: 120px;
+}
+
+.lfive{
+	margin-top: -200px;
+	margin-left: 200px;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 480px){
+
+#scene{
+	display: block;
+}
+
+#scene img{
+	width: 100px;
+	height: 70px;
+}
+
+header{
+	height: 50px;
+}
+
+.header-logo{
+	height: 50px;
+}
+
+.header-logo img{
+	height: 40px;
+}
+
+.header-contact-ico{
+	display: none;
+}
+
+.header-navicon{
+	display: block;
+	float: right;
+	margin-right: 20px;
+}
+
+.header-menu-box{
+	display: none;
+}
+
+.header-phone{
+	display: none;
+}
+
+.background{
+	background: url(../img/back3.jpg) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+}
+
+.background-title{
+	height: 150px;
+	width: 100%;
+	/*background: rgba(65,118,0,0.3);*/
+	margin-top: 5%;
+	position: absolute;
+}
+
+.background-title-text{
+	font-size: 108px;
+	float: none;
+	margin-top: 10px;
+	margin-right: 0px;
+	text-align: center;
+	line-height: 70px;
+}
+
+.background-title-text span{
+	font-size: 30%;
+
+}
+
+.content-wrapper-text{
+	padding: 90px 40px 80px 40px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.content-water{
+	position: absolute;
+	margin-top: 500px;
+	margin-left: -510px;
+}
+
+.info-box-image{
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	max-width: 320px;
+}
+
+.info-box-text{
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 80px;
+	padding-left: 10px;	 
+	padding-right: 10px;
+	color: #444444;
+}
+
+.items-title{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 50px;
+}
+
+
+.items-box-image{
+ 	width:100%;
+}
+
+.items-box-text-wrapper{
+	width: 30%;
+	height: 50%;
+	color: white;
+	background: rgba(0,0,0,0.0);
+	margin-left: 1%;
+	margin-top: 1%;
+	position: absolute;
+	/*margin-top: 15%;*/
+ 	font-family:'Open Sans', sans-serif;
+ 	z-index: 20;
+}
+
+.items-box-text-wrapper p{
+	line-height: 15px;
+	text-align: left;
+	font-size: 70%;
+	text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.75);
+}
+
+
+.items-box{
+	width: 100%;
+	position: static;
+	height: 220px;
+	margin: auto;
+}
+
+
+.deliver{
+	width: 100%;
+	height: 1100px;
+	background: white;
+	position: absolute;
+	margin-top: 6000px;
+}
+
+footer{
+	height: 150px;
+	width: 100%;
+	background: url(../img/grass4.png) center no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin-top: 8200px;
+}
+
+
+
+
+
+.lbase{
+	margin-top: -100px;
+	margin-right: 50px;
+}	
+
+.lone{
+	margin-top: -40px;
+	margin-left: 140px;
+}
+
+.ltwo{
+	margin-top: -80px;
+	margin-left: 50px;
+}
+
+.lthree{
+	margin-top: -120px;
+	margin-left: 150px;
+}
+
+.lf{
+	margin-top: -160px;
+	margin-left: 120px;
+}
+
+.lfive{
+	margin-top: -200px;
+	margin-left: 200px;
+}
+
+
+}
+
+@media screen and (max-width: 400px){
+	.background-title-text span{
+	font-size: 25%;
+}
+
+
+footer{
+	height: 150px;
+	width: 100%;
+	background: url(../img/grass4.png) center no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin-top: 8400px;
+}
+
+}

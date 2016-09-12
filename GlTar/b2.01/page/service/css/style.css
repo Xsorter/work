@@ -1,0 +1,350 @@
+
+body{
+	background: url(../img/pattern4-3.jpg) repeat;
+}
+
+/*header start*/
+
+header{
+	width: 100%;
+	height: 100px;
+}
+
+.header-navicon{
+	height: 5px; 
+	width: 40px;
+	display: none;
+	border-bottom: 17px double #CFBA2F; 
+    border-top: 6px solid  #CFBA2F; 
+    content:"";
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.header-top-wrapper{
+	height: 100px;
+	width: 100%;
+	background: rgba(92,95,112,0.2);
+	border-bottom: 1px solid rgba(92,95,112,0.0);
+	transition: 1s ease;
+	
+}
+
+.header-top-wrapper:hover{
+	background: rgba(92,95,112,0.6);
+	/*background: url(../img/pattern5.png) repeat ;*/
+	border-bottom: 1px solid #B5B5B5;
+	transition: 1s ease;
+}
+
+.header-logo{
+	height: 70px;
+	width: 240px;
+	margin-top: 15px;
+	margin-left: 15px;
+	-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	float: left;
+}
+
+.header-navigation-menu-box{
+	width: 100%;
+	max-width: 1200px;
+	height: 100px;
+	margin-top: 0px;
+	margin-left: 5%;
+	float: left;
+}
+
+.menu-item{
+	float: left;
+}
+
+.menu-item-link{
+	color: white;
+	font-size: 26px;
+	font-family: 'Poiret One', cursive;
+	text-decoration: none;
+	display: block;
+	line-height: 100px;
+	width: 160px;
+	height: 100px;
+	text-align: center;	
+	cursor: pointer;
+}
+
+.menu-item-link:hover{
+	background: rgba(39,40,47,0.5);
+	/*color: #ffe208;*/
+	/*border-left: 2px #ffe208 solid;*/
+	border-bottom: 2px #ffe208 solid;
+	box-sizing:border-box;
+}
+
+
+.header-navigation-menu-mobile-box{
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+	margin: 0 auto;
+	display: none;
+}
+
+.menu-mobile-item{
+	float: none;
+	margin-bottom: 10px;
+
+}
+
+.menu-mobile-item-link{
+	color: white;
+	font-size: 32px;
+	font-family: 'Poiret One', cursive;
+	margin-top: 10px;
+	text-decoration: none;
+	display: block;
+	background: rgba(105,96,105,0.2);
+	line-height: 45px;
+	width: 100%;
+	max-width: 370px;
+	height: 45px;
+	text-align: center;
+	border: 3px #ffe208 double;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+}
+
+.menu-mobile-item-link:hover{
+	background: rgba(130,96,105,0.4);
+}
+
+.header-contact-ico{
+	width: 48px;
+	height: 48px;
+	margin-top: 15px;
+	float: left;
+	background: url(../img/ico/facebook.png);
+}
+
+.header-contact-ico:hover{
+	
+	background: url(../img/ico/facebookh.png);
+}
+
+.header-contact{
+	width: 300px;
+	height: 80px;
+	margin-right: 30px;
+	margin-top: 10px;
+	float: right;
+}
+
+.header-contact-phone{
+	font-size: 24px;
+	margin-left: 10px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	float: left;
+	color: #FFFF93;
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.62);
+}
+
+.header-contact-callme{
+	width: 220px;
+	height: 30px;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	font-size: 22px;
+	text-align: center;
+	background: #696069;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-top: 7px;
+	border: 2px solid #ffe208;
+	border-radius: 5px;
+	transiton: 1s ease;
+	-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+}
+
+.header-contact-callme:hover{
+	background: rgba(130,96,105,0.4);
+	transiton: 1s ease;	
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	cursor: pointer;
+}
+
+/*header end*/
+
+/*main block*/
+.content{
+	width: 100%;
+	height: 100%;
+	background: #eeeef4;
+}
+
+.content-box{
+	width: 900px;
+	height: 950px;
+	margin: auto;
+}
+
+.content-box-wrapper{
+	margin-top: 30px;
+	height: 920px;
+	width: 100%;
+	max-width: 270px;
+	float: left;
+	margin-left: 20px;
+}
+
+.content-box-wrapper-title{
+	height: 120px;
+	width: 100%;
+	background: #bbd3ec;
+	outline: 10px solid rgba(255,255,255,0.8); 
+    outline-offset: -10px;
+    -webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
+	-moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
+	box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52); 
+}
+
+.content-box-wrapper-title p{
+	text-align: center;
+	padding: 40px 50px 50px 50px;
+	font-family: 'Poiret One', cursive;
+	font-size: 22px;
+	font-weight: bold;
+
+}
+
+.content-box-wrapper-info{
+	height: 600px;
+	width: 100%;
+	background: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.content-box-wrapper-info p{
+	padding: 20px 20px 20px 20px;
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 18px;
+	text-align: center;
+
+}
+
+.content-box-wrapper-info p span{
+	font-weight: bold;
+}
+
+
+.content-box-wrapper-button{
+	height: 120px;
+	width: 90%;
+	margin: auto;
+	transition: 0.4s ease;
+	background: #931614;
+}
+
+.content-box-wrapper-button:hover{
+	background: #FF0007;
+	width: 100%;
+	transition: 0.4s ease;
+	cursor: pointer;
+}
+
+.content-box-wrapper-button p{
+	text-align: center;
+	padding: 50px 50px 50px 50px;
+	font-family: 'Poiret One', cursive;
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+}
+
+.button-enter p{
+	padding: 40px 50px 50px 50px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer{
+	height: 100px;
+	width: 100%;
+	background: rgba(92,95,112,0.7);
+	border-top: 1px solid #B5B5B5;
+}
+
+.header-navigation-ico{
+	width: 48px;
+	height: 48px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 30px;
+	background: url(../img/ico/facebook.png);	
+}
+
+.header-navigation-ico:hover{
+	background: url(../img/ico/facebookh.png);
+}
+
+.header-copyright{
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 12px;
+	text-align: right;
+	margin-top: 80px;
+	margin-right: 10px;
+}
+
+.header-copyright-mobile{
+	font-family: 'Poiret One', cursive;
+	color: black;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 15px;
+	display: none;
+}
+
+.header-contact-ico-bottom{
+	width: 48px;
+	height: 48px;
+	margin-top: 50px;
+	float: left;
+	background: url(../img/ico/facebook.png);
+}
+
+.header-contact-ico-bottom:hover{
+	
+	background: url(../img/ico/facebookh.png);
+}
+
+.header-mobile-contact{
+	display: none;
+	width: 100%;
+	max-width: 200px;
+	height: 45px;
+	margin-right: 0px;
+	margin-top: 4px;
+	float: right;	
+}

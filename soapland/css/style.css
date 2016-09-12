@@ -1,0 +1,434 @@
+
+header{
+	height: 80px;
+	width: 100%;
+	background: white;
+}
+
+.header-logo{
+	margin-left:10px;
+	margin-top: 4px;
+	position: relative;
+	float: left;
+}
+
+.header-contact-ico{
+	width: 48px;
+	height: 48px;
+	margin-right: 20px;
+	margin-top: -62px;
+	float: right;
+	background: url(../img/ico/facebook.png);
+}
+
+.header-contact-ico:hover{
+	background: url(../img/ico/facebookh.png);
+}
+
+.header-navicon{
+	height: 5px; 
+	width: 40px;
+	display: none;
+	border-bottom: 17px double #459300; 
+    border-top: 6px solid  #459300; 
+    content:"";
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+
+.header-menu-mobile{
+	display: none;
+	margin-bottom: 5px;
+	margin-top: 30px;
+	
+}
+
+.header-menu-mobile-box{
+
+}
+
+.header-menu-mobile li{
+	text-align: center;
+	
+}
+
+.header-menu-mobile a{
+	margin: auto;
+	display: block;
+	line-height: 50px;
+	font-family: 'Poiret One', cursive;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+	color: #459300;
+	width: 80%;
+	background: rgba(160,204,6,0.2);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	transition: 1s ease-out 0.5s;
+}
+
+
+
+
+
+
+
+.header-menu{
+	
+}
+
+.header-menu-box{
+	margin-left: 150px;
+}
+
+
+.header-menu li{
+	display: inline-block;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 24px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-bottom: 2px solid white;	
+}
+
+.header-menu a:hover{
+	color: black;
+
+}
+
+.header-menu li:hover{
+	background: #9bf076;
+	color: black;
+	border-bottom: 2px solid #206800;
+}
+
+.header-menu li:first-child:hover{
+	background: #fab000;
+	color: black;
+	border-bottom: 2px solid #206800;
+}
+
+
+.header-menu a{
+	line-height: 78px;
+	display: block;
+	text-decoration: none;
+	color: #2e9500;
+}
+
+.header-phone{
+	font-family: 'Poiret One', cursive;
+	display: block;
+	float: right;
+	font-size: 22px;
+	margin-top: -50px;
+	margin-right: 90px;
+	font-weight: bold;
+	color: #2e9500;
+}
+
+.header-water{
+	position: absolute;
+	z-index: 15;
+	margin-top: -500px;
+	margin-left: -200px;
+}
+
+.background{
+	background: url(../img/back3.jpg) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+}
+
+.background-title{
+	height: 150px;
+	width: 100%;
+	/*background: rgba(65,118,0,0.3);*/
+	margin-top: 10%;
+	position: absolute;
+}
+
+.background-title-text{
+	font-family: 'Poiret One', cursive;
+	font-size: 108px;
+	display: block;
+	float: right;
+	margin-top: 10px;
+	margin-right: 150px;
+	color: white;
+	text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.75);
+	text-align: center;
+	line-height: 70px;
+}
+
+.background-title-text span{
+	font-size: 40px;
+
+}
+
+
+.content-water{
+	position: absolute;
+	margin-top: 500px;
+	margin-left: -400px;
+}
+
+.content-grass{
+	margin-top: -100px;
+	position: absolute;
+}
+
+.content-wrapper{
+	display: block;
+	width: 100%;
+	height: auto;
+	max-width: 900px;
+	position: relative;
+	z-index: 0;
+	margin: auto;
+	border: 1px solid #4fb75b;
+	border-radius:10px;
+	margin-bottom: 70px;
+	margin-top: -50px;
+	overflow: hidden;
+	
+	/*-webkit-box-shadow: 2px 1px 14px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: 2px 1px 14px 0px rgba(0,0,0,0.43);
+	box-shadow: 2px 1px 14px 0px rgba(0,0,0,0.43);*/
+}
+
+.content-wrapper-text{
+	padding: 30px 40px 80px 40px;
+	text-align: center;
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: #282d31;
+}
+
+.content-wrapper-text a{
+	color: #4fb75b;	
+}
+
+.content-wrapper-text a:hover{
+	color: #4fb75b;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+
+
+
+.info-box{
+	width: 100%;
+	height: auto;
+}
+
+.info-box-title{
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 42px;
+	padding-top: 20px;
+	color: #444444;
+}
+
+.info-box-text{
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 80px;
+	color: #444444;
+}
+
+.info-box-text a{
+	text-decoration: none;
+	color: green;
+}
+
+.info-box-image{
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.info-box-wrapper{
+	display: block;
+	width: 100%;
+	height: auto;
+	max-width: 900px;
+	position: relative;
+	z-index: 0;
+	margin: auto;
+	border-radius:10px;
+	margin-bottom: 70px;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+
+.items{
+	width: 100%;
+	position: relative;
+}
+
+.items-box{
+	width: 100%;
+	position: static;
+	height: 500px;
+	margin: auto;
+}
+
+.items-title{
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 24px;
+	padding-top: 20px;
+	color: #444444;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 50px;
+}
+
+.deliver{
+	width: 100%;
+	height: 1100px;
+	background: white;
+	position: absolute;
+	margin-top: 6550px;
+}
+
+.deliver-water{
+	position: absolute;
+	margin-top: -1400px;
+	margin-left: -900px;
+}
+
+.items-box-image{
+	overflow:hidden;
+ 	width:50%;
+ 	height:100%;
+ 	float: left;
+ 	color:black;
+}
+
+.items-box-image img:hover{
+	
+    
+}
+
+.items-box-image img{
+	width: 100%;
+	height: 100%;
+	-moz-transition: all 0.6s ease-out;
+	-o-transition: all 0.6s ease-out;
+ 	-webkit-transition: all 0.6s ease-out;
+}
+
+.items-box-image img:hover{
+	-webkit-transform: scale(1.2);
+ 	-moz-transform: scale(1.2);
+ 	-o-transform: scale(1.2);
+}
+
+.items-box-text-wrapper{
+	width: 10%;
+	height: 50%;
+	color: white;
+	background: rgba(0,0,0,0.0);
+	margin-left: 1%;
+	margin-top: 1%;
+	position: absolute;
+	/*margin-top: 15%;*/
+ 	font-family:'Open Sans', sans-serif;
+ 	z-index: 20;
+}
+
+.items-box-text-wrapper p{
+	line-height: 30px;
+	text-align: left;
+	font-size: 100%;
+	text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.75);
+}
+
+.items-box-text-wrapper p span{
+	color: red;
+}
+
+
+
+footer{
+	height: 150px;
+	width: 100%;
+	background: url(../img/grass4.png) center no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin-top: 8380px;
+}
+
+
+
+
+
+
+
+
+.lbase{
+	margin-top: -100px;
+	margin-right: 200px;
+}	
+
+.lone{
+	margin-top: -80px;
+}
+
+.ltwo{
+	margin-top: -160px;
+	
+}
+
+.lthree{
+	margin-top: -240px;
+	
+}
+
+.lf{
+	margin-top: -320px;
+}
+
+.lfive{
+	margin-top: -400px;
+}
+
+#toTop {
+	width:100px;
+	border-radius: 20px;
+	line-height: 20px;
+	border:1px solid #ccc;
+	background:rgba(160,160,160,0.3);
+	text-align:center;
+	padding:5px;
+	position:fixed;
+	bottom:10px; /* отступ кнопки от нижнего края страницы*/
+	right:10px;
+	cursor:pointer;
+	display:none;
+	color:#333;
+	font-family:verdana;
+	font-size:11px;
+	color: green;
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	font-weight: bold;
+}
