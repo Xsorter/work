@@ -311,8 +311,9 @@ header{
 
 .deliver-water{
 	position: absolute;
-	margin-top: -1400px;
-	margin-left: -900px;
+	height: 70%;
+	margin-top: -1086px;
+	margin-left: -700px;
 }
 
 .items-box-image{
