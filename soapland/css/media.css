@@ -4,27 +4,9 @@
 
 .items-box{
 	width: 100%;
-	position: static;
-	height: 400px;
 	margin: auto;
 }
 
-.deliver{
-	width: 100%;
-	height: 1100px;
-	background: white;
-	position: absolute;
-	margin-top: 5660px;
-}
-
-footer{
-	height: 150px;
-	width: 100%;
-	background: url(../img/grass4.png) center no-repeat;
-	background-size: cover;
-	position: absolute;
-	margin-top: 7390px;
-}
 }
 
 
@@ -37,27 +19,9 @@ footer{
 
 .items-box{
 	width: 100%;
-	position: static;
-	height: 350px;
 	margin: auto;
 }
 
-.deliver{
-	width: 100%;
-	height: 1100px;
-	background: white;
-	position: absolute;
-	margin-top: 4950px;
-}
-
-footer{
-	height: 150px;
-	width: 100%;
-	background: url(../img/grass4.png) center no-repeat;
-	background-size: cover;
-	position: absolute;
-	margin-top: 6700px;
-}
 }
 
 @media screen and (max-width: 1170px){
@@ -109,27 +73,9 @@ footer{
 
 .items-box{
 	width: 100%;
-	position: static;
-	height: 300px;
 	margin: auto;
 }
 
-.deliver{
-	width: 100%;
-	height: 1100px;
-	background: white;
-	position: absolute;
-	margin-top: 4250px;
-}
-
-footer{
-	height: 150px;
-	width: 100%;
-	background: url(../img/grass4.png) center no-repeat;
-	background-size: cover;
-	position: absolute;
-	margin-top: 6000px;
-}
 
 .header-menu-box{
 	margin-left: 150px;
@@ -221,28 +167,10 @@ footer{
 
 .items-box{
 	width: 100%;
-	position: static;
-	height: 250px;
 	margin: auto;
 }
 
 
-.deliver{
-	width: 100%;
-	height: 1100px;
-	background: white;
-	position: absolute;
-	margin-top: 3550px;
-}
-
-footer{
-	height: 150px;
-	width: 100%;
-	background: url(../img/grass4.png) center no-repeat;
-	background-size: cover;
-	position: absolute;
-	margin-top: 5300px;
-}
 
 .header-menu-box{
 	margin-left: 150px;
@@ -278,6 +206,27 @@ footer{
 	display: none;
 }
 }
+
+@media screen and (max-width: 800px){
+	.items-box-wrapper{
+		width: 100%;
+		display: block;
+	}
+
+	.items-box-wrapper:nth-child(odd){
+		margin-left:0;
+	}
+
+	.items{
+		padding: 0 10px 0 10px;
+	}
+
+	.items-box-text-box{
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+}
+
 
 
 @media screen and (max-width: 698px){
@@ -419,30 +368,8 @@ header{
 
 .items-box{
 	width: 100%;
-	position: static;
-	height: 220px;
 	margin: auto;
 }
-
-
-.deliver{
-	width: 100%;
-	height: 1100px;
-	background: white;
-	position: absolute;
-	margin-top: 6500px;
-}
-
-footer{
-	height: 150px;
-	width: 100%;
-	background: url(../img/grass4.png) center no-repeat;
-	background-size: cover;
-	position: absolute;
-	margin-top: 8150px;
-}
-
-
 
 
 
@@ -621,28 +548,10 @@ header{
 
 .items-box{
 	width: 100%;
-	position: static;
-	height: 220px;
 	margin: auto;
 }
 
 
-.deliver{
-	width: 100%;
-	height: 1100px;
-	background: white;
-	position: absolute;
-	margin-top: 6500px;
-}
-
-footer{
-	height: 150px;
-	width: 100%;
-	background: url(../img/grass4.png) center no-repeat;
-	background-size: cover;
-	position: absolute;
-	margin-top: 8550px;
-}
 
 
 
@@ -686,14 +595,5 @@ footer{
 	font-size: 25%;
 }
 
-
-footer{
-	height: 150px;
-	width: 100%;
-	background: url(../img/grass4.png) center no-repeat;
-	background-size: cover;
-	position: absolute;
-	margin-top: 8700px;
-}
 
 }
