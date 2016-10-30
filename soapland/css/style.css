@@ -386,14 +386,28 @@ header{
 	float: right;
 }
 
-.items-box-text-box ul li div{
+.items-box-text-box ul li div {
 	height: 28px;
 	margin-top: 4px; 
 	width: 130px; 
 	background: #b3ffb3;
 	float:right;
 	border-radius: 7px;
+	border:1px solid white;
 }
+
+.items-box-text-box ul li div:hover{
+	background: white;
+	cursor: pointer;
+	border:1px solid #32a200;
+}
+
+
+.items-box-text-box ul li div:hover .flaticon-gift{
+	transition: all 0.3s;
+	transform: rotate(20deg);
+}
+
 
 .items-box-text-buy{
 	float: left;
@@ -479,4 +493,10 @@ footer{
 	float: left;
 	margin-left: 3px;
 	margin-top: 2px;
+	transition: all 0.3s;
+}
+
+.flaticon-gift:hover{
+	transition: all 0.3s;
+	transform: rotate(20deg);
 }
