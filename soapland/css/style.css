@@ -72,12 +72,6 @@ header{
 	transition: 1s ease-out 0.5s;
 }
 
-
-
-
-
-
-
 .header-menu{
 	
 }
@@ -85,7 +79,6 @@ header{
 .header-menu-box{
 	margin-left: 150px;
 }
-
 
 .header-menu li{
 	display: inline-block;
@@ -113,7 +106,6 @@ header{
 	color: black;
 	border-bottom: 2px solid #206800;
 }
-
 
 .header-menu a{
 	line-height: 78px;
@@ -173,7 +165,6 @@ header{
 
 }
 
-
 .content-water{
 	position: absolute;
 	margin-top: 500px;
@@ -198,7 +189,6 @@ header{
 	margin-bottom: 70px;
 	margin-top: -50px;
 	overflow: hidden;
-	
 	/*-webkit-box-shadow: 2px 1px 14px 0px rgba(0,0,0,0.43);
     -moz-box-shadow: 2px 1px 14px 0px rgba(0,0,0,0.43);
 	box-shadow: 2px 1px 14px 0px rgba(0,0,0,0.43);*/
@@ -223,9 +213,6 @@ header{
 	text-decoration: none;
 	font-weight: bolder;
 }
-
-
-
 
 .info-box{
 	width: 100%;
@@ -277,7 +264,6 @@ header{
 	overflow: hidden;
 }
 
-
 .items{
 	width: 100%;
 	max-width: 1200px;
@@ -327,7 +313,6 @@ header{
  	width:100%;
  	display:block;
  	color:black;
- 	
  	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.20);
 	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.20);
 	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.20);
@@ -336,8 +321,6 @@ header{
 .items-box-wrapper:nth-child(odd){
 	margin-left: 5.5%;
 }
-
-
 
 .items-box-image img{
 	display: block;
@@ -350,9 +333,7 @@ header{
 .items-box-image img:hover{
 	-webkit-transform: scale(1.2);
  	-moz-transform: scale(1.2);
- 	-o-transform: scale(1.2);
-
- 	
+ 	-o-transform: scale(1.2);	
 }
 
 .items-box-wrapper{
@@ -402,12 +383,11 @@ header{
 	border:1px solid #32a200;
 }
 
-
+/*flaticon icon moving on hover*/
 .items-box-text-box ul li div:hover .flaticon-gift{
 	transition: all 0.3s;
 	transform: rotate(20deg);
 }
-
 
 .items-box-text-buy{
 	float: left;
@@ -417,8 +397,6 @@ header{
 	color: #555;
 
 }
-
-
 
 footer{
 	height: 150px;
