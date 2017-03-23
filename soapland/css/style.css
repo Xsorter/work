@@ -137,6 +137,16 @@ header{
 	background-size: cover;
 	width: 100%;
 	height: 600px;
+	overflow: hidden;
+	position: relative;
+}
+
+.background canvas{
+	-webkit-filter: blur(1.2px);
+    filter: blur(1.2px);
+    opacity: 0.5;
+    position: absolute;
+    z-index: 10
 }
 
 .background-title{
@@ -145,6 +155,7 @@ header{
 	/*background: rgba(65,118,0,0.3);*/
 	margin-top: 10%;
 	position: absolute;
+	z-index: 999
 }
 
 .background-title-text{
@@ -155,9 +166,15 @@ header{
 	margin-top: 10px;
 	margin-right: 150px;
 	color: white;
-	text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.75);
+	text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.85);
+	font-weight: 700;
 	text-align: center;
 	line-height: 70px;
+}
+
+.background-title-text b{
+	text-transform: uppercase;
+	letter-spacing: 3px;
 }
 
 .background-title-text span{
