@@ -1,0 +1,117 @@
+/*body{
+	p{
+		font-family: 'PT Sans', sans-serif;
+		font-size: 150%;
+
+	}
+
+	span{
+		font-family: 'El Messiri', sans-serif;
+		font-size: 200%;
+		font-weight: bold;
+	}
+}*/
+
+header{
+	background: url('../img/tunnel.jpg')center center no-repeat;
+	background-size: cover;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	.pattern-wrapper{
+		background: url('../img/patterns/subtle_carbon.png')repeat;
+		padding: 20px;
+		opacity: 0.8;
+		h1{
+			color: #fff;
+			font-family: 'PT Sans', sans-serif;
+			font-weight: bold;
+			font-size: 190%;
+			@media screen and (max-width: 960px){
+				font-size: 100%;
+			}
+		}
+		p{
+			margin-top: 10px;
+			color: #fff;
+		}
+		@media screen and (max-width: 960px){
+				padding: 10px;
+				opacity: 0.8;
+			}
+	}
+	.logo-wrapper{
+		width: 100%; 
+		height: 140px;
+		box-sizing: border-box;
+		@media screen and (max-width: 960px){
+				height: 80px;
+			}
+		
+		img{
+			float: right;
+			margin-top: 14px;
+			margin-right: 14px;
+			@media screen and (max-width: 960px){
+				height: 100%;
+			}
+			@media screen and (max-width: 767px){
+				height: 65%;
+			}
+		}
+	}
+	.header-wrapper{
+		max-width: 1200px;
+		width: 100%;
+		box-sizing: border-box;
+		margin: 0 auto;
+		padding: 20px;
+		clear: both;
+		overflow: hidden;
+		@media screen and (max-width: 767px){
+				padding-top: 0;
+				padding-left:5px;
+				padding-right:5px;
+			}
+	}
+
+}
+
+
+.main-block-even{
+	height: 500px;
+	background: green;	
+}
+
+.main-block-odd{
+	height: 500px;
+	background: #fff;
+}
+
+.main-block-first{
+	background: #ececec;
+}
+
+.main-block-second{
+	@extend .main-block-even;
+	background: #fff;
+}
+
+.main-block-third{
+	@extend .main-block-even;
+	background: #ececec;
+}
+
+
+.main-block-canvas{
+	overflow: hidden;
+	position: relative;
+	background: #fff;
+}
+
+footer{
+	height:100px;
+	background: #343434;
+}
+
+

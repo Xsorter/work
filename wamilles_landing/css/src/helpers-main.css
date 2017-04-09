@@ -1,0 +1,86 @@
+body p {
+  font-family: 'PT Sans', sans-serif; }
+
+#trianglePath1 {
+  fill: #ececec;
+  stroke: #ececec; }
+
+#trianglePath2 {
+  fill: #9a9a9a;
+  stroke: #9a9a9a; }
+
+/* Triangles */
+.ss-style-triangles {
+  position: relative;
+  background: #f3f3f3; }
+  .ss-style-triangles:before {
+    top: -51px;
+    background: #ececec; }
+  .ss-style-triangles:after {
+    bottom: -51px;
+    z-index: 10;
+    background: inherit;
+    background: #ececec; }
+  .ss-style-triangles:before, .ss-style-triangles:after {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    position: absolute;
+    content: '';
+    pointer-events: none; }
+
+.canvas-wrapper {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  overflow: hidden; }
+
+.canvas-title-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto; }
+
+.canvas-title-wrapper p {
+  position: absolute;
+  width: 300px;
+  left: 50%;
+  margin-left: -150px;
+  text-align: center;
+  z-index: 11;
+  font-size: 175%;
+  top: 40px;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px rgba(5, 5, 0, 0.3);
+  letter-spacing: 0.5px;
+  -webkit-font-smoothing: antialiased; }
+
+#canvas {
+  -webkit-filter: blur(1.1px);
+  filter: blur(1.1px);
+  position: absolute;
+  z-index: 10; }
+
+.register-button {
+  text-decoration: none;
+  display: block;
+  width: 220px;
+  padding: 20px 0 20px 0;
+  border: 2px solid #fd019d;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  text-align: center;
+  background: #fff;
+  color: #fd019d;
+  font-family: 'PT Sans', sans-serif;
+  border-radius: 8px; }
+
+#header-canvas {
+  opacity: 0.6;
+  filter: blur(2px); }
+
+/*# sourceMappingURL=helpers-main.css.map */

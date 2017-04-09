@@ -1,3 +1,96 @@
+/*body{
+	p{
+		font-family: 'PT Sans', sans-serif;
+		font-size: 150%;
 
+	}
+
+	span{
+		font-family: 'El Messiri', sans-serif;
+		font-size: 200%;
+		font-weight: bold;
+	}
+}*/
+header {
+  background: url("../img/tunnel.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  position: relative; }
+  header .pattern-wrapper {
+    background: url("../img/patterns/subtle_carbon.png") repeat;
+    padding: 20px;
+    opacity: 0.8; }
+    header .pattern-wrapper h1 {
+      color: #fff;
+      font-family: 'PT Sans', sans-serif;
+      font-weight: bold;
+      font-size: 190%; }
+      @media screen and (max-width: 960px) {
+        header .pattern-wrapper h1 {
+          font-size: 100%; } }
+    header .pattern-wrapper p {
+      margin-top: 10px;
+      color: #fff; }
+    @media screen and (max-width: 960px) {
+      header .pattern-wrapper {
+        padding: 10px;
+        opacity: 0.8; } }
+  header .logo-wrapper {
+    width: 100%;
+    height: 140px;
+    box-sizing: border-box; }
+    @media screen and (max-width: 960px) {
+      header .logo-wrapper {
+        height: 80px; } }
+    header .logo-wrapper img {
+      float: right;
+      margin-top: 14px;
+      margin-right: 14px; }
+      @media screen and (max-width: 960px) {
+        header .logo-wrapper img {
+          height: 100%; } }
+      @media screen and (max-width: 767px) {
+        header .logo-wrapper img {
+          height: 65%; } }
+  header .header-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px;
+    clear: both;
+    overflow: hidden; }
+    @media screen and (max-width: 767px) {
+      header .header-wrapper {
+        padding-top: 0;
+        padding-left: 5px;
+        padding-right: 5px; } }
+
+.main-block-even, .main-block-second, .main-block-third {
+  height: 500px;
+  background: green; }
+
+.main-block-odd {
+  height: 500px;
+  background: #fff; }
+
+.main-block-first {
+  background: #ececec; }
+
+.main-block-second {
+  background: #fff; }
+
+.main-block-third {
+  background: #ececec; }
+
+.main-block-canvas {
+  overflow: hidden;
+  position: relative;
+  background: #fff; }
+
+footer {
+  height: 100px;
+  background: #343434; }
 
 /*# sourceMappingURL=style-main.css.map */
