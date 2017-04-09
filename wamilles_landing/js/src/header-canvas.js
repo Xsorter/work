@@ -20,13 +20,13 @@ function Particles(){
   this.border = false;
   //particle radius min/max
   this.minRadius = 10; 
-  this.maxRadius = 35;
+  this.maxRadius = 30;
   //particle opacity min/max
   this.minOpacity = .005;
   this.maxOpacity = .3;
   //particle speed min/max
   this.minSpeed = .05;
-  this.maxSpeed = .4;
+  this.maxSpeed = .3;
   //frames per second 
   this.fps = 60;
   //number of particles
