@@ -39,6 +39,10 @@ header {
           font-size: 155%;
           letter-spacing: 1px;
           line-height: 30px; } }
+      @media screen and (min-width: 1890px) {
+        header .pattern-wrapper h1 {
+          font-size: 510%;
+          line-height: 90px; } }
     header .pattern-wrapper p {
       margin-top: 10px;
       color: #fff;
@@ -55,6 +59,10 @@ header {
           header .pattern-wrapper p:nth-child(4) {
             font-size: 78%;
             line-height: 17px; } }
+        @media screen and (min-width: 1890px) {
+          header .pattern-wrapper p:nth-child(4) {
+            font-size: 180%;
+            line-height: 40px; } }
       header .pattern-wrapper p:nth-child(2) {
         font-weight: 700;
         margin-bottom: 10px;

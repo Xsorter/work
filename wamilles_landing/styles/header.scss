@@ -44,6 +44,10 @@ header{
 				letter-spacing: 1px;
 				line-height: 30px;
 			}
+			@media screen and (min-width: 1890px){
+				font-size: 510%;
+				line-height: 90px;
+			}
 		}
 		p{
 			margin-top: 10px;
@@ -60,6 +64,10 @@ header{
 				@media screen and (max-width: 767px){
 					font-size: 78%;
 					line-height: 17px;
+				}
+				@media screen and (min-width: 1890px){
+					font-size: 180%;
+					line-height: 40px;
 				}
 			}
 			&:nth-child(2){
