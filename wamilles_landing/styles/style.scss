@@ -188,14 +188,138 @@ font-family: 'Lora', serif;
 .main-block-third{
 	@extend .main-block-even;
 	background: #ececec;
+	h2{
+		font-family: 'Forum', cursive;
+		text-align: center;
+		font-size: 200%;
+		font-weight: 700;
+		color: #333;
+		max-width: 1200px;
+		margin: 0 auto;
+		display: block;
+		padding-top:75px;
+	}
 }
+
+
+
+
 
 
 .main-block-canvas{
 	overflow: hidden;
 	position: relative;
 	background: #fff;
+	height:auto;
+	margin-bottom:100px;
+	.block-wrapper{
+		max-width: 1200px;
+		margin: 0 auto;
+		margin-top: 40px;
+		&:after{
+			clear: both;
+			overflow: hidden;
+		}
+		ul{
+			margin-top: 20px;
+			li{
+				//background: url('../img/cube.jpg');
+				//background-size: cover;
+				display: block;
+      			width: 90%;
+      			vertical-align: top;
+      			border: 2px solid #eeeeee;
+      			padding: 25px 10px 25px 10px;
+      			text-align: center;
+      			font-size: 115%;
+      			letter-spacing: 0.2px;
+      			vertical-align: top;
+      			box-sizing: border-box;
+      			margin-top: 3px;
+      			position: relative;
+      			transition: color 0.15s;
+      			overflow: hidden;
+      			font-family: 'PT Sans', sans-serif;
+      			color:#333;
+      			margin-top: 15px;
+      			
+				@media screen and (max-width: 767px){
+					width: 95%;
+					float: none;
+					display: block;
+					margin: 0 auto;
+					margin-bottom: 10px;
+				}
+				&:nth-child(even){
+					float: right;
+					@media screen and (max-width: 767px){
+						float: none;
+					}
+				}
+				
+				&:nth-child(odd){
+					float: left;
+					@media screen and (max-width: 767px){
+						float: none;
+					}
+				}
+
+      			&:before,
+      			&:after{
+        			box-sizing: border-box;
+        			content: '';
+        			position: absolute;
+        			border: 2px solid transparent;
+        			width: 0;
+        			height: 0;
+				}
+      			&:before{
+        			top: 0;
+        			left: 0;
+
+				}
+      			&:after{
+        			bottom: 0;
+        			right: 0;
+        		}
+
+				&:hover{
+        			border: 2px solid transparent;
+        			color: #888;
+        			&:before{
+          				width: 100%;
+          				height: 100%;
+          				border-top-color: #8b242b;
+          				border-right-color: #8b242b;
+          				transition:
+            				width 0.15s ease-out,
+            				height 0.15s ease-out 0.15s;
+            		}
+
+            		&:after{
+          				width: 100%;
+          				height: 100%;
+          				border-bottom-color: #8b242b;
+          				border-left-color: #8b242b;
+          				transition:
+            				border-color 0s ease-out 0.2s,
+            				width 0.15s ease-out 0.2s,
+            				height 0.15s ease-out 0.3s;
+            		}
+				}
+       
+			}
+		}
+		
+	}	
+
 }
+
+
+
+
+
+
 
 footer{
 	height:100px;
