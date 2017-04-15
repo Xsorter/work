@@ -445,7 +445,8 @@ var particle = new Particles().init();
 				</span>\
 				<span class="position">\
 					<span class="digit static">0</span>\
-				</span>'
+				</span>\
+				'
 			).appendTo(elem);
 			
 			if(this!="Seconds"){
@@ -505,7 +506,7 @@ var particle = new Particles().init();
 	if((new Date()) > ts){
 		// The new year is here! Count towards something else.
 		// Notice the *1000 at the end - time must be in milliseconds
-		ts = (new Date()).getTime() + 23*24*51*60*1000;
+		ts = (new Date()).getTime() + 16*24*51*60*1000;
 		newYear = false;
 	}
 		
