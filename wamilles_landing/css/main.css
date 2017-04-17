@@ -1166,6 +1166,7 @@ table {
 } /*body{
 	p{
 		font-family: 'PT Sans', sans-serif;
+		font-family: 'Rubik Mono One', sans-serif;
 		font-size: 150%;
 
 	}
@@ -1568,19 +1569,21 @@ font-family: 'Lora', serif;
       border: 1px solid #eeeeee;
       padding: 15px;
       margin-top: 5px;
-      transition: all ease-out 0.1s;
+      transition: all ease-out 0.2s;
       background: #fff; }
       .main-block-steps .steps-wrapper div:hover {
-        transition: all ease-out 0.1s;
+        transition: all ease-out 0.2s;
         transform: scale(1.02);
         -webkit-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.48);
         -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.48);
-        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.48); }
+        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.48);
+        background: url("../img/back-w.jpg") center center no-repeat;
+        background-size: cover; }
       .main-block-steps .steps-wrapper div p:nth-child(1) {
         color: #ec0000;
-        font-weight: 700;
         font-size: 180%;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        font-family: 'Rubik Mono One', sans-serif; }
       .main-block-steps .steps-wrapper div p:nth-child(2) {
         color: #888;
         margin-top: 10px;
