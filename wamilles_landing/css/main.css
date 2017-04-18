@@ -266,7 +266,7 @@ header {
 
 @media screen and (max-width: 767px){
 	.countdownHolder{
-	width:300px;
+	width:290px;
 	font: 25px/1.5 'Open Sans Condensed',sans-serif;
 }
 }
@@ -1264,12 +1264,17 @@ font-family: 'Lora', serif;
     margin-top: -5px; }
     .main-block-countdown-wrapper .count-names span {
       display: inline-block;
+      box-sizing: border-box;
       width: 24%;
       text-align: center;
-      font-family: 'PT Sans', sans-serif; }
+      font-family: 'PT Sans', sans-serif;
+      font-size: 90%; }
+      @media screen and (max-width: 767px) {
+        .main-block-countdown-wrapper .count-names span {
+          width: 23%; } }
     @media screen and (max-width: 767px) {
       .main-block-countdown-wrapper .count-names {
-        width: 300px; } }
+        width: 290px; } }
   .main-block-countdown-wrapper #countdown {
     margin-top: 30px; }
 
@@ -1380,6 +1385,7 @@ font-family: 'Lora', serif;
 
 .main-block-pdf img {
   max-width: 1200px;
+  width: 100%;
   display: block;
   margin: 0 auto;
   margin-top: 20px; }
@@ -1387,7 +1393,9 @@ font-family: 'Lora', serif;
     margin-bottom: 100px; }
   @media screen and (max-width: 767px) {
     .main-block-pdf img {
-      max-width: none; } }
+      max-width: none !important;
+      width: 99% !important;
+      box-sizing: border-box; } }
 
 .main-block-fifth {
   padding-bottom: 40px;
