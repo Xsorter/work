@@ -34,6 +34,8 @@ header {
       font-family: 'PT Sans', sans-serif;
       font-weight: bold;
       font-size: 280%;
+      margin-top: 30px;
+      margin-bottom: 30px;
       line-height: 50px;
       letter-spacing: 2px;
       text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.6), 0px 8px 13px rgba(0, 0, 0, 0.2), 0px 18px 23px rgba(0, 0, 0, 0.3); }
@@ -118,6 +120,9 @@ header {
         header .logo-wrapper p {
           padding: 25px 15px 0 0;
           font-size: 80%; } }
+      header .logo-wrapper p a {
+        text-decoration: none;
+        color: #fff; }
   header .header-wrapper {
     max-width: 1300px;
     padding: 10px;
@@ -149,7 +154,7 @@ header {
 /* Triangles */
 .ss-style-triangles {
   position: relative;
-  background: #f3f3f3; }
+  background: #ececec; }
   .ss-style-triangles:before {
     top: -51px;
     background: #ececec; }
@@ -159,6 +164,31 @@ header {
     background: inherit;
     background: #ececec; }
   .ss-style-triangles:before, .ss-style-triangles:after {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    position: absolute;
+    content: '';
+    pointer-events: none; }
+
+.main-block-partners {
+  position: relative;
+  background: #fff; }
+  .main-block-partners:before {
+    top: -51px;
+    background: #fff;
+    border-top: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4; }
+  .main-block-partners:after {
+    bottom: -51px;
+    z-index: 10;
+    background: inherit;
+    background: #fff;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4; }
+  .main-block-partners:before, .main-block-partners:after {
     left: 50%;
     width: 100px;
     height: 100px;
@@ -187,8 +217,8 @@ header {
   margin-left: -375px;
   text-align: center;
   z-index: 11;
-  font-size: 205%;
-  font-family: 'Forum', cursive;
+  font-size: 195%;
+  font-family: 'PT Sans', sans-serif;
   top: 39px;
   color: #000;
   text-transform: uppercase;
@@ -203,8 +233,8 @@ header {
       margin-left: -150px; } }
 
 #canvas {
-  -webkit-filter: blur(1.1px);
-  filter: blur(1.1px);
+  -webkit-filter: blur(1.4px);
+  filter: blur(1.4px);
   position: absolute;
   z-index: 10; }
 
@@ -1260,7 +1290,7 @@ font-family: 'Lora', serif;
   background: #fff;
   height: auto; }
   .main-block-second h2 {
-    font-family: 'Forum', cursive;
+    font-family: 'PT Sans', sans-serif;
     text-align: center;
     font-size: 200%;
     font-weight: 700;
@@ -1279,18 +1309,6 @@ font-family: 'Lora', serif;
       color: #555;
       font-family: 'PT Sans', sans-serif;
       transition: all ease-out 0.1s; }
-      .main-block-second ol li:before {
-        position: absolute;
-        top: -0.7em;
-        padding-left: 0.4em;
-        padding-right: 0.4em;
-        font-size: 16px;
-        font-weight: bold;
-        color: #3f3f3f;
-        border-radius: 50%;
-        counter-increment: li;
-        content: counter(li);
-        background: #fff; }
       .main-block-second ol li:hover {
         -ms-transform: scale(1.03);
         -webkit-transform: scale(1.03);
@@ -1342,7 +1360,7 @@ font-family: 'Lora', serif;
   height: auto;
   box-sizing: border-box; }
   .main-block-third h2 {
-    font-family: 'Forum', cursive;
+    font-family: 'PT Sans', sans-serif;
     text-align: center;
     font-size: 200%;
     font-weight: 700;
@@ -1359,6 +1377,17 @@ font-family: 'Lora', serif;
     margin-top: 60px; }
     .main-block-third img:nth-child(3) {
       margin-bottom: 60px; }
+
+.main-block-pdf img {
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px; }
+  .main-block-pdf img:nth-child(3) {
+    margin-bottom: 100px; }
+  @media screen and (max-width: 767px) {
+    .main-block-pdf img {
+      max-width: none; } }
 
 .main-block-fifth {
   padding-bottom: 40px;
@@ -1385,7 +1414,7 @@ font-family: 'Lora', serif;
       .main-block-fifth:before {
         opacity: 0.7; } }
   .main-block-fifth h2 {
-    font-family: 'Forum', cursive;
+    font-family: 'PT Sans', sans-serif;
     text-align: center;
     font-size: 200%;
     font-weight: 700;
@@ -1419,6 +1448,14 @@ font-family: 'Lora', serif;
       font-size: 130%;
       margin-top: 15px;
       text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7); }
+      .main-block-fifth ol li:before {
+        content: "\2714";
+        color: #780516;
+        padding-right: 10px; }
+      .main-block-fifth ol li:hover {
+        color: #a3a3a3;
+        transform: scale(1.01);
+        transition: all ease-out 0.1s; }
       @media screen and (max-width: 767px) {
         .main-block-fifth ol li {
           font-size: 115%;
@@ -1487,6 +1524,14 @@ font-family: 'Lora', serif;
         color: #fff;
         text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
         margin-top: 15px; }
+        .main-block-canvas .block-wrapper ul li:before {
+          content: "\2714";
+          color: #780516;
+          padding-right: 10px; }
+        .main-block-canvas .block-wrapper ul li:hover {
+          color: #a3a3a3;
+          transform: scale(1.01);
+          transition: all ease-out 0.1s; }
         @media screen and (max-width: 767px) {
           .main-block-canvas .block-wrapper ul li {
             width: 95%;
@@ -1507,29 +1552,34 @@ font-family: 'Lora', serif;
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
-  width: 49.2%; }
+  width: 49.2%;
+  padding-right: 15px; }
   @media screen and (max-width: 767px) {
     .main-video-testimonial .text-block {
       display: block;
       width: 100%;
       text-align: center; } }
   .main-video-testimonial .text-block h2 {
-    font-family: 'El Messiri', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 220%; }
   .main-video-testimonial .text-block p:nth-child(2) {
     font-size: 130%;
-    margin-top: 15px; }
+    margin-top: 25px; }
   .main-video-testimonial .text-block p:nth-child(3) {
     font-size: 110%;
-    margin-top: 15px;
-    color: #888;
-    margin-top: 5px; }
+    margin-top: 25px;
+    color: #888; }
   .main-video-testimonial .text-block p:nth-child(4) {
     font-size: 110%;
     margin-top: 15px;
     color: #888;
     margin-top: 5px;
     margin-bottom: 20px; }
+  .main-video-testimonial .text-block ul {
+    margin-top: 10px; }
+    .main-video-testimonial .text-block ul li {
+      font-family: 'PT Sans', sans-serif;
+      font-size: 110%; }
 .main-video-testimonial .video-block {
   display: inline-block;
   vertical-align: top;
@@ -1545,7 +1595,7 @@ font-family: 'Lora', serif;
   border-top: 35px solid #d90000;
   padding-bottom: 100px; }
   .main-block-steps h2 {
-    font-family: 'El Messiri', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 220%;
     text-align: center;
     margin-top: 50px;
@@ -1570,7 +1620,8 @@ font-family: 'Lora', serif;
       padding: 15px;
       margin-top: 5px;
       transition: all ease-out 0.2s;
-      background: #fff; }
+      background: #fff;
+      min-height: 300px; }
       .main-block-steps .steps-wrapper div:hover {
         transition: all ease-out 0.2s;
         transform: scale(1.02);
@@ -1579,13 +1630,20 @@ font-family: 'Lora', serif;
         box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.48);
         background: url("../img/back-w.jpg") center center no-repeat;
         background-size: cover; }
+      .main-block-steps .steps-wrapper div:nth-child(2):hover {
+        background: url("../img/back-w2.jpg") center center no-repeat;
+        background-size: cover; }
+      .main-block-steps .steps-wrapper div:nth-child(3):hover {
+        background: url("../img/back-w3.jpg") center center no-repeat;
+        background-size: cover; }
       .main-block-steps .steps-wrapper div p:nth-child(1) {
         color: #ec0000;
         font-size: 180%;
         text-transform: uppercase;
-        font-family: 'Rubik Mono One', sans-serif; }
+        font-family: 'PT Sans', sans-serif; }
       .main-block-steps .steps-wrapper div p:nth-child(2) {
-        color: #888;
+        color: #1a1a1a;
+        font-weight: 700;
         margin-top: 10px;
         text-transform: uppercase; }
       .main-block-steps .steps-wrapper div ul {
@@ -1598,6 +1656,149 @@ font-family: 'Lora', serif;
             content: "\2714";
             color: #e80000;
             padding-right: 10px; }
+    .main-block-steps .steps-wrapper-right div:nth-child(1):hover {
+      background: url("../img/back-w4.jpg") center center no-repeat;
+      background-size: cover; }
+    .main-block-steps .steps-wrapper-right div:nth-child(2):hover {
+      background: url("../img/back-w5.jpg") center center no-repeat;
+      background-size: cover; }
+    .main-block-steps .steps-wrapper-right div:nth-child(3):hover {
+      background: url("../img/back-6.jpg") center center no-repeat;
+      background-size: cover; }
+
+.main-howto {
+  padding-bottom: 100px; }
+  .main-howto h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 220%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px; }
+  .main-howto .main-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 1px dotted #c9c9c9;
+    padding: 40px 20px 40px 20px; }
+    .main-howto .main-wrapper .register-button {
+      margin: 0 auto;
+      margin-top: 40px; }
+  .main-howto-description {
+    width: 49.2%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top; }
+    @media screen and (max-width: 767px) {
+      .main-howto-description {
+        display: block;
+        width: 100%; } }
+    .main-howto-description img {
+      display: inline-block;
+      vertical-align: top; }
+    .main-howto-description p {
+      display: inline-block;
+      vertical-align: top;
+      width: 60%;
+      line-height: 22px; }
+      .main-howto-description p span {
+        font-weight: 700; }
+    .main-howto-description div {
+      margin-bottom: 25px; }
+      @media screen and (max-width: 767px) {
+        .main-howto-description div {
+          margin-left: 10px; } }
+      .main-howto-description div:nth-child(1) p {
+        margin-left: 5px; }
+      .main-howto-description div:nth-child(2) p {
+        margin-left: 20px; }
+      .main-howto-description div:nth-child(3) p {
+        margin-left: 15px; }
+      .main-howto-description div:nth-child(4) p {
+        margin-left: 12px; }
+  .main-howto-video {
+    width: 49.2%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top; }
+    @media screen and (max-width: 767px) {
+      .main-howto-video {
+        display: block;
+        width: 100%; } }
+    .main-howto-video h3 {
+      font-family: 'PT Sans', sans-serif;
+      font-size: 160%;
+      margin-bottom: 20px;
+      color: #454545; }
+      @media screen and (max-width: 767px) {
+        .main-howto-video h3 {
+          text-align: center; } }
+  .main-howto-collage {
+    width: 49.2%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-top: 50px;
+    padding-right: 10px; }
+    @media screen and (max-width: 767px) {
+      .main-howto-collage {
+        display: block;
+        width: 100%; } }
+    .main-howto-collage img {
+      width: 100%; }
+  .main-howto-testimonials {
+    width: 49.2%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-top: 50px;
+    padding-left: 10px; }
+    @media screen and (max-width: 767px) {
+      .main-howto-testimonials {
+        display: block;
+        width: 100%;
+        margin-top: 10px; } }
+    .main-howto-testimonials img {
+      width: 100%; }
+
+.main-block-partners {
+  margin-top: 50px;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4; }
+  .main-block-partners h2 {
+    font-size: 230%;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    margin: 80px 0 50px 0; }
+  .main-block-partners .main-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-bottom: 100px; }
+    .main-block-partners .main-wrapper ul {
+      text-align: center; }
+      .main-block-partners .main-wrapper ul li {
+        display: inline-block;
+        width: 19%;
+        box-sizing: border-box;
+        text-align: center;
+        vertical-align: middle;
+        padding: 0 20px 0 20px;
+        margin-top: 50px;
+        transition: all ease-out 0.1s; }
+        @media screen and (max-width: 767px) {
+          .main-block-partners .main-wrapper ul li {
+            display: block;
+            width: 100%;
+            max-width: 250px;
+            margin: 0 auto;
+            margin-top: 40px; } }
+        .main-block-partners .main-wrapper ul li img {
+          width: 100%; }
+        .main-block-partners .main-wrapper ul li:hover {
+          transition: all ease-out 0.1s;
+          transform: scale(1.05); }
 
 footer {
   height: 100px;

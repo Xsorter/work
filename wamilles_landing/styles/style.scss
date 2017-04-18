@@ -119,7 +119,7 @@ font-family: 'Lora', serif;
 	background: #fff;
 	height: auto;
 	h2{
-		font-family: 'Forum', cursive;
+		font-family: 'PT Sans', sans-serif;
 		text-align: center;
 		font-size: 200%;
 		font-weight: 700;
@@ -139,19 +139,7 @@ font-family: 'Lora', serif;
 			color: #555;
 			font-family: 'PT Sans', sans-serif;
 			transition: all ease-out 0.1s;
-			&:before{
-				position: absolute;
-				top: -0.7em;
-				padding-left: 0.4em;
-				padding-right: 0.4em;
-				font-size: 16px;
-				font-weight: bold;
-				color: #3f3f3f;
-				border-radius: 50%;
-				counter-increment: li;
-				content: counter(li);
-				background: #fff;
-			}
+	
 			&:hover{
 				-ms-transform: scale(1.03); 
     			-webkit-transform: scale(1.03); 
@@ -212,7 +200,7 @@ font-family: 'Lora', serif;
 	height: auto;
 	box-sizing: border-box;
 	h2{
-		font-family: 'Forum', cursive;
+		font-family: 'PT Sans', sans-serif;
 		text-align: center;
 		font-size: 200%;
 		font-weight: 700;
@@ -235,7 +223,20 @@ font-family: 'Lora', serif;
 }
 
 
-
+.main-block-pdf{
+	img{
+		max-width: 1200px;
+		display: block;
+		margin:0 auto;
+		margin-top: 20px;
+		&:nth-child(3){
+			margin-bottom: 100px;
+		}
+		@media screen and (max-width: 767px){
+			max-width: none;
+		}
+	}
+}
 
 
 .main-block-fifth{
@@ -264,7 +265,7 @@ font-family: 'Lora', serif;
 		}
 	}
 	h2{
-		font-family: 'Forum', cursive;
+		font-family: 'PT Sans', sans-serif;
 		text-align: center;
 		font-size: 200%;
 		font-weight: 700;
@@ -303,6 +304,16 @@ font-family: 'Lora', serif;
 			font-size: 130%;
 			margin-top: 15px;
 			text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
+			&:before{
+				content: "\2714";
+				color: #780516;
+				padding-right: 10px;
+			}
+			&:hover{
+				color: #a3a3a3;
+				transform: scale(1.01);
+				transition: all ease-out 0.1s;
+			}
 			@media screen and (max-width: 767px){
 				font-size: 115%;
 				line-height: 25px;
@@ -384,6 +395,16 @@ font-family: 'Lora', serif;
       			color:#fff;
       			text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
       			margin-top: 15px;
+      			&:before{
+					content: "\2714";
+					color: #780516;
+					padding-right: 10px;
+				}
+				&:hover{
+					color: #a3a3a3;
+					transform: scale(1.01);
+					transition: all ease-out 0.1s;
+				}
       			
 				@media screen and (max-width: 767px){
 					width: 95%;
@@ -417,25 +438,26 @@ font-family: 'Lora', serif;
 		vertical-align: top;
 		box-sizing: border-box;
 		width: 49.2%;
+		padding-right:15px;
 		@media screen and (max-width: 767px){
 				display: block;
 				width: 100%;
 				text-align: center;
 			}
 		h2{
-			font-family: 'El Messiri', sans-serif;
+			font-family: 'PT Sans', sans-serif;
 			font-size: 220%;
 		}
 		p{
 			&:nth-child(2){
 				font-size:130%;
-				margin-top: 15px;
+				margin-top: 25px;
 			}
 			&:nth-child(3){
 				font-size:110%;
-				margin-top: 15px;
+				margin-top: 25px;
 				color: #888;
-				margin-top: 5px;
+				
 			}
 			&:nth-child(4){
 				font-size:110%;
@@ -444,6 +466,13 @@ font-family: 'Lora', serif;
 				margin-top: 5px;
 				margin-bottom: 20px;
 			}
+		}
+		ul{
+			margin-top: 10px;
+			li{
+				font-family: 'PT Sans', sans-serif;
+				font-size: 110%;
+			}			
 		}
 	}
 	.video-block{
@@ -464,7 +493,7 @@ font-family: 'Lora', serif;
 	border-top: 35px solid rgb(217, 0, 0);
 	padding-bottom: 100px;
 	h2{
-		font-family: 'El Messiri', sans-serif;
+		font-family: 'PT Sans', sans-serif;
 		font-size: 220%;
 		text-align: center;
 		margin-top: 50px;
@@ -492,6 +521,7 @@ font-family: 'Lora', serif;
 			margin-top: 5px;
 			transition: all ease-out 0.2s;
 			background: #fff;
+			min-height: 300px;
 			&:hover{
 				transition: all ease-out 0.2s;
 				transform: scale(1.02);
@@ -501,16 +531,30 @@ font-family: 'Lora', serif;
 				background: url('../img/back-w.jpg')center center no-repeat;
 				background-size: cover;
 			}
+			&:nth-child(2){
+				&:hover{
+					background: url('../img/back-w2.jpg')center center no-repeat;
+					background-size: cover;
+				}
+			}
+			&:nth-child(3){
+				&:hover{
+					background: url('../img/back-w3.jpg')center center no-repeat;
+					background-size: cover;
+				}
+			}
+			
 			p{
 				&:nth-child(1){
 					color: #ec0000;
 					
 					font-size: 180%;
 					text-transform: uppercase;
-					font-family: 'Rubik Mono One', sans-serif;
+					font-family: 'PT Sans', sans-serif;
 				}
 				&:nth-child(2){
-					color: #888;
+					color: #1a1a1a;
+					font-weight: 700;
 					margin-top: 10px;
 					text-transform: uppercase;
 				}
@@ -529,10 +573,203 @@ font-family: 'Lora', serif;
 				}
 			}
 		}
+
+		&-right{
+			div{
+				&:nth-child(1){
+					&:hover{
+						background: url('../img/back-w4.jpg')center center no-repeat;
+						background-size: cover;
+					}
+				}
+				&:nth-child(2){
+					&:hover{
+						background: url('../img/back-w5.jpg')center center no-repeat;
+						background-size: cover;
+					}
+				}
+				&:nth-child(3){
+					&:hover{
+						background: url('../img/back-6.jpg')center center no-repeat;
+						background-size: cover;
+					}
+				}
+			}
+		}
+
 	}
 }
 
 
+.main-howto{
+	padding-bottom:100px;
+	h2{
+		font-family: 'PT Sans', sans-serif;
+		font-size: 220%;
+		text-align: center;
+		margin-top: 100px;
+		margin-bottom: 50px;
+	}
+	.main-wrapper{
+		max-width: 1200px;
+		width: 100%;
+		box-sizing: border-box;
+		margin: 0 auto;
+		border: 1px dotted #c9c9c9;
+    	padding: 40px 20px 40px 20px;
+    	.register-button{
+    		margin: 0 auto;
+			margin-top: 40px;
+    	}
+	}
+	&-description{
+		width: 49.2%;
+		display: inline-block;
+		box-sizing: border-box;
+		vertical-align: top;
+		@media screen and (max-width: 767px){
+			display: block;
+			width: 100%;
+		}
+		img{
+			display: inline-block;
+			vertical-align: top;
+		}
+		p{
+			display: inline-block;
+			vertical-align: top;
+			width: 60%;
+			line-height: 22px;
+			span{
+				font-weight: 700;
+			}
+		}
+		div{
+			margin-bottom: 25px;
+			@media screen and (max-width: 767px){
+				margin-left: 10px;
+			}
+			&:nth-child(1){
+				p{
+					margin-left: 5px;
+				}
+			}
+			&:nth-child(2){
+				p{
+					margin-left: 20px;
+				}
+			}
+			&:nth-child(3){
+				p{
+					margin-left: 15px;
+				}
+			}
+			&:nth-child(4){
+				p{
+					margin-left: 12px;
+				}
+			}
+		}
+	}
+	&-video{
+		width: 49.2%;
+		display: inline-block;
+		box-sizing: border-box;
+		vertical-align: top;
+		@media screen and (max-width: 767px){
+			display: block;
+			width: 100%;
+		}
+		h3{
+			font-family: 'PT Sans', sans-serif;
+			font-size: 160%;
+			margin-bottom: 20px;
+			color: #454545;
+			@media screen and (max-width: 767px){
+				text-align: center;
+			}
+		}
+	}
+	&-collage{
+		width: 49.2%;
+		display: inline-block;
+		box-sizing: border-box;
+		vertical-align: top;
+		margin-top: 50px;
+		padding-right:10px;
+		@media screen and (max-width: 767px){
+			display: block;
+			width: 100%;
+		}
+		img{
+			width: 100%;
+		}
+	}
+	&-testimonials{
+		width: 49.2%;
+		display: inline-block;
+		box-sizing: border-box;
+		vertical-align: top;
+		margin-top: 50px;
+		padding-left:10px;
+		@media screen and (max-width: 767px){
+			display: block;
+			width: 100%;
+			margin-top: 10px;
+		}
+		img{
+			width: 100%;
+		}
+		
+	}
+}
+
+.main-block-partners{
+	margin-top:50px;
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	h2{
+		font-size: 230%;
+		text-align: center;
+		font-family: 'PT Sans', sans-serif;
+		margin: 80px 0 50px 0;
+	}
+	.main-wrapper{
+		max-width: 1200px;
+		width: 100%;
+		box-sizing: border-box;
+		margin: 0 auto;
+		margin-bottom: 100px;
+		ul{
+			text-align: center;
+			li{
+				display: inline-block;
+				width: 19%;
+				box-sizing: border-box;
+				text-align: center;
+				vertical-align: middle;
+				padding: 0 20px 0 20px;
+    			margin-top: 50px;
+    			transition: all ease-out 0.1s;
+    			@media screen and (max-width: 767px){
+					display: block;
+					width: 100%;
+					max-width: 250px;
+					margin: 0 auto;
+					margin-top: 40px;
+
+				}
+				img{
+					width: 100%;
+				}
+				&:hover{
+					transition: all ease-out 0.1s;
+					transform: scale(1.05);
+				}
+			}
+		}
+	}
+}
 
 footer{
 	height:100px;

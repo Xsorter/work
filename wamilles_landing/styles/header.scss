@@ -36,6 +36,8 @@ header{
 			font-family: 'PT Sans', sans-serif;
 			font-weight: bold;
 			font-size: 280%;
+			margin-top: 30px;
+			margin-bottom: 30px;
 			line-height: 50px;
 			letter-spacing: 2px;
 			text-shadow: 0px 4px 3px rgba(0,0,0,0.6),
@@ -133,6 +135,10 @@ header{
 			@media screen and (max-width: 767px){
 				padding: 25px 15px 0 0;
 				font-size: 80%;
+			}
+			a{
+				text-decoration: none;
+				color: #fff;
 			}
 		}
 	}

@@ -57,7 +57,7 @@ function Particle() {
 	
 	
 	this.draw = function() {
-		ctx.fillStyle = "rgba(120,0,8,0.7)";
+		ctx.fillStyle = "rgba(120,5,22,1)";
 		ctx.beginPath();
 		ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
 		

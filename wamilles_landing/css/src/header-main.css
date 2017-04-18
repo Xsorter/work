@@ -34,6 +34,8 @@ header {
       font-family: 'PT Sans', sans-serif;
       font-weight: bold;
       font-size: 280%;
+      margin-top: 30px;
+      margin-bottom: 30px;
       line-height: 50px;
       letter-spacing: 2px;
       text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.6), 0px 8px 13px rgba(0, 0, 0, 0.2), 0px 18px 23px rgba(0, 0, 0, 0.3); }
@@ -118,6 +120,9 @@ header {
         header .logo-wrapper p {
           padding: 25px 15px 0 0;
           font-size: 80%; } }
+      header .logo-wrapper p a {
+        text-decoration: none;
+        color: #fff; }
   header .header-wrapper {
     max-width: 1300px;
     padding: 10px;
