@@ -3,6 +3,7 @@ body p{
 }
 
 
+
 #trianglePath1 {
 	fill: #ececec;
 	stroke: #ececec;
@@ -145,6 +146,11 @@ body p{
 	position: relative;
 	z-index: 3;
 	margin-top:20px;
+	transition: all ease-out 0.2s;
+	&:hover{
+		background:#5b0000;
+		transition: all ease-out 0.2s;
+	}
 
 }
 

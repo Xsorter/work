@@ -253,7 +253,11 @@ header {
   border-radius: 4px;
   position: relative;
   z-index: 3;
-  margin-top: 20px; }
+  margin-top: 20px;
+  transition: all ease-out 0.2s; }
+  .register-button:hover {
+    background: #5b0000;
+    transition: all ease-out 0.2s; }
 
 /*# sourceMappingURL=helpers-main.css.map */
  .countdownHolder{
@@ -1351,14 +1355,23 @@ font-family: 'Lora', serif;
     box-sizing: border-box;
     width: 49%;
     display: inline-block;
-    border: 1px solid #d5d5d5;
     padding: 10px;
-    height: 447px;
-    vertical-align: top; }
+    height: 380px;
+    vertical-align: top;
+    position: relative; }
     @media screen and (max-width: 960px) {
       .main-block-second .form-wrapper {
         width: 100%;
-        display: block; } }
+        display: block;
+        padding: 0; } }
+    .main-block-second .form-wrapper .subwrap {
+      max-width: 336px;
+      width: 100%;
+      margin: 0 auto;
+      height: 295px;
+      position: relative;
+      border: 2px solid #e3e3e3;
+      box-sizing: border-box; }
 
 .main-block-third {
   background: #ececec;

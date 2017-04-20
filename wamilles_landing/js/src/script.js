@@ -32,5 +32,8 @@ $(function(){
 			note.html(message);
 		}
 	});
+
+
+	
 	
 });
