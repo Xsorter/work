@@ -57,12 +57,14 @@ header {
           line-height: 16px;
           font-size: 85%; } }
       header .pattern-wrapper p:nth-child(5) {
+        width: 57%;
         line-height: 25px;
         text-transform: uppercase;
         text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
         margin-top: 25px; }
         @media screen and (max-width: 767px) {
           header .pattern-wrapper p:nth-child(5) {
+            width: 100%;
             font-size: 78%;
             line-height: 17px; } }
         @media screen and (min-width: 1890px) {

@@ -5,6 +5,7 @@ header{
 	overflow: hidden;
 	position: relative;
 	box-sizing: border-box;
+	
 	@media screen and (max-height: 767px){
 				background: url('../img/header-back.jpg') 65% no-repeat;
 			}
@@ -63,11 +64,13 @@ header{
 				font-size: 85%;
 			}
 			&:nth-child(5){
+				width: 57%;
 				line-height: 25px;
 				text-transform: uppercase;
 				text-shadow: 2px 2px 0px rgba(0,0,0,0.7);
 				margin-top: 25px;
 				@media screen and (max-width: 767px){
+					width: 100%;
 					font-size: 78%;
 					line-height: 17px;
 				}
