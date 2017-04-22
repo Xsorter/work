@@ -1584,20 +1584,27 @@ font-family: 'Lora', serif;
       text-align: center; } }
   .main-video-testimonial .text-block h2 {
     font-family: 'PT Sans', sans-serif;
-    font-size: 220%; }
-  .main-video-testimonial .text-block p:nth-child(2) {
+    font-size: 220%;
+    text-transform: uppercase; }
+  .main-video-testimonial .text-block .name {
     font-size: 130%;
-    margin-top: 25px; }
-  .main-video-testimonial .text-block p:nth-child(3) {
+    margin-top: 25px;
+    font-weight: bold; }
+  .main-video-testimonial .text-block .place {
     font-size: 110%;
     margin-top: 25px;
-    color: #888; }
-  .main-video-testimonial .text-block p:nth-child(4) {
+    color: #444;
+    font-weight: bold; }
+  .main-video-testimonial .text-block .job {
     font-size: 110%;
     margin-top: 15px;
-    color: #888;
+    color: #444;
     margin-top: 5px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    font-weight: bold; }
+  .main-video-testimonial .text-block .description {
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 10px; }
   .main-video-testimonial .text-block ul {
     margin-top: 10px; }
     .main-video-testimonial .text-block ul li {

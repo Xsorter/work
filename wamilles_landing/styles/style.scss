@@ -465,26 +465,36 @@ font-family: 'Lora', serif;
 		h2{
 			font-family: 'PT Sans', sans-serif;
 			font-size: 220%;
+			text-transform: uppercase;
 		}
-		p{
-			&:nth-child(2){
-				font-size:130%;
-				margin-top: 25px;
-			}
-			&:nth-child(3){
-				font-size:110%;
-				margin-top: 25px;
-				color: #888;
+		
+		.name{
+			font-size:130%;
+			margin-top: 25px;
+			font-weight: bold;
+		}
+		.place{
+			font-size:110%;
+			margin-top: 25px;
+			color: #444;
+			font-weight: bold;
 				
-			}
-			&:nth-child(4){
-				font-size:110%;
-				margin-top: 15px;
-				color: #888;
-				margin-top: 5px;
-				margin-bottom: 20px;
-			}
 		}
+		.job{
+			font-size:110%;
+			margin-top: 15px;
+			color: #444;
+			margin-top: 5px;
+			margin-bottom: 20px;
+			font-weight: bold;
+		}
+		
+		
+		.description{
+			font-family: 'PT Sans', sans-serif;
+			margin-top: 10px;
+		}
+		
 		ul{
 			margin-top: 10px;
 			li{
