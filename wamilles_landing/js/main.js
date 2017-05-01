@@ -303,13 +303,13 @@ animloop();
 })(jQuery); $(function(){
 	
 	var note = $('#note'),
-		ts = new Date(2017, 0, 1),
+		ts = new Date(2017, 4, 1),
 		newYear = false;
 	
 	if((new Date()) > ts){
 		// The new year is here! Count towards something else.
 		// Notice the *1000 at the end - time must be in milliseconds
-		ts = (new Date()).getTime() + 12*24*51*60*1000;
+		ts = (new Date()).getTime() + 0*0*0*00*1000;
 		newYear = false;
 	}
 		
