@@ -52,7 +52,8 @@ header {
     header .pattern-wrapper p {
       margin-top: 10px;
       color: #fff;
-      line-height: 25px; }
+      line-height: 25px;
+      width: 60%; }
       header .pattern-wrapper p span {
         color: #e60000; }
       @media screen and (max-width: 767px) {
@@ -1346,6 +1347,8 @@ font-family: 'Lora', serif;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 100px; }
+    .main-block-second .block-wrapper img {
+      width: 100%; }
   .main-block-second .list-wrapper {
     box-sizing: border-box;
     width: 49%;
@@ -1620,6 +1623,8 @@ font-family: 'Lora', serif;
     font-family: 'PT Sans', sans-serif;
     font-size: 155%;
     text-transform: uppercase; }
+  .main-video-testimonial .text-block img {
+    width: 100%; }
   .main-video-testimonial .text-block .name {
     font-size: 130%;
     margin-top: 25px;
