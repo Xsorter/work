@@ -1,5 +1,5 @@
 header{
-	background: url('../img/header-back.jpg')center center no-repeat;
+	background: url('../img/back-jap.jpg')center center no-repeat;
 	background-size: cover;
 	height: 100vh;
 	overflow: hidden;
@@ -7,7 +7,7 @@ header{
 	box-sizing: border-box;
 	
 	@media screen and (max-height: 767px){
-				background: url('../img/header-back.jpg') 65% no-repeat;
+				background: url('../img/back-jap.jpg') 100% no-repeat;
 			}
 	@media screen and (max-height: 600px){
 				height: 100%;
@@ -22,7 +22,7 @@ header{
 		top:0;
 		left:0;
 		display: block;
-		opacity: 0.5;
+		opacity: 0.8;
 		z-index: 0;
 	}
 
@@ -119,6 +119,7 @@ header{
 		margin: 0 auto;
 		@media screen and (max-width: 767px){
 				height: 55px;
+				padding-left:10px;
 			}
 		
 		img{
@@ -127,21 +128,23 @@ header{
 			max-width: 165px;
 			position: relative;
 			z-index: 2;
+			float: right;
 			@media screen and (max-width: 767px){
 				max-width: 110px;
 			}
 		}
 		p{
-			float: right;
+			
 			color: #fff;
 			position: relative;
 			z-index: 2;
 			padding: 30px;
+			padding-left:5px;
 			font-size: 150%;
 			text-shadow: 2px 2px 0px rgba(0,0,0,0.7);
 			font-family: 'PT Sans', sans-serif;
 			@media screen and (max-width: 767px){
-				padding: 25px 15px 0 0;
+				padding: 25px 15px 0 0px;
 				font-size: 80%;
 			}
 			a{

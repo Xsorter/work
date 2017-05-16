@@ -237,8 +237,8 @@ font-family: 'Lora', serif;
 		max-width: 1200px;
 		margin: 0 auto;
 		display: block;
-		padding-top:110px;
-		padding-bottom:100px;
+		padding-top:45px;
+		padding-bottom:10px;
 		span{
 			color: #e60000;
 		}
@@ -293,12 +293,12 @@ font-family: 'Lora', serif;
 
 .main-block-fifth{
 	padding-bottom:40px;
-	background: url('../img/back2f.jpg')center center no-repeat;
+	background: url('../img/back2fg.jpg')center center no-repeat;
 	background-size: cover;
 	position: relative;
 	background-attachment: fixed;
 	@media screen and (max-width: 767px){
-		background: url('../img/back2f.jpg') 25% no-repeat;
+		background: url('../img/back2fg.jpg') 25% no-repeat;
 		background-size: cover;
 	}
 	&:before{
@@ -310,7 +310,7 @@ font-family: 'Lora', serif;
 		top:0;
 		left:0;
 		display: block;
-		opacity: 0.5;
+		opacity: 0.6;
 		z-index: 0;
 		@media screen and (max-width: 767px){
 			opacity: 0.7;
@@ -395,12 +395,12 @@ font-family: 'Lora', serif;
 	position: relative;
 	background: #fff;
 	height:auto;
-	background: url('../img/back3.jpg')center center no-repeat;
+	background: url('../img/back3g.jpg')center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	margin-top:100px;
 	@media screen and (max-width: 767px){
-		background: url('../img/back3.jpg') 85% no-repeat;
+		background: url('../img/back3g.jpg') 85% no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
 	}
@@ -413,7 +413,7 @@ font-family: 'Lora', serif;
 		top:0;
 		left:0;
 		display: block;
-		opacity: 0.4;
+		opacity: 0.6;
 		z-index: 0;
 	}
 	.red{
@@ -451,7 +451,7 @@ font-family: 'Lora', serif;
       			font-family: 'PT Sans', sans-serif;
       			color:#fff;
       			text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
-      			margin-top: 15px;
+      			margin-top: 30px;
       			&:before{
 					content: "\2714";
 					color: #780516;
@@ -813,7 +813,7 @@ font-family: 'Lora', serif;
 		font-size: 120%;
 		text-align: center;
 		font-family: 'PT Sans', sans-serif;
-		margin: 0px 0 40px 0;
+		margin: 60px 0 40px 0;
 	}
 	.main-wrapper{
 		max-width: 1200px;
@@ -977,12 +977,13 @@ footer{
 			max-width: 165px;
 			position: relative;
 			z-index: 2;
+			float: right;
 			@media screen and (max-width: 767px){
 				max-width: 110px;
 			}
 		}
 		p{
-			float: right;
+			
 			color: #fff;
 			position: relative;
 			z-index: 2;

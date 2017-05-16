@@ -117,4 +117,12 @@ body p {
     background: #5b0000;
     transition: all ease-out 0.2s; }
 
+.small-font {
+  text-align: center;
+  font-size: 80%;
+  color: #555;
+  position: relative;
+  padding: 20px;
+  z-index: 200; }
+
 /*# sourceMappingURL=helpers-main.css.map */
