@@ -293,13 +293,10 @@ font-family: 'Lora', serif;
 
 .main-block-fifth{
 	padding-bottom:40px;
-	background: url('../img/back2fg.jpg')center center no-repeat;
-	background-size: cover;
+	background: #ced2b5;
 	position: relative;
-	background-attachment: fixed;
 	@media screen and (max-width: 767px){
-		background: url('../img/back2fg.jpg') 25% no-repeat;
-		background-size: cover;
+		background: #ced2b5;
 	}
 	&:before{
 		content: "";
@@ -310,10 +307,10 @@ font-family: 'Lora', serif;
 		top:0;
 		left:0;
 		display: block;
-		opacity: 0.6;
+		opacity: 0.3;
 		z-index: 0;
 		@media screen and (max-width: 767px){
-			opacity: 0.7;
+			opacity: 0.3;
 		}
 	}
 	h2{
@@ -356,6 +353,14 @@ font-family: 'Lora', serif;
 			font-size: 130%;
 			margin-top: 15px;
 			text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
+			b{
+      			display: inline-block;
+    			width: 97%;
+    			vertical-align: top;
+    			@media screen and (max-width: 1130px){
+					width: 91%;
+    			}
+      		}
 			&:before{
 				content: "\2714";
 				color: #780516;
@@ -395,14 +400,10 @@ font-family: 'Lora', serif;
 	position: relative;
 	background: #fff;
 	height:auto;
-	background: url('../img/back3g.jpg')center center no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+	background: #ced2b5;
 	margin-top:100px;
 	@media screen and (max-width: 767px){
-		background: url('../img/back3g.jpg') 85% no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
+		background: #ced2b5;
 	}
 	&:before{
 		content: "";
@@ -413,7 +414,7 @@ font-family: 'Lora', serif;
 		top:0;
 		left:0;
 		display: block;
-		opacity: 0.6;
+		opacity: 0.3;
 		z-index: 0;
 	}
 	.red{
@@ -452,6 +453,14 @@ font-family: 'Lora', serif;
       			color:#fff;
       			text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
       			margin-top: 30px;
+      			p{
+      				display: inline-block;
+    				width: 97%;
+    				vertical-align: top;
+    				@media screen and (max-width: 1130px){
+						width: 91%;
+    				}
+      			}
       			&:before{
 					content: "\2714";
 					color: #780516;

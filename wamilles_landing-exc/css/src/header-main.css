@@ -1,11 +1,11 @@
 header {
-  background: url("../img/back-jap.jpg") center center no-repeat;
+  background: url("../img/logo-wide.jpg") center center no-repeat;
   background-size: cover;
   height: 100vh;
   overflow: hidden;
   position: relative;
   box-sizing: border-box; }
-  @media screen and (max-height: 767px) {
+  @media screen and (max-width: 767px) {
     header {
       background: url("../img/back-jap.jpg") 100% no-repeat; } }
   @media screen and (max-height: 600px) {
@@ -21,7 +21,7 @@ header {
     top: 0;
     left: 0;
     display: block;
-    opacity: 0.8;
+    opacity: 0.5;
     z-index: 0; }
   header .pattern-wrapper {
     padding: 15px;
