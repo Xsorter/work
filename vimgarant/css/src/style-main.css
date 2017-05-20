@@ -14,5 +14,54 @@
 font-family: 'Lora', serif;
 	}
 }*/
+.main {
+  background: url(../img/pattern-s.png) repeat; }
+  .main-wrapper {
+    box-sizing: border-box;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px; }
+    .main-wrapper h3 {
+      font-family: 'PT Sans', sans-serif;
+      font-size: 120%;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #333;
+      padding-top: 30px; }
+  .main-text-wrapper {
+    box-sizing: border-box;
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 30px; }
+  .main-partners {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .main-partners li {
+      display: inline-block;
+      vertical-align: top;
+      width: 32%;
+      text-align: center;
+      margin-top: 10px;
+      transition: all ease-out 0.2s; }
+      .main-partners li:hover {
+        transform: scale(1.05);
+        transition: all ease-out 0.2s; }
+      @media screen and (max-width: 800px) {
+        .main-partners li {
+          width: 49%;
+          margin-top: 10px; } }
+      @media screen and (max-width: 560px) {
+        .main-partners li {
+          width: 100%;
+          display: block;
+          margin-top: 15px; } }
+    .main-partners a {
+      text-decoration: none; }
 
 /*# sourceMappingURL=style-main.css.map */

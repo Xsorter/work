@@ -1,0 +1,26 @@
+.footer {
+  background: #1a1b1d;
+  border-top: 3px solid #009a19; }
+  .footer-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px; }
+  .footer p {
+    font-size: 80%;
+    text-align: center;
+    color: #efefef; }
+    .footer p:last-child {
+      margin-top: 5px; }
+  .footer .copyright {
+    text-align: center;
+    font-size: 110%;
+    margin-bottom: 15px;
+    color: #fff; }
+
+/*# sourceMappingURL=footer-main.css.map */
