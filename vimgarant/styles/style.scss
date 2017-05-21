@@ -40,8 +40,34 @@ font-family: 'Lora', serif;
 		box-sizing: border-box;
 		border: 1px solid #e8e8e8;
 		border-radius:6px;
-		padding: 15px;
+		padding: 30px;
 		margin-top: 30px;
+		@media screen and (max-width: 800px){
+			padding: 10px;
+		}
+		@media screen and (max-width: 480px){
+			padding: 5px;
+		}
+		li{
+			font-family: 'PT Sans', sans-serif;
+			margin-top: 10px;
+			padding-left:10px;
+			line-height: 25px;
+			font-size: 110%;
+			@media screen and (max-width: 800px){
+				font-size: 100%;
+				line-height: 20px;
+			}
+		}
+		p{
+			line-height: 25px;
+			margin-top: 10px;
+			font-size: 110%;
+			@media screen and (max-width: 800px){
+				font-size: 100%;
+				line-height: 20px;
+			}
+		}
 	}
 	&-partners{
 		text-align: center;

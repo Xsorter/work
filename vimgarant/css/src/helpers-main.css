@@ -1,4 +1,13 @@
-body p {
+body p, h1, h2, h3, ul, li {
   font-family: 'PT Sans', sans-serif; }
+
+.red {
+  color: red; }
+
+b {
+  font-weight: 700 !important; }
+
+.center {
+  text-align: center; }
 
 /*# sourceMappingURL=helpers-main.css.map */
