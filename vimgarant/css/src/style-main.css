@@ -15,14 +15,16 @@ font-family: 'Lora', serif;
 	}
 }*/
 .main {
-  background: url(../img/pattern-s.png) repeat; }
+  /*background: url(../img/pattern-s.png) repeat;*/
+  background: #e5e5ff; }
   .main-wrapper {
     box-sizing: border-box;
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
-    background: #fff;
-    padding: 10px; }
+    background: #f3f3f3;
+    padding: 10px;
+    padding-top: 25px; }
     .main-wrapper h3 {
       font-family: 'PT Sans', sans-serif;
       font-size: 120%;
@@ -34,8 +36,6 @@ font-family: 'Lora', serif;
       padding-top: 30px; }
   .main-text-wrapper {
     box-sizing: border-box;
-    border: 1px solid #e8e8e8;
-    border-radius: 6px;
     padding: 30px;
     margin-top: 30px; }
     @media screen and (max-width: 800px) {
