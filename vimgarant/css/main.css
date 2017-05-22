@@ -52,7 +52,7 @@
     @media screen and (max-width: 767px) {
       .header-logo img {
         width: 95px; } }
-  .header h2 {
+  .header h1 {
     /*font-family: 'PT Sans', sans-serif;*/
     font-family: 'Comfortaa', cursive;
     text-align: center;
@@ -69,7 +69,7 @@
     font-style: italic;
     font-weight: 700; }
     @media screen and (max-width: 767px) {
-      .header h2 {
+      .header h1 {
         font-size: 110%;
         padding-bottom: 10px;
         padding-top: 10px;
