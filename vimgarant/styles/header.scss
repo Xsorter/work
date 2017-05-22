@@ -1,6 +1,7 @@
 .header{
 	padding: 5px;
-	background: #e5e5ff;
+	background: #d4d4d4;
+	border-bottom: 2px solid #fff;
 	box-sizing: border-box;
 	width: 100%;
 	clear:both;
@@ -13,10 +14,10 @@
 		font-size: 105%;
 		a{
 			text-decoration: none;
-			color: #000131;
+			color: #02004a;
 		}
 		p{
-			color: #000131;
+			color: #02004a;
 			margin-top: 5px;
 		}
 	}
@@ -38,7 +39,7 @@
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		padding-bottom: 10px;
-		padding-top: 5px;
+		padding-top: 20px;
 		margin-top: 10px;
 		font-weight: 700;
 		color: #02004a;
