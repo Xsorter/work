@@ -969,6 +969,26 @@ font-family: 'Lora', serif;
 }
 
 
+.info-footer{
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	margin-bottom: 20px;
+	padding: 10px 5px 10px 5px;
+	.wrapper{
+		max-width: 1200px;
+		width: 100%;
+		box-sizing: border-box;
+		margin: 0 auto;
+		text-align: center;
+		p{
+			text-transform: uppercase;
+			font-size: 110%;
+			line-height: 25px;
+		}
+	}
+}
+
+
 footer{
 	width: 100%;
 	background: #343434;
