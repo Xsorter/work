@@ -1,4 +1,4 @@
-$(function(){
+/*$(function(){
 
 	// RequestAnimFrame: a browser API for getting smooth animations
 window.requestAnimFrame = (function(){
@@ -162,4 +162,4 @@ function animloop() {
 animloop();
 
 //
-});
+});*/

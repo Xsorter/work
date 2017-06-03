@@ -1,4 +1,4 @@
-$(function(){
+/*$(function(){
 
 	// RequestAnimFrame: a browser API for getting smooth animations
 window.requestAnimFrame = (function(){
@@ -162,7 +162,7 @@ function animloop() {
 animloop();
 
 //
-}); /**
+});*/ /**
  * @name		jQuery Countdown Plugin
  * @author		Martin Angelov
  * @version 	1.0
