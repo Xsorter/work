@@ -303,7 +303,7 @@ animloop();
 })(jQuery); $(function(){
 	
 	var note = $('#note'),
-		ts = new Date(2017, 5, 1),
+		ts = new Date(2017, 6, 1),
 		newYear = false;
 	
 	if((new Date()) > ts){
