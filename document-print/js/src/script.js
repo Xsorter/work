@@ -1,8 +1,22 @@
 $(function(){
-	var pictureUrls = ['img/cover/2.jpg',
+	var pictureUrls = ['img/cover/1.jpg',
+                       'img/cover/2.jpg',
                        'img/cover/3.jpg',
-                       'img/cover/4.jpg'
-                      ], i=1;
+                       'img/cover/4.jpg',
+                       'img/cover/5.jpg',
+                       'img/cover/6.jpg',
+                       'img/cover/7.jpg',
+                       'img/cover/8.jpg'
+                      ];
+    var i = 1;
+    var random = Math.floor(Math.random()*pictureUrls.length);
+    
+    //start picture is displayed randomly
+    $('.header').css({
+    	'background':'url('+pictureUrls[random]+')',
+        'background-size':'cover'
+    })
+
 	
     function headerChange(){
         if(i > (pictureUrls.length-1)){
@@ -11,7 +25,6 @@ $(function(){
 				$('.header').css({
                     'background':'url('+pictureUrls[0]+')',
                     'background-size':'cover'
-                
                 });
 			});
 			$('.header').animate({'background-position':'0'},100);
