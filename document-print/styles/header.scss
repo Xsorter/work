@@ -39,6 +39,14 @@
                     font-size: 120%;
                     font-weight: 700;
                     text-decoration: none;
+                    transition: all ease-out 0.1s;
+                    &:hover{
+                        text-decoration: underline;
+                        display: block;
+                        color: #e41c1c;
+                        transform: scale(1.1);
+                        transition: all ease-out 0.1s;
+                    }
                 }
             }
         }
