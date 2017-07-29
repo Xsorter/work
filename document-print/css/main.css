@@ -1,4 +1,142 @@
-.header {
+.content-menu {
+  background: rgba(0, 0, 0, 0.7);
+  width: 210px;
+  height: 100%;
+  min-height: 100vh;
+  position: fixed; }
+  @media screen and (max-width: 1200px) {
+    .content-menu {
+      display: none; } }
+.content-login {
+  float: right;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 130%;
+  margin-top: 25px;
+  margin-right: 20px; }
+  @media screen and (max-width: 480px) {
+    .content-login {
+      text-align: center;
+      font-size: 100%; } }
+  .content-login span {
+    display: inline; }
+    @media screen and (max-width: 480px) {
+      .content-login span {
+        display: block; } }
+.content-header {
+  background: #dd2b1c;
+  padding: 5px 5px 5px 5px;
+  clear: both;
+  overflow: hidden; }
+  .content-header-contacts {
+    float: right;
+    color: #fff;
+    font-weight: 700;
+    font-size: 120%;
+    text-align: center;
+    line-height: 25px;
+    border-left: 2px solid #fff;
+    padding-left: 10px; }
+    @media screen and (max-width: 480px) {
+      .content-header-contacts {
+        font-size: 90%; } }
+  .content-header-help {
+    margin-left: 20px; }
+    @media screen and (max-width: 620px) {
+      .content-header-help {
+        margin-left: 5px; } }
+  .content-header-middle {
+    margin-left: 20px; }
+    @media screen and (max-width: 620px) {
+      .content-header-middle {
+        margin-left: 5px; } }
+    @media screen and (max-width: 590px) {
+      .content-header-middle {
+        margin-bottom: 5px; } }
+  .content-header-bottom {
+    background: #fff;
+    clear: both;
+    overflow: hidden;
+    padding: 5px; }
+    .content-header-bottom div {
+      float: right; }
+      .content-header-bottom div a {
+        display: inline-block;
+        text-decoration: none; }
+.content-main-wrapper {
+  background: orange;
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  height: 1500px; }
+  @media screen and (max-width: 1600px) {
+    .content-main-wrapper {
+      max-width: 900px; } }
+  @media screen and (max-width: 1360px) {
+    .content-main-wrapper {
+      margin-left: 20%; } }
+  @media screen and (max-width: 1200px) {
+    .content-main-wrapper {
+      margin-left: auto; } }
+
+/*# sourceMappingURL=content-main.css.map */
+ html, body {
+  overflow-x: hidden;
+}
+
+/* Lists */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+#container {
+  position: relative;
+  padding: 20px 40px;
+  padding-top: 80px;
+}
+
+/* Menu Button */
+.menu-btn {
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 30px;
+  background: #000;
+  color: #FFF;
+  text-align: center;
+  cursor: pointer;
+  border: 0px;
+}
+.menu-btn:hover {
+  opacity: 0.6;
+}
+
+/* Header */
+.site-header {
+  position: fixed;
+  background: #000;
+  color: #FFF;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  z-index: 9998;
+}
+
+/* Footer */
+.site-footer {
+  position: relative;
+  border-top: 1px solid #EEE;
+  color: #999;
+  padding: 10px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+/*# sourceMappingURL=demo.css.map */
+ .header {
   box-sizing: border-box;
   background: url(../img/cover/2.jpg) no-repeat;
   background-size: cover;
@@ -9,7 +147,7 @@
 .title__left-menu {
   background: rgba(0, 0, 0, 0.7);
   position: relative;
-  width: 250px;
+  width: 230px;
   height: 100%;
   min-height: 100vh;
   padding-top: 1px;
@@ -35,16 +173,238 @@
     text-decoration: none;
     transition: all ease-out 0.1s; }
     .title__menu-container ul a:hover {
-      text-decoration: underline;
-      display: block;
-      color: #e41c1c;
-      transform: scale(1.1);
-      transition: all ease-out 0.1s; }
+      text-decoration: underline; }
 
 /*# sourceMappingURL=header-main.css.map */
- 
+ .button-bordered {
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid #dd2b1c;
+  color: #dd2b1c;
+  padding: 10px;
+  border-radius: 5px; }
+.button-red {
+  background: #dd2b1c;
+  color: #fff;
+  font-weight: 700;
+  padding: 11px;
+  text-transform: uppercase; }
+
+@media screen and (max-width: 480px) {
+  .separator {
+    display: none !important; } }
 
 /*# sourceMappingURL=helpers-main.css.map */
+ .mobile-menu-btn {
+  background: transparent;
+  display: none;
+  width: 40px;
+  border-bottom: 22px double #fff;
+  border-top: 7px solid #fff;
+  content: "";
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 4px; }
+  @media screen and (max-width: 1200px) {
+    .mobile-menu-btn {
+      display: block; } }
+
+/*# sourceMappingURL=mobile-menu-main.css.map */
+ /*! Pushy - v1.1.0 - 2017-1-30
+* Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
+* https://github.com/christophery/pushy/
+* by Christopher Yee */
+/* Menu Appearance */
+.pushy {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  top: 0;
+  z-index: 9999;
+  background: #191918;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  text-align: center;
+  /* enables momentum scrolling in iOS overflow elements */
+}
+.pushy a {
+  display: block;
+  color: #b3b3b1;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+.pushy a:hover {
+  color: #FFF;
+}
+.pushy ul:first-child {
+  margin-top: 10px;
+}
+.pushy.pushy-left {
+  left: 0;
+}
+.pushy.pushy-right {
+  right: 0;
+}
+
+.pushy-content {
+  visibility: hidden;
+}
+
+/* Menu Movement */
+.pushy-left {
+  -webkit-transform: translate3d(-200px, 0, 0);
+  -ms-transform: translate3d(-200px, 0, 0);
+  transform: translate3d(-200px, 0, 0);
+}
+
+.pushy-open-left #container,
+.pushy-open-left .push {
+  -webkit-transform: translate3d(200px, 0, 0);
+  -ms-transform: translate3d(200px, 0, 0);
+  transform: translate3d(200px, 0, 0);
+}
+
+.pushy-right {
+  -webkit-transform: translate3d(200px, 0, 0);
+  -ms-transform: translate3d(200px, 0, 0);
+  transform: translate3d(200px, 0, 0);
+}
+
+.pushy-open-right #container,
+.pushy-open-right .push {
+  -webkit-transform: translate3d(-200px, 0, 0);
+  -ms-transform: translate3d(-200px, 0, 0);
+  transform: translate3d(-200px, 0, 0);
+}
+
+.pushy-open-left .pushy,
+.pushy-open-right .pushy {
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.pushy-open-left .pushy-content,
+.pushy-open-right .pushy-content {
+  visibility: visible;
+}
+
+/* Menu Transitions */
+#container,
+.pushy,
+.push {
+  transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+}
+
+.pushy-content {
+  transition: visibility 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+}
+
+/* Site Overlay */
+.site-overlay {
+  display: none;
+}
+
+.pushy-open-left .site-overlay,
+.pushy-open-right .site-overlay {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9998;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-animation: fade 500ms;
+  animation: fade 500ms;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Submenu Appearance */
+.pushy-submenu {
+  /* Submenu Buttons */
+  /* Submenu Icon */
+}
+.pushy-submenu ul {
+  padding-left: 15px;
+  transition: max-height 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+.pushy-submenu ul .pushy-link {
+  transition: opacity 0.2s ease-in-out;
+}
+.pushy-submenu button {
+  width: 100%;
+  color: #b3b3b1;
+  padding: 15px 30px;
+  text-align: left;
+  background: transparent;
+  border: 0;
+}
+.pushy-submenu button:hover {
+  color: #FFF;
+}
+.pushy-submenu > a,
+.pushy-submenu > button {
+  position: relative;
+}
+.pushy-submenu > a::after,
+.pushy-submenu > button::after {
+  content: '';
+  display: block;
+  height: 11px;
+  width: 8px;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  background: url("../img/arrow.svg") no-repeat;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transition: transform 0.2s;
+}
+
+/* Submenu Movement */
+.pushy-submenu-closed ul {
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.pushy-submenu-closed .pushy-link {
+  opacity: 0;
+}
+
+.pushy-submenu-open {
+  /* Submenu Icon */
+}
+.pushy-submenu-open ul {
+  max-height: 1000px;
+  visibility: visible;
+}
+.pushy-submenu-open .pushy-link {
+  opacity: 1;
+}
+.pushy-submenu-open a::after,
+.pushy-submenu-open button::after {
+  -webkit-transform: translateY(-50%) rotate(90deg);
+  -ms-transform: translateY(-50%) rotate(90deg);
+  transform: translateY(-50%) rotate(90deg);
+}
+
+/*# sourceMappingURL=pushy.css.map */
  /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)

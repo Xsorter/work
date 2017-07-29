@@ -1,0 +1,84 @@
+.content-menu {
+  background: rgba(0, 0, 0, 0.7);
+  width: 210px;
+  height: 100%;
+  min-height: 100vh;
+  position: fixed; }
+  @media screen and (max-width: 1200px) {
+    .content-menu {
+      display: none; } }
+.content-login {
+  float: right;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 130%;
+  margin-top: 25px;
+  margin-right: 20px; }
+  @media screen and (max-width: 480px) {
+    .content-login {
+      text-align: center;
+      font-size: 100%; } }
+  .content-login span {
+    display: inline; }
+    @media screen and (max-width: 480px) {
+      .content-login span {
+        display: block; } }
+.content-header {
+  background: #dd2b1c;
+  padding: 5px 5px 5px 5px;
+  clear: both;
+  overflow: hidden; }
+  .content-header-contacts {
+    float: right;
+    color: #fff;
+    font-weight: 700;
+    font-size: 120%;
+    text-align: center;
+    line-height: 25px;
+    border-left: 2px solid #fff;
+    padding-left: 10px; }
+    @media screen and (max-width: 480px) {
+      .content-header-contacts {
+        font-size: 90%; } }
+  .content-header-help {
+    margin-left: 20px; }
+    @media screen and (max-width: 620px) {
+      .content-header-help {
+        margin-left: 5px; } }
+  .content-header-middle {
+    margin-left: 20px; }
+    @media screen and (max-width: 620px) {
+      .content-header-middle {
+        margin-left: 5px; } }
+    @media screen and (max-width: 590px) {
+      .content-header-middle {
+        margin-bottom: 5px; } }
+  .content-header-bottom {
+    background: #fff;
+    clear: both;
+    overflow: hidden;
+    padding: 5px; }
+    .content-header-bottom div {
+      float: right; }
+      .content-header-bottom div a {
+        display: inline-block;
+        text-decoration: none; }
+.content-main-wrapper {
+  background: orange;
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  height: 1500px; }
+  @media screen and (max-width: 1600px) {
+    .content-main-wrapper {
+      max-width: 900px; } }
+  @media screen and (max-width: 1360px) {
+    .content-main-wrapper {
+      margin-left: 20%; } }
+  @media screen and (max-width: 1200px) {
+    .content-main-wrapper {
+      margin-left: auto; } }
+
+/*# sourceMappingURL=content-main.css.map */
