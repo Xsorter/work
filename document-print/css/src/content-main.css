@@ -25,6 +25,12 @@
     @media screen and (max-width: 480px) {
       .content-login span {
         display: block; } }
+  .content-login a {
+    color: #fff;
+    text-decoration: none; }
+    .content-login a:hover {
+      color: #fff;
+      text-decoration: underline; }
 .content-header {
   background: #dd2b1c;
   padding: 5px 5px 5px 5px;
@@ -66,11 +72,12 @@
         display: inline-block;
         text-decoration: none; }
 .content-main-wrapper {
-  background: orange;
   width: 100%;
   max-width: 1160px;
   margin: 0 auto;
-  height: 1500px; }
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 10px; }
   @media screen and (max-width: 1600px) {
     .content-main-wrapper {
       max-width: 900px; } }
@@ -80,5 +87,46 @@
   @media screen and (max-width: 1200px) {
     .content-main-wrapper {
       margin-left: auto; } }
+  .content-main-wrapper_title {
+    color: #dd2b1c;
+    display: block;
+    font-size: 160%;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #dd2b1c;
+    padding-bottom: 10px;
+    padding-top: 50px; }
+.content-main-box {
+  display: inline-block;
+  vertical-align: top;
+  width: 19.5%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #dedede;
+  transition: all ease-out 0.1s; }
+  .content-main-box:hover {
+    transform: scale(1.05);
+    transition: all ease-out 0.1s; }
+  @media screen and (max-width: 860px) {
+    .content-main-box {
+      width: 49.5%; } }
+  @media screen and (max-width: 580px) {
+    .content-main-box {
+      width: 100%;
+      display: block; } }
+  .content-main-box img {
+    width: 100%;
+    padding-bottom: 10px; }
+  .content-main-box a {
+    display: block;
+    text-decoration: none;
+    color: #dd2b1c; }
+  .content-main-box span {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 90%; }
 
 /*# sourceMappingURL=content-main.css.map */
