@@ -162,7 +162,9 @@ function animloop() {
 animloop();
 
 //
-});*/ /**
+});*/
+
+ /**
  * @name		jQuery Countdown Plugin
  * @author		Martin Angelov
  * @version 	1.0
@@ -303,7 +305,7 @@ animloop();
 })(jQuery); $(function(){
 	
 	var note = $('#note'),
-		ts = new Date(2017, 6, 1),
+		ts = new Date(2017, 8, 1),
 		newYear = false;
 	
 	if((new Date()) > ts){
