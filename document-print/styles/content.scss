@@ -5,7 +5,6 @@
 		height: 100%; 
 		min-height: 100vh; 
 		position: fixed;
-		right: 0;
 		@media screen and (max-width: 1200px){
 				display: none;
 			}
@@ -117,19 +116,20 @@
 	&-main{
 		&-wrapper{
 			width: 100%;
-			max-width: 1160px;
-			margin: 0 auto;
+			padding-left: 220px;
+			padding-right: 20px;
 			clear: both;
 			overflow: hidden;
 			padding-bottom: 10px;
 			@media screen and (max-width: 1600px){
-				max-width: 900px;
+				
 			}
 			@media screen and (max-width: 1360px){
-				margin-right: 20%;
+				
 			}
 			@media screen and (max-width: 1200px){
-				margin-left: auto;
+				padding-left: 0;
+				padding-right: 0;
 			}
 
 			&_title{
@@ -153,6 +153,7 @@
 			vertical-align: top;
 			width: 19.5%;
 			box-sizing: border-box;
+			background: #fff;
 			margin-top: 10px;
 			padding: 5px;
 			text-align: center;
@@ -187,10 +188,15 @@
 	}
 
 	&-contacts{
-		text-align: center;
+		text-align: right;
+		padding-right: 10px;
 		padding-top: 10px;
 		color: #dd2b1c;
 		font-weight: 700;
 		line-height: 20px;
+		@media screen and (max-width: 1200px){
+			text-align: center;
+			padding-right: 0;
+		}
 	}
 }
