@@ -1,0 +1,32 @@
+.footer
+  background #5a5a5a
+  border-top 1px solid #FFFFFF
+  margin-top 20px
+
+  &-wrapper
+    max-width 1200px
+    width 100%
+    margin 0 auto
+    padding 15px
+    box-sizing border-box
+    a
+      font-family 'PT Sans',sans-serif
+      text-decoration none
+
+  &-link
+    &-section
+      display inline-block
+      width 24.5%
+      box-sizing border-box
+      vertical-align top
+      @media screen and (max-width: 1060px),(min-resolution: 270dpi)
+        width 49.4%
+        margin-bottom 10px
+      @media screen and (max-width: 767px),(min-resolution: 270dpi)
+        width 100%
+        display block
+
+  &-copyright
+    font-family 'PT Sans',sans-serif
+    color #ccc
+    padding 0 0 10px 10px
