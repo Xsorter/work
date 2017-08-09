@@ -1,0 +1,110 @@
+.main
+  &-wrapper
+    max-width 1200px
+    width 100%
+    box-sizing border-box
+    margin 0 auto
+    p
+      font-family: 'Roboto', 'Arial', sans-serif;
+      margin-top 15px
+      line-height 25px
+    h2
+      font-family: 'Roboto', 'Arial', sans-serif;
+      text-transform uppercase
+      font-size 120%
+      color #333
+      font-weight 700
+      letter-spacing 1px
+      @media screen and (max-width: 800px),(min-resolution: 270dpi)
+        text-align center
+    ul
+      margin-top 15px
+      li
+        font-family: 'Roboto', 'Arial', sans-serif;
+
+    &-homepage
+      &-box
+        border 1px solid #d9f5ff;
+        margin-top 2em
+        padding 20px
+        background #ffffff
+        ul
+          margin-left 20px
+          li
+            margin-top 10px
+
+        &_title
+          margin-top 2em
+
+    &-citylist
+      display inline-block
+      width 47%
+      box-sizing border-box
+      vertical-align top
+      @media screen and (max-width: 800px),(min-resolution: 270dpi)
+        width 100%
+        display block
+        margin-left 0!important
+
+      li
+        background #d9f5ff
+        list-style none!important
+        margin 0 auto
+        margin-top 15px
+        text-align center
+        width 60%
+        text-transform uppercase
+        font-size 95%
+        font-weight 700
+        letter-spacing 1px
+        box-sizing border-box
+        transition all ease-out 0.1s
+        @media screen and (max-width: 800px),(min-resolution: 270dpi)
+          width 100%
+        &:hover
+          background #4ac8f5
+          transition all ease-out 0.1s
+
+        a
+          color #383838
+          text-decoration none
+          display block
+          padding 10px
+          transition all ease-out 0.1s
+          &:hover
+            color #fff
+            transition all ease-out 0.1s
+
+
+    &__useful
+      margin-top 40px
+      margin-bottom 40px
+      text-align center
+      a
+        font-family 'Roboto', 'Arial', sans-serif
+        text-transform uppercase
+        text-decoration none
+        font-size 120%
+        text-align center
+        letter-spacing 1px
+
+
+      &-menu
+        @media screen and (max-width: 800px),(min-resolution: 270dpi)
+          margin-left 0!important
+        li
+          list-style none
+          max-width 290px
+          border-top 1px dashed #b3b3b3
+          border-bottom 1px dashed #b3b3b3
+          padding 10px
+          box-sizing border-box
+          a
+            width 100%
+            text-decoration none
+            display block
+          &:hover
+            background #fbfbfb
+
+
+

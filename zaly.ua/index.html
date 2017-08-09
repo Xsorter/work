@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>Arendazala</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri|PT+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700|PT+Serif+Caption:400,400i|Roboto+Condensed:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Forum|Lora" rel="stylesheet">
+</head>
+
+<body>
+
+    <ng-include src="'tpl/mobileMenu.html'"></ng-include>
+
+    <header class="header">
+
+        <ng-include src="'tpl/headerNavigation.html'"></ng-include>
+
+        <div class="header-wrapper">
+            <h1>Аренда Залов</h1>
+            <h2>Ищете конференц-зал для проведения тренинга, семинара или конференции? Самый полный выбор залов под тренинг на сайте
+                <a href="http://arendazala.com.ua">ArendaZala.com.ua</a>!</h2>
+        </div>
+    </header>
+
+
+
+    <main>
+        <div class="main-wrapper">
+            <div class="main-wrapper-homepage-box">
+                    <h2>Конференц залы</h2>
+                    <p>Для тех, кто нуждается в аренде зала для проведения конференции, тренинга или семинара, приходит на помощь наш сервис.
+                    На страницах нашего сайта, Вам предоставлены <a href="http://arendazala.com.ua/all_rooms.html">лучшие залы со всей Украины</a>.
+                    А подробное описание и фотографии облегчит для Вас поиск и выбор зала для проведения мероприятий.</p>
+
+                    <p>
+                       С помощью удобной навигации по сайту, Вы легко сможете найти конференц зал во всех крупных городах Украины.
+                       Мы стараемся что бы Вы получили как можно больше информации об стоимости аренды конференц залов, которые предоставлены на нашем сайте.
+                    </p>
+
+                    <p>Наши специалисты собирают максимально полную и полезную информацию об аренде залов, включающую в себя:</p>
+
+                    <ul>
+                        <li>информацию о месте размещения;</li>
+                        <li>количество мест;</li>
+                        <li>стоимость аренды;</li>
+                        <li>дополнительные сервисы;</li>
+                    </ul>
+
+                    <p>А удобный фильтр по городам дает возможность сократить поиск аренды зала до нескольких минут.</p>
+
+                    <h2 class="main-wrapper-homepage-box_title">Аренда залов по городам</h2>
+
+                    <ul class="main-wrapper-citylist">
+                        <li>
+                            <a href="/kiev.html">Залы в Киеве</a>
+                        </li>
+                        <li>
+                            <a href="/odessa.html">Залы в Одессе</a>
+                        </li>
+                        <li>
+                            <a href="/kharkov.html">Залы в Харькове</a>
+                        </li>
+                        <li>
+                            <a href="/dnepr.html#">Залы в Днепре</a>
+                        </li>
+                        <li>
+                            <a href="/lvov.html">Залы во Львове</a>
+                        </li>
+                        <li>
+                            <a href="/donetsk.html">Залы в Донецке</a>
+                        </li>
+                        <li>
+                            <a href="/nikolaev.html">Залы в Николаеве</a>
+                        </li>
+                    </ul>
+
+                    <ul class="main-wrapper-citylist">
+                        <li><a href="/kherson.html" target="_blank">Залы в Херсоне</a></li>
+                        <li><a href="/lioltava.html" target="_blank">Залы в Полтаве</a></li>
+                        <li><a href="/chernovtsy.html" target="_blank">Залы в Черновцах</a></li>
+                        <li><a href="/cherkassy.html" target="_blank">Залы в Черкассах</a></li>
+                        <li><a href="/khmelnitsky.html" target="_blank">Залы в Хмельницком</a></li>
+                        <li><a href="/karliaty.html" target="_blank">Залы в Карпатах</a></li>
+                        <li><a href="/krym.html" target="_blank">Залы в Крыму</a></li>
+                    </ul>
+
+                <p>Для тех, кто заинтересован в размещении своего конференц зала на нашем сайте,
+                    мы рекомендуем обратиться в <a href="/price.html" target="_blank">отдел по работе с клиентами</a>.
+                    После консультации с нашими специалистами, мы сможем разместить Вашу рекламу на нашем сайте.
+                </p>
+
+                <div class="main-wrapper__useful">
+                    <a href="/newsite/articles.html">Публикации на сайте</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <ng-include src="'tpl/footer.html'"></ng-include>
+
+</body>
+
+</html>
