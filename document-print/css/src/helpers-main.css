@@ -22,10 +22,29 @@
     background: #fff;
     color: #dd2b1c;
     border: 1px solid #dd2b1c;
-    transition: all ease-out 0.2s; }
+    transition: all ease-out 0.2s;
+    cursor: pointer; }
 
 @media screen and (max-width: 480px) {
   .separator {
     display: none !important; } }
+
+.title_sub {
+  color: #dd2b1c;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 110%; }
+
+.green {
+  color: green !important; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
 
 /*# sourceMappingURL=helpers-main.css.map */

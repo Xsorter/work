@@ -66,73 +66,55 @@
             <span>+380 66 339 6053</span>&nbsp;
         </div>
 
+        <!--template begin-->
+        
         <div class="content-main-wrapper">
-            <h2 class="content-main-wrapper_title">Швидке замовлення</h2>
-
-            <div class="content-main-box">
-                <a href="">
-                    <img src="img/list.jpg" alt="Листовки">
-                    <span>Листівки</span>
-                </a>
+            <h2 class="content-main-wrapper_title">Особистий профіль</h2>
+                
+            <div class="profile-wrapper">
+                <ul>
+                    <li>
+                        Ім'я: <span>{{name}}</span>
+                    </li>
+                    <li>
+                        E-mail: <span>{{email}}</span>
+                    </li>
+                    <li>
+                        Телефон: <span>{{phone}}</span>
+                    </li>
+                    <li>
+                        Пароль: <span>{{password}}</span>
+                    </li>
+                </ul>
             </div>
 
-            <div class="content-main-box">
-                <a href="">
-                    <img src="img/bukl.jpg" alt="Листовки">
-                    <span>Буклети</span>
-                </a>
-            </div>
-            <div class="content-main-box">
-                <a href="">
-                    <img src="img/posters.png" alt="Листовки">
-                    <span>Плакати</span>
-                </a>
-            </div>
-            <div class="content-main-box">
-                <a href="">
-                    <img src="img/cards.png" alt="Листовки">
-                    <span>Візитки</span>
-                </a>
-            </div>
-            <div class="content-main-box">
-                <a href="">
-                    <img src="img/broshur.jpg" alt="Листовки">
-                    <span>Брошюри</span>
-                </a>
-            </div>
+            <div class="profile-history">
+                <h2 class="title_sub">Історія замовлень</h2>
 
-            <div class="content-main-box">
-                <a href="">
-                    <img src="img/katalog.jpg" alt="Листовки">
-                    <span>Каталоги</span>
-                </a>
-            </div>
-            <div class="content-main-box">
-                <a href="">
-                    <img src="img/calendar_quatrer.jpg" alt="Листовки">
-                    <span>Квартальні календарі</span>
-                </a>
-            </div>
-            <div class="content-main-box">
-                <a href="">
-                    <img src="img/calendar_desktop.png" alt="Листовки">
-                    <span>Перекидні календарі</span>
-                </a>
-            </div>
-            <div class="content-main-box">
-                <a href="">
-                    <img src="img/calendar_little.jpg" alt="Листовки">
-                    <span>Карманні календарі</span>
-                </a>
-            </div>
-            <div class="content-main-box">
-                <a href="">
-                    <img src="img/cd.jpg" alt="Листовки">
-                    <span>Обкладинки CD/DVD</span>
-                </a>
+                <ul>
+                    <!--foreach item-->
+                    <li class="clearfix">
+                        <p class="item-right green">Статус: <span class="caption">{{status}}</span></p>
+                        <p class="item">ID: <span class="caption">{{id}}</span></p>
+                        <p class="item">Назва: <span class="caption">{{title}}</span></p>
+                        <p class="item">Ціна: <span class="caption">{{price}}</span></p>
+                        <p class="item">Дата: <span class="caption">{{date}}</span></p>
+                    </li>
+                    <!--/foreach-->
+
+                    <li class="clearfix">
+                        <p class="item-right green">Статус: <span class="caption">{{status}}</span></p>
+                        <p class="item">ID: <span class="caption">{{id}}</span></p>
+                        <p class="item">Назва: <span class="caption">{{title}}</span></p>
+                        <p class="item">Ціна: <span class="caption">{{price}}</span></p>
+                        <p class="item">Дата: <span class="caption">{{date}}</span></p>
+                    </li>
+                </ul>
             </div>
 
         </div>
+
+        <!--template end-->
 
 
     </div>

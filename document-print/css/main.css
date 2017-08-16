@@ -274,11 +274,30 @@ ul {
     background: #fff;
     color: #dd2b1c;
     border: 1px solid #dd2b1c;
-    transition: all ease-out 0.2s; }
+    transition: all ease-out 0.2s;
+    cursor: pointer; }
 
 @media screen and (max-width: 480px) {
   .separator {
     display: none !important; } }
+
+.title_sub {
+  color: #dd2b1c;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 110%; }
+
+.green {
+  color: green !important; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
 
 /*# sourceMappingURL=helpers-main.css.map */
  .mobile-menu-btn {
@@ -296,6 +315,33 @@ ul {
       display: block; } }
 
 /*# sourceMappingURL=mobile-menu-main.css.map */
+ .profile-wrapper {
+  width: 100%;
+  max-width: 800px;
+  background: #f3f3f3;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px; }
+  .profile-wrapper li {
+    font-size: 120%;
+    margin-top: 10px;
+    color: #555; }
+    .profile-wrapper li span {
+      color: #868686;
+      font-weight: 700; }
+.profile-history {
+  margin-top: 20px; }
+  .profile-history .item-right {
+    float: right; }
+  .profile-history li {
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #d2d2d2; }
+    .profile-history li p {
+      margin-top: 5px;
+      color: #555; }
+
+/*# sourceMappingURL=profile-main.css.map */
  /*! Pushy - v1.1.0 - 2017-1-30
 * Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
 * https://github.com/christophery/pushy/
@@ -491,6 +537,27 @@ ul {
 }
 
 /*# sourceMappingURL=pushy.css.map */
+ .registration-wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0 10px 10px 10px;
+  border: 1px solid #b1b1b1;
+  box-sizing: border-box;
+  text-align: center; }
+.registration-form input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #f3f3f3;
+  border-bottom: 3px solid #dd2b1c;
+  margin-top: 10px;
+  padding-left: 10px; }
+.registration-form button {
+  margin-top: 10px; }
+
+/*# sourceMappingURL=registration-main.css.map */
  /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
