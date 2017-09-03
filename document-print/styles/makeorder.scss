@@ -1,0 +1,113 @@
+.makeorder{
+	&-wrapper{
+		background: blue;
+		width: 100%;
+		margin-top: 10px;
+		padding: 5px;
+
+		&-calc{
+			margin-top: 10px;
+			background: green;
+			width: 100%;
+
+			&__form-row{
+				text-align: center;
+				padding-top: 10px;
+
+				.label-term{
+					font-size: 100%;
+					@media screen and (max-width: 400px){
+						font-size: 85%;
+					}
+				}
+
+				.half{
+					width: 49%;
+					display: inline-block;
+					vertical-align: top;
+					@media screen and (max-width: 767px){
+						display: block;
+						width: 100%;
+						margin-top: 10px;
+					}
+				}
+
+				h3{
+					text-transform: uppercase;
+					font-size: 90%;
+					color: #dd2b1c;
+					text-align: center;
+					font-weight: 700;
+					margin: 10px;
+				}
+			}
+
+			&__form-box{
+				width: 24.5%;
+				display: inline-block;
+				background: orange;
+				vertical-align: top;
+				text-align: center;
+				padding: 5px;
+				min-height: 170px;
+				@media screen and (max-width: 767px){
+					display: block;
+					width: 100%;
+					margin-top: 10px;
+					min-height: auto;
+				}
+
+				.input-size{
+					width: 70px;
+				    display: block;
+				    margin: 0 auto;
+				    margin-top: 5px;
+				}
+
+				img{
+					display: block;
+					width: 110px;
+					margin: 0 auto;
+					margin-top: 10px;
+				}
+
+				&-small{
+					width: 19%;
+					display: inline-block;
+					background: orange;
+					vertical-align: top;
+					text-align: center;
+					padding: 5px;
+					min-height: 170px;
+					@media screen and (max-width: 767px){
+						display: block;
+						width: 100%;
+						margin-top: 10px;
+						min-height: auto;
+					}
+
+					.input-size{
+						width: 70px;
+				    	display: block;
+				    	margin: 0 auto;
+				    	margin-top: 5px;
+					}
+
+					img{
+						display: block;
+						width: 85px;
+						margin: 0 auto;
+						margin-top: 10px;
+					}
+				}
+			}
+
+			&__form-button{
+				&-count{
+					user-select: none;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<title>Document Print</title>
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=El+Messiri|PT+Sans|Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Forum|Lora" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+
+<body>
+
+    <nav class="pushy pushy-left">
+        <div class="pushy-content">
+            <a href="#"><img src="img/Logo_0011.png"></a>
+            <ul>
+                <li class="pushy-link"><a href="#">Замовлення</a></li>
+                <li class="pushy-link"><a href="#">Макети та матеріали</a></li>
+                <li class="pushy-link"><a href="#">Продукти</a></li>
+                <li class="pushy-link"><a href="#">Контакти</a></li>
+                <li class="pushy-link"><a href="#">Кабінет</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="site-overlay"></div>
+    
+    <div>  
+        <div class="content-menu">
+            <div class="title__menu-container">
+                <a href="#"><img src="img/Logo_0011.png"></a>
+                <ul>
+                    <li><a href="order.html">Замовлення</a></li>
+                    <li><a href="#">Макети та матеріали</a></li>
+                    <li><a href="#">Продукти</a></li>
+                    <li><a href="#">Контакти</a></li>
+                    <li><a href="#">Кабінет</a></li>
+                </ul>
+                <ul class="content-menu-short">
+                    <li><a href="#">Кабінет</a></li>
+                    <li><a href="#">Бюджет</a></li>
+                    <li><a href="#">Верстання</a></li>
+                    <li><a href="#">Макет</a></li>
+                    <li><a href="#">Допомога</a></li>
+                </ul>
+                <p class="content-menu-login">
+                    <a href="#">Реєстрація</a> <span>|</span> <a href="#">Вхід</a>
+                </p>
+            </div>
+        </div>
+
+
+        <div class="content-header-small">
+            <div class="mobile-menu-btn menu-btn">
+            </div>
+        </div>
+
+
+        <div class="content-contacts">
+            <span>docuprint@i.ua</span>&nbsp;&nbsp;
+            <span>+380 67 390 2088</span>&nbsp;&nbsp;
+            <span>+380 66 339 6053</span>&nbsp;
+        </div>
+
+        <!--template begin-->
+        <div class="content-main-wrapper">
+            <h2 class="content-main-wrapper_title">Замовлення</h2>
+
+            <div class="makeorder-wrapper">
+                <h2 class="title_sub">Розрахувати замовлення</h2>
+                <div class="makeorder-wrapper-calc">
+                    <form>
+                        <div class="makeorder-wrapper-calc__form-row">
+                            <h3>Строк виконання</h3>
+
+                            <input type="radio" name="term" id="term1" value="0.3">
+                            <label class="label-term" for="term1">3 години</label>
+
+                            <input type="radio" name="term" id="term1" value="1">
+                            <label class="label-term" for="term1">1 день</label>
+
+                            <input type="radio" name="term" id="term2" value="2">
+                            <label class="label-term" for="term1">2 дні</label>
+
+                            <input type="radio" name="term" id="term5" value="5">
+                            <label class="label-term" for="term1">5 днів</label>
+                        </div>
+
+
+
+
+
+
+                        <div class="makeorder-wrapper-calc__form-row">
+                            <h3>Формат виробу</h3>
+
+                            <div class="makeorder-wrapper-calc__form-box">                
+                                <input type="radio" name="paper" id="paper1" value="1">
+                                <label class="label-term" for="paper1">A5 (148*210 mm)</label>
+                                <img src="img/icon/paper_ico1.jpg">
+                            </div>
+
+                            <div class="makeorder-wrapper-calc__form-box">                
+                                <input type="radio" name="paper" id="paper2" value="2">
+                                <label class="label-term" for="paper2">A4 (210*297 mm)</label>
+                                <img src="img/icon/paper_ico2.jpg">
+                            </div>
+
+                            <div class="makeorder-wrapper-calc__form-box">                
+                                <input type="radio" name="paper" id="paper2" value="3">
+                                <label class="label-term" for="paper2">170*240 mm</label>
+                                <img src="img/icon/paper_ico3.jpg">
+                            </div>
+
+                            <div class="makeorder-wrapper-calc__form-box">                
+                                <input type="radio" name="paper" id="paper2" value="4">
+                                <label class="label-term" for="paper2">Інший розмір</label>
+                                <input class="input-size" type="text" name="YpaperSize" placeholder="Y mm">
+                                <input class="input-size" type="text" name="XpaperSize" placeholder="X mm">
+                            </div>
+                        </div>
+
+
+                        <div class="makeorder-wrapper-calc__form-row">
+                            <h3>кольоровість друка блоку</h3>
+
+                            <div class="makeorder-wrapper-calc__form-box">                
+                                <input type="radio" name="color-block" id="color-block1" value="1">
+                                <label class="label-term" for="color-block1">Чорно-біла</label>
+                                <img src="img/icon/cover-block-ico1.jpg">
+                            </div>
+
+                            <div class="makeorder-wrapper-calc__form-box">                
+                                <input type="radio" name="color-block" id="color-block2" value="2">
+                                <label class="label-term" for="color-block2">Повнокольорова</label>
+                                <img src="img/icon/cover-block-ico2.jpg">
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+                        <div class="makeorder-wrapper-calc__form-row">
+                            <h3>Кольоровість друку обкладинки</h3>
+
+                            <div class="makeorder-wrapper-calc__form-box-small">                
+                                <input type="radio" name="print-cover" id="print-cover1" value="1">
+                                <label class="label-term" for="print-cover1">4+0</label>
+                                <img src="img/icon/color-cover-ico1.jpg">
+                            </div>
+
+                            <div class="makeorder-wrapper-calc__form-box-small">                
+                                <input type="radio" name="print-cover" id="print-cover2" value="1">
+                                <label class="label-term" for="print-cover2">4+4</label>
+                                <img src="img/icon/color-cover-ico2.jpg">
+                            </div>
+
+                            <div class="makeorder-wrapper-calc__form-box-small">                
+                                <input type="radio" name="print-cover" id="print-cover3" value="1">
+                                <label class="label-term" for="print-cover3">4+1</label>
+                                <img src="img/icon/color-cover-ico3.jpg">
+                            </div>
+
+                            <div class="makeorder-wrapper-calc__form-box-small">                
+                                <input type="radio" name="print-cover" id="print-cover4" value="1">
+                                <label class="label-term" for="print-cover4">1+0</label>
+                                <img src="img/icon/color-cover-ico4.jpg">
+                            </div>
+
+                            <div class="makeorder-wrapper-calc__form-box-small">                
+                                <input type="radio" name="print-cover" id="print-cover5" value="1">
+                                <label class="label-term" for="print-cover5">1+1</label>
+                                <img src="img/icon/color-cover-ico5.jpg">
+                            </div>
+
+                    
+                        </div>
+
+                        <div class="makeorder-wrapper-calc__form-row">
+                            
+                            <div class="half">
+                                <h3>Кількість сторінок</h3>
+                                <span class="makeorder-wrapper-calc__form-button-count js-cout-decr10">-10</span>
+                                <span class="makeorder-wrapper-calc__form-button-count js-cout-decr2">-2</span>
+                                <input class="js-counter" type="number" name="counter-page" value="200">
+                                <span class="makeorder-wrapper-calc__form-button-count js-cout-incr2">+2</span>
+                                <span class="makeorder-wrapper-calc__form-button-count js-cout-incr10">+10</span>
+                            </div>
+
+                            <div class="half">
+                                <h3>Тираж</h3>
+                                <span class="makeorder-wrapper-calc__form-button-count js-edition-decr">-10</span>
+                                <input class="js-counter-edition" type="number" name="counter-edition" value="100">
+                                <span class="makeorder-wrapper-calc__form-button-count js-edition-incr">+10</span>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                         <!--<div id="block-slider"></div>
+                        <div id="cover-slider"></div>-->   
+                        <button type="submit">Розрахувати</button>
+                    </form>
+                </div>
+            </div>
+
+            
+
+        </div>
+        <!--template end-->
+
+
+    </div>
+    
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
