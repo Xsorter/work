@@ -80,6 +80,48 @@ $(function(){
     })
 
 
+
+
+    /*NP check radio*/
+
+    $("#js-np-true").on('change', function(e){
+        $(this).siblings('.js-np-wrapper').slideToggle().removeClass('none').addClass('block');
+    })
+
+    $("#js-np-false").on('change', function(e){
+        $(this).siblings('.js-np-wrapper').slideToggle().addClass('none').removeClass('block');
+    })
+
+
+
+    //NP query
+
+    $(function() {
+        var params = {
+            "apiKey": "8c8f73f63c2007db6acd7c85305b7e82",
+            "modelName": "AddressGeneral",
+            "calledMethod": "getWarehouses",
+        };
+      
+        $.ajax({
+            url: "https://api.novaposhta.ua/v2.0/json/AddressGeneral/getWarehouses?" + $.param(params),
+            beforeSend: function(xhrObj){
+                // Request headers
+                xhrObj.setRequestHeader("Content-Type","application/json");
+            },
+            type: "POST",
+            dataType: 'jsonp',
+            data: "{body}",
+        })
+        .done(function(data) {
+            console.log(data);
+        })
+        .fail(function() {
+            alert("error");
+        });
+    });
+
+
 });
 
 

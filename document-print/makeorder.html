@@ -6,6 +6,7 @@
 	<title>Document Print</title>
 	<meta name="description" content="">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel='stylesheet' href='https://apimgmtstorelinmtekiynqw.blob.core.windows.net/content/MediaLibrary/Widget/Map/styles/map.css' />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=El+Messiri|PT+Sans|Roboto" rel="stylesheet">
@@ -92,9 +93,6 @@
 
 
 
-
-
-
                         <div class="makeorder-wrapper-calc__form-row">
                             <h3>Формат виробу</h3>
 
@@ -144,9 +142,6 @@
 
 
 
-
-
-
                         <div class="makeorder-wrapper-calc__form-row">
                             <h3>Кольоровість друку обкладинки</h3>
 
@@ -180,8 +175,8 @@
                                 <img src="img/icon/color-cover-ico5.jpg">
                             </div>
 
-                    
                         </div>
+
 
                         <div class="makeorder-wrapper-calc__form-row">
                             
@@ -189,7 +184,7 @@
                                 <h3>Кількість сторінок</h3>
                                 <span class="makeorder-wrapper-calc__form-button-count js-cout-decr10">-10</span>
                                 <span class="makeorder-wrapper-calc__form-button-count js-cout-decr2">-2</span>
-                                <input class="js-counter" type="number" name="counter-page" value="200">
+                                <input class="js-counter makeorder-wrapper-calc__form-half-input" type="number" name="counter-page" value="200">
                                 <span class="makeorder-wrapper-calc__form-button-count js-cout-incr2">+2</span>
                                 <span class="makeorder-wrapper-calc__form-button-count js-cout-incr10">+10</span>
                             </div>
@@ -197,7 +192,7 @@
                             <div class="half">
                                 <h3>Тираж</h3>
                                 <span class="makeorder-wrapper-calc__form-button-count js-edition-decr">-10</span>
-                                <input class="js-counter-edition" type="number" name="counter-edition" value="100">
+                                <input class="js-counter-edition makeorder-wrapper-calc__form-half-input" type="number" name="counter-edition" value="100">
                                 <span class="makeorder-wrapper-calc__form-button-count js-edition-incr">+10</span>
                             </div>
 
@@ -205,20 +200,127 @@
 
 
 
+                        <div class="makeorder-wrapper-calc__form-row">
+                            
+                            <div class="half">
+                                <h3>Бумага блока (г/м2)</h3>
+
+                                <input type="radio" name="paper-block" id="paper-block1" value="1">
+                                <label class="label-term" for="paper-block1">Офсетна</label>
+
+                                <input type="radio" name="paper-block" id="paper-block2" value="2">
+                                <label class="label-term" for="paper-block2">Мелована</label>
+
+                                <div class="makeorder-wrapper-calc__form-slider-wrapper">
+                                    <span class="makeorder-wrapper-calc__form-slider-number-0">65</span>
+                                    <span class="makeorder-wrapper-calc__form-slider-number-25">80</span>
+                                    <span class="makeorder-wrapper-calc__form-slider-number-50">100</span>
+                                    <span class="makeorder-wrapper-calc__form-slider-number-75">120</span>
+                                    <span class="makeorder-wrapper-calc__form-slider-number-100">160</span>
+                                    <div id="block-slider" class="makeorder-wrapper-calc__form-slider"></div>
+                                </div>
+                            </div>
+
+                            <div class="half">
+                                <h3>Бумага обкладинки (г/м2)</h3>
+                                
+                                <input type="radio" name="cover-block" id="cover-block1" value="1">
+                                <label class="label-term" for="cover-block1">Мелована</label>
+
+                                <input type="radio" name="cover-block" id="cover-block2" value="2">
+                                <label class="label-term" for="cover-block2">Льон</label>
+
+                                <input type="radio" name="cover-block" id="cover-block3" value="3">
+                                <label class="label-term" for="cover-block3">Офсетна</label>
+
+                                <input type="radio" name="cover-block" id="cover-block4" value="4">
+                                <label class="label-term" for="cover-block4">Офсетна кольорова</label>
+
+                                <div class="makeorder-wrapper-calc__form-slider-wrapper">
+                                    <span class="makeorder-wrapper-calc__form-slider-number-0">115</span>
+                                    <span class="makeorder-wrapper-calc__form-slider-number-15">130</span>
+                                    <span class="makeorder-wrapper-calc__form-slider-number-30">150</span>
+                                    <span class="makeorder-wrapper-calc__form-slider-number-50">170</span>
+                                    <span class="makeorder-wrapper-calc__form-slider-number-65">200</span>
+                                    <span class="makeorder-wrapper-calc__form-slider-number-80">250</span>
+                                    <span class="makeorder-wrapper-calc__form-slider-number-100">300</span>
+                                    <div id="cover-slider" class="makeorder-wrapper-calc__form-slider"></div>
+                                </div>
+                            </div>
+
+                        </div>
 
 
+                        <div class="makeorder-wrapper-calc__form-row">
+                            <h3>Ламінація обкладинки</h3>
 
+                            <div class="makeorder-wrapper-calc__form-box-small">                
+                                <input type="radio" name="lamination" id="lamination1" value="1">
+                                <label class="label-term" for="lamination3">Без ламінації</label>
+                                <img src="img/icon/lam_ico1.jpg">
+                            </div>
 
+                            <div class="makeorder-wrapper-calc__form-box-small">                
+                                <input type="radio" name="lamination" id="lamination2" value="2">
+                                <label class="label-term" for="lamination3">Глянцева</label>
+                                <img src="img/icon/lam_ico2.jpg">
+                            </div>
 
+                            <div class="makeorder-wrapper-calc__form-box-small">                
+                                <input type="radio" name="lamination" id="lamination3" value="3">
+                                <label class="label-term" for="lamination3">Матова</label>
+                                <img src="img/icon/lam_ico3.jpg">
+                            </div>
 
+                        </div>
 
+                        <button type="submit" class="button-red m-t-10 m-b-10">Розрахувати</button>
 
-
-
-                         <!--<div id="block-slider"></div>
-                        <div id="cover-slider"></div>-->   
-                        <button type="submit">Розрахувати</button>
                     </form>
+    
+                </div>
+
+                <div class="makeorder-wrapper-calc__form-row">
+                    <h3>Завантажики файл (PDF, TIFF, JPEG)</h3>
+
+                    <div class="makeorder-file-wrapper">
+                        <span>Блок</span>
+                        <input type="file" name="file-block">
+                    </div>
+                    <div class="makeorder-file-wrapper">
+                        <span>Обкладинка</span>
+                        <input type="file" name="file-cover">
+                    </div> 
+                </div>
+
+                
+                <div class="makeorder-wrapper-calc__form-row">
+                    <h3>Інформація про замовника</h3>
+
+                    <div class="registration-wrapper">
+                        <form class="registration-form" id="" action="" method="POST">
+                            <input type="text" name="name" id="name" placeholder="Ім'я">
+                            <input type="email" name="email" id="email" placeholder="E-mail">
+                            <input type="tel" name="phone" id="phone" placeholder="Телефон">
+
+                            <div class="makeorder-wrapper-calc__form-row">
+                                <h3>Оберіть спосіб доставки:</h3>        
+
+                                <input id="js-np-false" type="radio" name="deliver" id="deliver1" value="1">
+                                <label class="label-term" for="deliver1">Самовивіз</label>
+
+                                <input id="js-np-true" type="radio" name="deliver" id="deliver2" value="2">
+                                <label class="label-term" for="deliver2">Нова Пошта</label>
+
+                                <div class="makeorder-np-wrapper js-np-wrapper none">
+                                    <h3>Оберіть найближче відділення:</h3>
+                                    <div id="np-map"> <button type="button" id="npw-map-open-button">НАЙБЛИЖЧЕ ВІДДІЛЕННЯ</button> <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPhm7Q29X5ldwjLtA7IMYHU_0xATiWK3A&amp;language=ru"></script> </div>
+                                </div>
+                            </div>    
+
+                            <button class="button-red" type="submit">Замовити</button>
+                        </form>
+                    </div>
                 </div>
             </div>
 
@@ -231,6 +333,7 @@
     </div>
     
 <script type="text/javascript" src="js/main.js"></script>
+<script type='text/javascript' id='map' charset='utf-8' data-lang='ua' apiKey='8c8f73f63c2007db6acd7c85305b7e82' data-town='undefined' data-town-name='undefined' data-town-id='undefined' src='https://apimgmtstorelinmtekiynqw.blob.core.windows.net/content/MediaLibrary/Widget/Map/dist/map.min.js'></script>
 
 </body>
 </html>
