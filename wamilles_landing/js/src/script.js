@@ -1,8 +1,8 @@
 $(function(){
 	
 	var note = $('#note'),
-		ts = new Date(2017, 8, 16),
-		newYear = false;
+		ts = new Date(2019, 1, 22),
+		newYear = true;
 	
 	if((new Date()) > ts){
 		// The new year is here! Count towards something else.
