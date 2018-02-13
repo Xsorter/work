@@ -1,0 +1,157 @@
+body p{
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+
+#trianglePath1 {
+	fill: #ececec;
+	stroke: #ececec;
+} 
+
+#trianglePath2 {
+	fill: #9a9a9a;
+	stroke: #9a9a9a;
+}
+
+
+
+/* Triangles */
+.ss-style-triangles{
+	position: relative;
+	background: #ececec;
+	
+
+	&:before{
+		top: -51px;
+		background: #ececec;
+		
+	}
+
+	&:after{
+		bottom: -51px;
+		z-index: 10;
+		background: inherit;
+		background: #ececec;
+		
+	}
+
+	&:before,
+	&:after{
+		left: 50%;
+		width: 100px;
+		height: 100px;
+		-webkit-transform: translateX(-50%) rotate(45deg);
+		transform: translateX(-50%) rotate(45deg);
+		position: absolute;
+		content: '';
+		pointer-events: none;
+	}
+}
+
+.main-block-partners{
+	position: relative;
+	background: #fff;
+	&:before{
+		top: -51px;
+		background: #fff;
+		border-top:1px solid #e4e4e4;
+		border-left: 1px solid #e4e4e4;
+		
+	}
+	&:after{
+		bottom: -51px;
+		z-index: 10;
+		background: inherit;
+		background: #fff;
+		border-bottom:1px solid #e4e4e4;
+		border-right: 1px solid #e4e4e4;
+		
+	}
+	&:before,
+	&:after{
+		left: 50%;
+		width: 100px;
+		height: 100px;
+		-webkit-transform: translateX(-50%) rotate(45deg);
+		transform: translateX(-50%) rotate(45deg);
+		position: absolute;
+		content: '';
+		pointer-events: none;
+	}
+}
+
+
+
+
+
+
+.canvas-wrapper{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	margin-top:-5px;
+}
+
+.canvas-title-wrapper{
+	max-width: 1200px;
+	width:100%; 
+	margin: 0 auto;
+}
+
+.canvas-title-wrapper p{
+	position: absolute;
+    width: 750px;
+    left: 50%;
+    margin-left: -375px;
+    text-align: center;
+    z-index: 11;
+    font-size: 195%;
+    font-family: 'PT Sans', sans-serif;
+    top: 39px;
+    color: #000;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.5px;
+    -webkit-font-smoothing: antialiased;
+    @media screen and (max-width: 767px){
+				width: 300px;
+				top: 9px;
+				font-size: 175%;
+				margin-left: -150px;
+			}
+}
+
+#canvas{
+	-webkit-filter: blur(1.4px);
+    filter: blur(1.4px);
+    position: absolute;
+    z-index: 10;
+}
+
+.register-button{
+	text-decoration:none;
+	display: block;
+	width: 220px;
+	padding: 15px 0 15px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing:1px;
+	text-align: center;
+	background: #e60000;
+	color: #fff;
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 4px;
+	position: relative;
+	z-index: 3;
+	margin-top:20px;
+	transition: all ease-out 0.2s;
+	&:hover{
+		background:#5b0000;
+		transition: all ease-out 0.2s;
+	}
+
+}
+
+

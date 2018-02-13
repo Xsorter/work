@@ -1,0 +1,21 @@
+/* line 1, ../sass/footer.sass */
+footer {
+  background: #000;
+  padding: 40px 0 80px 0;
+}
+/* line 4, ../sass/footer.sass */
+footer .inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  color: #666;
+  font-size: 14px;
+}
+/* line 9, ../sass/footer.sass */
+footer p {
+  text-align: center;
+  line-height: 20px;
+}
+/* line 12, ../sass/footer.sass */
+footer p:nth-child(2) {
+  margin-top: 25px;
+}

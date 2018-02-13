@@ -1,0 +1,114 @@
+/* line 1, ../sass/content.sass */
+main {
+  background: url("../../assets/img/background-middle.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding: 0 10px 90px 10px;
+}
+/* line 6, ../sass/content.sass */
+main .inner {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  background: blue;
+}
+/* line 11, ../sass/content.sass */
+main h2 {
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 17, ../sass/content.sass */
+main .bullets {
+  display: flex;
+  justify-content: space-between;
+  background: red;
+  margin-top: 60px;
+}
+@media only screen and (max-width: 980px) {
+  /* line 17, ../sass/content.sass */
+  main .bullets {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* line 25, ../sass/content.sass */
+main .bullet {
+  width: 100%;
+  max-width: 330px;
+  text-align: center;
+  background: orange;
+}
+/* line 30, ../sass/content.sass */
+main .bullet img {
+  max-height: 80px;
+}
+/* line 32, ../sass/content.sass */
+main .bullet a {
+  display: block;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #339999;
+  margin: 30px 0 0 0;
+}
+/* line 40, ../sass/content.sass */
+main .bullet a:hover {
+  text-decoration: underline;
+}
+/* line 43, ../sass/content.sass */
+main .bullet p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 30px 0 0 0;
+}
+
+/* line 48, ../sass/content.sass */
+.bottom {
+  background: url("../../assets/img/background-bottom.jpg");
+  background-size: cover;
+  padding: 60px 0 60px 0;
+  text-align: center;
+}
+/* line 53, ../sass/content.sass */
+.bottom h2 {
+  font-size: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+}
+/* line 59, ../sass/content.sass */
+.bottom button {
+  height: 99px;
+  line-height: 93px;
+  width: 100%;
+  max-width: 510px;
+  margin-top: 30px;
+  border: none;
+  border-top: 1px solid #fff;
+  -webkit-box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  font-size: 36px;
+  font-weight: 800;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: linear-gradient(to bottom, #ccff33, #99cc33);
+  transition: all ease-out 0.2s;
+}
+/* line 77, ../sass/content.sass */
+.bottom button img {
+  float: right;
+  margin-top: 32px;
+  margin-right: 37px;
+  margin-left: -45px;
+}
+/* line 82, ../sass/content.sass */
+.bottom button:hover {
+  opacity: 0.5;
+}

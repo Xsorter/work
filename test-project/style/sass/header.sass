@@ -1,0 +1,148 @@
+header
+    background: url('../../assets/img/background-top.jpg') 
+    background-size: cover
+    padding: 0 10px
+    @media only screen and (max-width: 980px)
+        padding: 10px 10px 0 10px
+    .inner
+        max-width: 1080px
+        margin: 0 auto
+        background: green
+        display: flex
+        justify-content: space-between
+        @media only screen and (max-width: 980px)
+            flex-direction: column
+            align-items: center
+    .text
+        background: red
+        width: 100%
+        max-width: 525px
+        max-height: 650px
+        margin: 60px 0 0 0
+        -webkit-box-shadow: 0px 0px 149px 50px rgba(255,255,255,1)
+        -moz-box-shadow: 0px 0px 149px 50px rgba(255,255,255,1)
+        box-shadow: 0px 0px 149px 50px rgba(255,255,255,1)
+        @media only screen and (max-width: 980px) 
+            margin: 0
+            text-align: center
+        h1 
+            font-size: 60px
+            font-weight: 800
+            text-transform: uppercase
+            margin-left: 15px
+            @media only screen and (max-width: 980px) 
+                font-size: 18px
+                margin-left: 0
+        h2 
+            font-size: 30px
+            font-weight: 800
+            display: inline-block
+            padding: 5px 15px
+            background: #339999    
+            color: #fff 
+            text-transform: uppercase
+            margin-top: 15px
+            @media only screen and (max-width: 980px) 
+                font-size: 14px
+                width: 100%
+    .description 
+        font-size: 20px 
+        font-weight: 700
+        text-transform: uppercase 
+        margin-left: 15px 
+        margin-top: 30px
+        line-height: 25px
+        letter-spacing: -0.25px
+        @media only screen and (max-width: 980px) 
+            font-size: 13.39px
+            margin-left: 0
+        span 
+            font-weight: 800
+            font-size: 30px  
+            color: #339999
+            @media only screen and (max-width: 980px)
+                font-size: 20px 
+    .rectangle 
+        height: 315px 
+        width: 100% 
+        max-width: 510px 
+        background: #666666
+        margin: 30px 0 0 15px  
+        @media only screen and (max-width: 980px)
+            margin: 30px 0 0 0
+            max-width: none  
+
+.form 
+    background: #000 
+    width: 100%  
+    max-width: 420px
+    height: 100%
+    min-height: 774px
+    padding: 30px
+    text-align: center
+    img 
+        max-width: 215px
+        margin-top: 30px 
+    &__description 
+        color: #fff 
+        text-transform: uppercase    
+        font-weight: 700
+        font-size: 20px 
+        line-height: 25px
+        margin-top: 30px
+        span 
+            font-size: 14px 
+            font-weight: 400
+            text-transform: initial
+    &__message 
+        font-size: 16px 
+        color: #fff
+        margin-top: 30px
+        line-height: 25px        
+
+    form 
+        margin-top: 20px
+        input,
+        select 
+            width: 100%
+            margin-top: 10px
+            height: 50px 
+            line-height: 50px
+            font-size: 14px
+            position: relative  
+            outline: none
+            border: none
+            background: #fff
+            background-image: url('../../assets/img/icon-profile.png')   
+            background-repeat: no-repeat
+            background-position: 15px
+            padding: 0 0 0 50px
+        input[name="email"]    
+            background-image: url('../../assets/img/icon-mail.png')
+        select[name="country"]    
+            background-image: url('../../assets/img/icon-place.png')
+            padding: 0 0 0 46px
+        input[name="phone"]    
+            background-image: url('../../assets/img/icon-phone.png')
+        button
+            margin-top: 30px 
+            height: 60px
+            line-height: 56px 
+            text-transform: uppercase
+            font-size: 24px 
+            font-weight: 800
+            text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5)
+            width: 100%
+            background: red 
+            border: none
+            border-top: 1px solid #fff
+            -webkit-box-shadow: 0px 4px 0px 0px rgba(153,204,51,0.5)
+            -moz-box-shadow: 0px 4px 0px 0px rgba(153,204,51,0.5)
+            box-shadow: 0px 4px 0px 0px rgba(153,204,51,0.5)
+            cursor: pointer
+            transition: all ease-out 0.2s
+            background: linear-gradient(to bottom, #ccff33, #99cc33)
+            &:hover 
+                opacity: 0.5             
+
+        
