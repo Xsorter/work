@@ -5,47 +5,91 @@ main {
   background-position: center center;
   padding: 0 10px 90px 10px;
 }
-/* line 6, ../sass/content.sass */
+@media only screen and (max-width: 980px) {
+  /* line 1, ../sass/content.sass */
+  main {
+    padding: 0 10px 10px 10px;
+  }
+}
+/* line 8, ../sass/content.sass */
 main .inner {
   width: 100%;
   max-width: 1080px;
   margin: 0 auto;
-  background: blue;
 }
-/* line 11, ../sass/content.sass */
+/* line 12, ../sass/content.sass */
 main h2 {
   margin-top: 60px;
   font-size: 30px;
   font-weight: 800;
   text-transform: uppercase;
   text-align: center;
-}
-/* line 17, ../sass/content.sass */
-main .bullets {
-  display: flex;
-  justify-content: space-between;
-  background: red;
-  margin-top: 60px;
+  padding: 0 0 0 25px;
+  letter-spacing: -1px;
 }
 @media only screen and (max-width: 980px) {
-  /* line 17, ../sass/content.sass */
+  /* line 12, ../sass/content.sass */
+  main h2 {
+    padding: 0;
+    margin-top: 40px;
+    font-size: 22px;
+  }
+}
+/* line 24, ../sass/content.sass */
+main .bullets {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 980px) {
+  /* line 24, ../sass/content.sass */
   main .bullets {
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
   }
 }
-/* line 25, ../sass/content.sass */
+/* line 32, ../sass/content.sass */
 main .bullet {
   width: 100%;
-  max-width: 330px;
   text-align: center;
-  background: orange;
+  margin-bottom: 50px;
 }
-/* line 30, ../sass/content.sass */
+/* line 36, ../sass/content.sass */
+main .bullet:nth-child(1) {
+  max-width: 271px;
+}
+@media only screen and (max-width: 980px) {
+  /* line 36, ../sass/content.sass */
+  main .bullet:nth-child(1) {
+    max-width: none;
+  }
+}
+/* line 40, ../sass/content.sass */
+main .bullet:nth-child(2) {
+  max-width: 330px;
+}
+@media only screen and (max-width: 980px) {
+  /* line 40, ../sass/content.sass */
+  main .bullet:nth-child(2) {
+    max-width: none;
+  }
+}
+/* line 44, ../sass/content.sass */
+main .bullet:nth-child(3) {
+  max-width: 270px;
+}
+@media only screen and (max-width: 980px) {
+  /* line 44, ../sass/content.sass */
+  main .bullet:nth-child(3) {
+    max-width: none;
+  }
+}
+/* line 48, ../sass/content.sass */
 main .bullet img {
   max-height: 80px;
 }
-/* line 32, ../sass/content.sass */
+/* line 50, ../sass/content.sass */
 main .bullet a {
   display: block;
   text-transform: uppercase;
@@ -54,40 +98,57 @@ main .bullet a {
   text-decoration: none;
   color: #339999;
   margin: 30px 0 0 0;
+  letter-spacing: -1px;
 }
-/* line 40, ../sass/content.sass */
+/* line 59, ../sass/content.sass */
 main .bullet a:hover {
   text-decoration: underline;
 }
-/* line 43, ../sass/content.sass */
+/* line 62, ../sass/content.sass */
 main .bullet p {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 23px;
   margin: 30px 0 0 0;
 }
 
-/* line 48, ../sass/content.sass */
+/* line 67, ../sass/content.sass */
 .bottom {
   background: url("../../assets/img/background-bottom.jpg");
   background-size: cover;
-  padding: 60px 0 60px 0;
+  padding: 50px 0 60px 0;
   text-align: center;
 }
-/* line 53, ../sass/content.sass */
+@media only screen and (max-width: 980px) {
+  /* line 67, ../sass/content.sass */
+  .bottom {
+    padding: 25px 10px 25px 10px;
+  }
+}
+/* line 74, ../sass/content.sass */
 .bottom h2 {
   font-size: 30px;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 800;
+  padding-left: 30px;
+  letter-spacing: -0.5px;
   text-align: center;
 }
-/* line 59, ../sass/content.sass */
+@media only screen and (max-width: 980px) {
+  /* line 74, ../sass/content.sass */
+  .bottom h2 {
+    padding-left: 0;
+    font-size: 22px;
+  }
+}
+/* line 85, ../sass/content.sass */
 .bottom button {
   height: 99px;
   line-height: 93px;
   width: 100%;
   max-width: 510px;
-  margin-top: 30px;
+  margin-top: 24px;
+  margin-left: 30px;
   border: none;
   border-top: 1px solid #fff;
   -webkit-box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.25);
@@ -101,14 +162,31 @@ main .bullet p {
   background: linear-gradient(to bottom, #ccff33, #99cc33);
   transition: all ease-out 0.2s;
 }
-/* line 77, ../sass/content.sass */
+@media only screen and (max-width: 980px) {
+  /* line 85, ../sass/content.sass */
+  .bottom button {
+    margin-left: 0;
+    font-size: 24px;
+    height: 59px;
+    line-height: 53px;
+  }
+}
+/* line 109, ../sass/content.sass */
 .bottom button img {
   float: right;
   margin-top: 32px;
   margin-right: 37px;
   margin-left: -45px;
 }
-/* line 82, ../sass/content.sass */
+@media only screen and (max-width: 980px) {
+  /* line 109, ../sass/content.sass */
+  .bottom button img {
+    margin-top: 17px;
+    width: 13px;
+    margin-right: 4px;
+  }
+}
+/* line 118, ../sass/content.sass */
 .bottom button:hover {
   opacity: 0.5;
 }
