@@ -5,7 +5,7 @@
 
 *{
 	box-sizing: border-box;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -25,9 +25,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
-	font-family: 'PT Sans', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -36,7 +34,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: 'PT Sans', sans-serif;
 }
 ol, ul {
 	list-style: none;

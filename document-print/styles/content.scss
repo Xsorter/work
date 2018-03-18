@@ -70,7 +70,7 @@
 		&-contacts{
 			float: right;
 			color: #fff;
-			font-weight: 700;
+			font-weight: 400;
 			font-size: 120%;
 			text-align: center;
 			line-height: 25px;
@@ -136,7 +136,7 @@
 				color: #dd2b1c;
 				display: block;
 				font-size: 160%;
-				font-weight: 700;
+				font-weight: 400;
 				text-transform: uppercase;
 				letter-spacing: 1px;
 				border-bottom: 2px solid #dd2b1c;
@@ -173,6 +173,13 @@
 			img{
 				width: 100%;
 				padding-bottom: 10px;
+				max-height: 189px;
+				@media screen and (max-width: 860px){
+					max-height: 370px;
+				}
+				@media screen and (max-width: 580px){
+					max-height: none;
+				}
 			}
 			a{
 				display: block;
@@ -181,7 +188,7 @@
 			}
 			span{
 				text-transform: uppercase;
-				font-weight: 700;
+				font-weight: 400;
 				font-size: 90%;
 			}
 		}
@@ -192,7 +199,7 @@
 		padding-right: 10px;
 		padding-top: 10px;
 		color: #dd2b1c;
-		font-weight: 700;
+		font-weight: 400;
 		line-height: 20px;
 		@media screen and (max-width: 1200px){
 			text-align: center;
