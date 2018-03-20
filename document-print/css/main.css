@@ -130,6 +130,26 @@
     @media screen and (max-width: 960px) {
       .content-main-wrapper_title {
         text-align: center; } }
+.content-main-text {
+  margin-top: 2em;
+  padding: 1em;
+  text-align: center; }
+  .content-main-text h3 {
+    margin-bottom: 1em; }
+  .content-main-text p {
+    line-height: 25px; }
+.content-main-pages {
+  padding: 0 1em 1em 1em;
+  margin: 1em;
+  margin-top: 2em;
+  border: 1px solid #e3e3e3; }
+  .content-main-pages ul li {
+    margin-top: 1em;
+    padding-left: 10px;
+    font-size: 95%;
+    font-weight: 300; }
+  .content-main-pages p {
+    margin: 1em 0; }
 .content-main-box {
   display: inline-block;
   vertical-align: top;
@@ -161,6 +181,14 @@
     @media screen and (max-width: 580px) {
       .content-main-box img {
         max-height: none; } }
+  .content-main-box .books {
+    max-height: 173px; }
+    @media screen and (max-width: 860px) {
+      .content-main-box .books {
+        max-height: 370px; } }
+    @media screen and (max-width: 580px) {
+      .content-main-box .books {
+        max-height: none; } }
   .content-main-box a {
     display: block;
     text-decoration: none;
@@ -180,6 +208,12 @@
     .content-contacts {
       text-align: center;
       padding-right: 0; } }
+  .content-contacts-facebook {
+    display: flex;
+    justify-content: center;
+    margin: 1em; }
+    .content-contacts-facebook img {
+      max-width: 30px !important; }
 
 /*# sourceMappingURL=content-main.css.map */
  html, body {

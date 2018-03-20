@@ -98,7 +98,7 @@ $(function(){
 
     //NP query
 
-    $(function() {
+    /*$(function() {
         var params = {
             "apiKey": "8c8f73f63c2007db6acd7c85305b7e82",
             "modelName": "AddressGeneral",
@@ -121,7 +121,7 @@ $(function(){
         .fail(function() {
             alert("error");
         });
-    });
+    });*/
 
 
 });
