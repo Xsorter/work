@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<title>Document Print</title>
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/imgPreview.css">
+	<link href="https://fonts.googleapis.com/css?family=El+Messiri|PT+Sans|Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Forum|Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+
+<body>
+
+    <nav class="pushy pushy-left">
+        <div class="pushy-content">
+            <a href="http://docuprint.co.ua"><img src="img/Logo_0011.png"></a>
+            <ul>
+                <li class="pushy-link"><a href="order.html">Продукти</a></li>
+                <li class="pushy-link"><a href="inservice.html">Макети та матеріали</a></li>
+                <li class="pushy-link"><a href="makeorder.html">Замовлення</a></li>
+                <li class="pushy-link"><a href="contacts.html">Контакти</a></li>
+                <li class="pushy-link"><a href="inservice.html">Кабінет</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="site-overlay"></div>
+    
+    <div>  
+        <div class="content-menu">
+            <div class="title__menu-container">
+                <a href="http://docuprint.co.ua"><img src="img/Logo_0011.png"></a>
+                <ul>
+                    <li><a href="order.html">Продукти</a></li>
+                    <li><a href="inservice.html">Макети та матеріали</a></li>
+                    <li><a href="makeorder.html">Замовлення</a></li>
+                    <li><a href="contacts.html">Контакти</a></li>
+                    <li><a href="inservice.html">Кабінет</a></li>
+                </ul>
+                <ul class="content-menu-short">
+                    <li><a href="inservice.html">Кабінет</a></li>
+                    <li><a href="inservice.html">Бюджет</a></li>
+                    <li><a href="inservice.html">Верстання</a></li>
+                    <li><a href="inservice.html">Макет</a></li>
+                    <li><a href="inservice.html">Допомога</a></li>
+                </ul>
+                <p class="content-menu-login">
+                    <a href="inservice.html">Реєстрація</a> <span>|</span> <a href="inservice.html">Вхід</a>
+                </p>
+                <div class="content-contacts-facebook">
+                    <a href="https://www.facebook.com/documentprint/">
+                        <img src="img/icon/facebook.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content-header-small">
+            <div class="mobile-menu-btn menu-btn">
+            </div>
+        </div>
+
+
+        <div class="content-contacts">
+
+            <span>docuprint@yahoo.com</span>&nbsp;
+            <span>docuprint@i.ua</span>&nbsp;
+            <span>+380 67 390 2088</span>&nbsp;
+            <span>+380 66 339 6053</span>&nbsp;
+        </div>
+
+        <!--template begin-->
+        <div class="content-main-wrapper">
+            <div class="content-main-pages">
+                <p>Перед верстанням макетів книг або поліграфічної продукції, будь ласка, прочтіть "Загальні вимоги до макетів" або зверниться до технічного редактора нашого видавництва.</p>
+                <p>Увага! Слідкуйте за відступами від краю макету. Не тиснить важливі елементи до лінії обрізу.</p>
+                <p><b>Дайте тексту повітря.</b></p>
+                <p>Ніколи не робіть текст близько до краю. З великими полями текст виглядає більш читабельним, ніж з маленькими полями.</p>
+                <p><b>Мінімальні поля для блоку книги</b></p>
+                <p>Приклад правильного налаштування полів для макету книги.</p>
+
+                <img class="img-preview" data-pic-title="A4"
+                     data-pic-desc="Макет А4"
+                     data-pic="img/cov_A4.jpg"
+                     src="img/cov_A4.jpg">
+
+                <img class="img-preview" data-pic-title="A6"
+                     data-pic-desc="Макет А6"
+                     data-pic="img/cov_A6.jpg"
+                     src="img/cov_A6.jpg">
+            </div>
+        </div>
+        <!--template end-->
+
+
+    </div>
+    
+<script type="text/javascript" src="js/main.js"></script>
+<script src="js/imgPreview.min.js"></script>
+<script>
+    $(() => $.imgPreview());
+
+    $.imgPreview({
+        el: '[data-pic]',
+        attr: 'data-pic',
+        attrTitle: 'data-pic-title',
+        attrDesc: 'data-pic-desc',
+        mode: 'single',
+        isMaskShow: true,
+        maskBgColor: 'rgba(0,0,0,.5)'
+    });
+
+</script>
+</body>
+</html>
