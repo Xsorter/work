@@ -130,7 +130,15 @@
     font-size: 95%;
     font-weight: 300; }
   .content-main-pages p {
-    margin: 1em 0; }
+    margin: 1em 0;
+    line-height: 25px; }
+  .content-main-pages h4 {
+    font-size: 130%;
+    margin-top: 1em;
+    text-align: center;
+    color: #dd2b1c; }
+  .content-main-pages .red {
+    color: red; }
 .content-main-box {
   display: inline-block;
   vertical-align: top;
