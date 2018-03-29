@@ -119,6 +119,35 @@
     margin-bottom: 1em; }
   .content-main-text p {
     line-height: 25px; }
+.content-main-preland {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .content-main-preland .box {
+    padding: 0.5em;
+    margin: 1em;
+    border: 1px solid #e1e1e1;
+    transition: transform ease-out 0.1s; }
+    .content-main-preland .box:first-child {
+      margin-right: 1em; }
+    .content-main-preland .box img {
+      max-width: 260px; }
+    .content-main-preland .box:hover {
+      transform: scale(1.02); }
+  .content-main-preland .box a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    min-height: 270px;
+    text-decoration: none; }
+    .content-main-preland .box a span {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 120%;
+      color: #dd2b1c; }
 .content-main-pages {
   padding: 0 1em 1em 1em;
   margin: 1em;

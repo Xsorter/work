@@ -1,3 +1,26 @@
+.img-box {
+  margin: 1em; }
+
+.green {
+  color: forestgreen; }
+
+table td {
+  border: 1px solid #555;
+  padding: 0.3em; }
+
+.right {
+  float: right; }
+
+.center {
+  text-align: center; }
+
+.m-l-05 {
+  margin-left: 0.5em; }
+
+.clear {
+  clear: both;
+  overflow: hidden; }
+
 .button-bordered {
   text-transform: uppercase;
   font-weight: 700;

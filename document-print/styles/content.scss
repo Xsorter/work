@@ -161,6 +161,43 @@
 			}
 		}
 
+		&-preland{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			.box{
+				padding: 0.5em;
+				margin: 1em;
+				border: 1px solid #e1e1e1;
+				transition: transform ease-out 0.1s;
+				&:first-child{
+					margin-right: 1em;
+				}
+				img{
+					max-width: 260px;
+				}
+				&:hover{
+					transform: scale(1.02);
+				}
+			}
+			.box a{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				align-content: center;
+				justify-content: space-between;
+				min-height: 270px;
+				text-decoration: none;
+				span{
+					text-transform: uppercase;
+					font-weight: 700;
+					font-size: 120%;
+					color: #dd2b1c;
+				}
+			}
+		}
+
 		&-pages{
 			padding: 0 1em 1em 1em;
 			margin: 1em;
