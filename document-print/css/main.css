@@ -353,8 +353,10 @@ ul {
 .green {
   color: forestgreen; }
 
+table tr {
+  border: none; }
 table td {
-  border: 1px solid #555;
+  border: none;
   padding: 0.3em; }
 
 .right {
@@ -366,7 +368,17 @@ table td {
 .m-l-05 {
   margin-left: 0.5em; }
 
+.m-b-15 {
+  margin-bottom: 1.5em; }
+
 .clear {
+  clear: both;
+  overflow: hidden; }
+
+hr {
+  margin: 1.5em 0;
+  color: #dadada;
+  border-style: solid;
   clear: both;
   overflow: hidden; }
 
